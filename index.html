@@ -1,0 +1,293 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LeetCode Practice Tracker</title>
+  <style>
+    :root {
+      --easy-color: #2e7d32;   /* green */
+      --medium-color: #f9a825; /* amber */
+      --hard-color: #c62828;   /* red */
+      --card-bg: #ffffff;
+      --card-shadow: rgba(0, 0, 0, 0.1);
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      line-height: 1.4;
+    }
+
+    header {
+      background-color: #282c34;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h2 {
+      margin-top: 40px;
+      color: #333;
+    }
+
+    .topic-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 32px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 16px 0 0 0;
+    }
+
+    li {
+      background-color: var(--card-bg);
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px var(--card-shadow);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .checkbox {
+      transform: scale(1.3);
+      margin-right: 8px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+      word-break: break-word;
+    }
+
+    .summary {
+      font-size: 18px;
+      margin-bottom: 20px;
+      background: var(--card-bg);
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px var(--card-shadow);
+      display: flex;
+      justify-content: center;
+      font-weight: bold;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .filters {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .difficulty-badge {
+      padding: 2px 8px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: bold;
+      color: #fff;
+      white-space: nowrap;
+    }
+    .difficulty-badge.easy    { background: var(--easy-color); }
+    .difficulty-badge.medium  { background: var(--medium-color); color: #000; }
+    .difficulty-badge.hard    { background: var(--hard-color); }
+
+    .topic-count {
+      font-size: 16px;
+      color: #666;
+    }
+
+    .counts-inline {
+      display: inline-block;
+      margin-left: 4px;
+      font-size: 14px;
+      color: #666;
+    }
+
+    .counts-inline span {
+      margin: 0 2px;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      li {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LeetCode Practice Tracker</h1>
+  </header>
+  <div class="container">
+    <div class="summary" id="summary">Loading...</div>
+
+    <div class="filters">
+      <label for="difficultyFilter">Filter by Difficulty: </label>
+      <select id="difficultyFilter">
+        <option value="All">All</option>
+        <option value="Easy">Easy</option>
+        <option value="Medium">Medium</option>
+        <option value="Hard">Hard</option>
+      </select>
+    </div>
+
+    <div id="questionContainer"></div>
+  </div>
+
+  <script>
+    // ------------------------------
+    // Utility helpers
+    // ------------------------------
+    function slugify(str) {
+      return str
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+    }
+
+    function storageKey(topic, title) {
+      return `q-${slugify(topic)}__${slugify(title)}`;
+    }
+
+    function getStoredChecked(key) {
+      return localStorage.getItem(key) === 'true';
+    }
+
+    function setStoredChecked(key, val) {
+      localStorage.setItem(key, val ? 'true' : 'false');
+    }
+
+    // ------------------------------
+    // Main loader
+    // ------------------------------
+    async function loadQuestions() {
+      const response = await fetch('questions.json');
+      const questions = await response.json();
+      const container = document.getElementById('questionContainer');
+      const summary = document.getElementById('summary');
+      const filterSelect = document.getElementById('difficultyFilter');
+
+      // Normalize your JSON into an array of {topic, questions:[{title,url,difficulty}]}
+      const allTopics = Object.keys(questions).map(topic => {
+        return {
+          topic,
+          questions: questions[topic].map(([title, url, difficulty]) => ({ title, url, difficulty }))
+        };
+      });
+
+      // Precompute total counts across ALL topics
+      const totalAll = allTopics.reduce((acc, t) => acc + t.questions.length, 0);
+
+      function renderQuestions(filterDifficulty) {
+        container.innerHTML = '';
+        let totalShown = 0;
+        let solvedShown = 0;
+
+        allTopics.forEach(({ topic, questions }) => {
+          const filtered = questions.filter(q => (filterDifficulty === 'All' || q.difficulty === filterDifficulty));
+          if (filtered.length === 0) return; // skip empty topics under this filter
+
+          // Count solved in this topic under current filter
+          const topicSolved = filtered.reduce((cnt, q) => {
+            const key = storageKey(topic, q.title);
+            return cnt + (getStoredChecked(key) ? 1 : 0);
+          }, 0);
+
+          // Topic header
+          const topicHeaderDiv = document.createElement('div');
+          topicHeaderDiv.className = 'topic-header';
+
+          const topicHeader = document.createElement('h2');
+          topicHeader.textContent = topic;
+
+          const countSpan = document.createElement('span');
+          countSpan.className = 'topic-count';
+          countSpan.innerHTML = `(${filtered.length} Questions)` +
+            `<span class="counts-inline">Solved: <span>${topicSolved}</span></span>`;
+
+          topicHeaderDiv.appendChild(topicHeader);
+          topicHeaderDiv.appendChild(countSpan);
+          container.appendChild(topicHeaderDiv);
+
+          // Question list
+          const ul = document.createElement('ul');
+          filtered.forEach(q => {
+            const li = document.createElement('li');
+
+            const leftWrap = document.createElement('div');
+            leftWrap.style.display = 'flex';
+            leftWrap.style.alignItems = 'center';
+            leftWrap.style.flexWrap = 'wrap';
+            leftWrap.style.gap = '4px';
+
+            const checkbox = document.createElement('input');
+            checkbox.type = 'checkbox';
+            checkbox.className = 'checkbox';
+
+            const key = storageKey(topic, q.title);
+            checkbox.checked = getStoredChecked(key);
+
+            checkbox.addEventListener('change', () => {
+              setStoredChecked(key, checkbox.checked);
+              // Rerender summary counts when a box toggles
+              renderQuestions(filterSelect.value);
+            });
+
+            const link = document.createElement('a');
+            link.href = q.url;
+            link.target = '_blank';
+            link.textContent = q.title;
+
+            const badge = document.createElement('span');
+            const diff = q.difficulty || 'Unknown';
+            const cls = diff.toLowerCase();
+            badge.className = `difficulty-badge ${cls}`;
+            badge.textContent = diff;
+
+            leftWrap.appendChild(checkbox);
+            leftWrap.appendChild(link);
+            leftWrap.appendChild(badge);
+
+            li.appendChild(leftWrap);
+            ul.appendChild(li);
+          });
+          container.appendChild(ul);
+
+          totalShown += filtered.length;
+          solvedShown += topicSolved;
+        });
+
+        summary.textContent = `Total: ${totalAll} | Showing: ${totalShown} | Solved in View: ${solvedShown}`;
+      }
+
+      filterSelect.addEventListener('change', () => renderQuestions(filterSelect.value));
+
+      // initial render
+      renderQuestions('All');
+    }
+
+    loadQuestions();
+  </script>
+</body>
+</html>
+
+
+
