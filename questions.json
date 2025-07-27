@@ -88,6 +88,7 @@
     ["Magnetic Force Between Two Balls", "https://leetcode.com/problems/magnetic-force-between-two-balls/", "Medium"]
   ],
   "Strings": [
+    ["Valid Palindrome", "https://leetcode.com/problems/valid-palindrome/", "Easy"],
     ["Valid Anagram", "https://leetcode.com/problems/valid-anagram/", "Easy"],
     ["Reverse Words in a String III", "https://leetcode.com/problems/reverse-words-in-a-string-iii/", "Easy"],
     ["Implement strStr()", "https://leetcode.com/problems/implement-strstr/", "Easy"],
@@ -95,6 +96,8 @@
     ["Check if the Sentence Is Pangram", "https://leetcode.com/problems/check-if-the-sentence-is-pangram/", "Easy"],
     ["Goat Latin", "https://leetcode.com/problems/goat-latin/", "Easy"],
     ["Reverse Only Letters", "https://leetcode.com/problems/reverse-only-letters/", "Easy"],
+    ["Remove All Occurrences of a Substring", "https://leetcode.com/problems/remove-all-occurrences-of-a-substring/", "Medium"],
+    ["Permutation in String", "https://leetcode.com/problems/permutation-in-string/", "Medium"],
     ["Longest Substring Without Repeating Characters", "https://leetcode.com/problems/longest-substring-without-repeating-characters/", "Medium"],
     ["Group Anagrams", "https://leetcode.com/problems/group-anagrams/", "Medium"],
     ["Multiply Strings", "https://leetcode.com/problems/multiply-strings/", "Medium"],
