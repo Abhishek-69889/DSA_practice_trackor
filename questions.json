@@ -80,7 +80,7 @@
   "Binary Search on Answers": [
     ["Book Allocation Problem", "https://www.geeksforgeeks.org/allocate-minimum-number-pages/", "Medium"],
     ["Painter's Partition Problem", "https://www.geeksforgeeks.org/painters-partition-problem/", "Hard"],
-    ["Aggressive Cows", "https://www.spoj.com/problems/AGGRCOW/", "Medium"],
+    ["Aggressive Cows", "https://www.geeksforgeeks.org/problems/aggressive-cows/1", "Medium"],
     ["Split Array Largest Sum", "https://leetcode.com/problems/split-array-largest-sum/", "Hard"],
     ["Capacity To Ship Packages Within D Days", "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/", "Medium"],
     ["Koko Eating Bananas", "https://leetcode.com/problems/koko-eating-bananas/", "Medium"],
