@@ -1,277 +1,495 @@
 {
-  "Arrays & Vectors": [
-    ["Best Time to Buy and Sell Stock", "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/", "Easy"],
-    ["Remove Duplicates from Sorted Array", "https://leetcode.com/problems/remove-duplicates-from-sorted-array/", "Easy"],
-    ["Move Zeroes", "https://leetcode.com/problems/move-zeroes/", "Easy"],
-    ["Merge Sorted Array", "https://leetcode.com/problems/merge-sorted-array/", "Easy"],
-    ["Missing Number", "https://leetcode.com/problems/missing-number/", "Easy"],
-    ["Sort Colors", "https://leetcode.com/problems/sort-colors/", "Medium"],
-    ["Rotate Array", "https://leetcode.com/problems/rotate-array/", "Medium"],
-    ["Contains Duplicate", "https://leetcode.com/problems/contains-duplicate/", "Easy"],
-    ["Third Maximum Number", "https://leetcode.com/problems/third-maximum-number/", "Easy"],
-    ["Find All Numbers Disappeared in an Array", "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/", "Easy"]
-  ],
-  "Linear Search": [
-    ["Find Pivot Index", "https://leetcode.com/problems/find-pivot-index/", "Easy"],
-    ["Search Insert Position", "https://leetcode.com/problems/search-insert-position/", "Easy"],
-    ["First Bad Version", "https://leetcode.com/problems/first-bad-version/", "Easy"],
-    ["Find the Difference", "https://leetcode.com/problems/find-the-difference/", "Easy"],
-    ["Single Number", "https://leetcode.com/problems/single-number/", "Easy"],
-    ["Intersection of Two Arrays", "https://leetcode.com/problems/intersection-of-two-arrays/", "Easy"],
-    ["Check if N and its Double Exist", "https://leetcode.com/problems/check-if-n-and-its-double-exist/", "Easy"],
-    ["Find Smallest Letter Greater Than Target", "https://leetcode.com/problems/find-smallest-letter-greater-than-target/", "Easy"],
-    ["Find First Palindromic String in the Array", "https://leetcode.com/problems/find-first-palindromic-string-in-the-array/", "Easy"]
-  ],
-  "Two Pointers": [
-    ["Two Sum II - Input Array Is Sorted", "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/", "Medium"],
-    ["Reverse String", "https://leetcode.com/problems/reverse-string/", "Easy"],
-    ["Valid Palindrome", "https://leetcode.com/problems/valid-palindrome/", "Easy"],
-    ["Container With Most Water", "https://leetcode.com/problems/container-with-most-water/", "Medium"],
-    ["3Sum", "https://leetcode.com/problems/3sum/", "Medium"],
-    ["Remove Duplicates from Sorted Array II", "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/", "Medium"],
-    ["Trapping Rain Water", "https://leetcode.com/problems/trapping-rain-water/", "Hard"],
-    ["Minimum Size Subarray Sum", "https://leetcode.com/problems/minimum-size-subarray-sum/", "Medium"],
-    ["Move Zeroes", "https://leetcode.com/problems/move-zeroes/", "Easy"]
-  ],
-  "Kadane's Algorithm": [
-    ["Maximum Subarray", "https://leetcode.com/problems/maximum-subarray/", "Medium"],
-    ["Maximum Product Subarray", "https://leetcode.com/problems/maximum-product-subarray/", "Medium"],
-    ["Best Time to Buy and Sell Stock", "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/", "Easy"],
-    ["Maximum Sum Circular Subarray", "https://leetcode.com/problems/maximum-sum-circular-subarray/", "Medium"],
-    ["House Robber", "https://leetcode.com/problems/house-robber/", "Medium"],
-    ["House Robber II", "https://leetcode.com/problems/house-robber-ii/", "Medium"]
-  ],
-  "Moore's Voting Algorithm": [
-    ["Majority Element", "https://leetcode.com/problems/majority-element/", "Easy"],
-    ["Majority Element II", "https://leetcode.com/problems/majority-element-ii/", "Medium"],
-    ["Check If Array Pairs Are Divisible by k", "https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/", "Medium"]
-  ],
-  "Prefix & Suffix": [
-    ["Product of Array Except Self", "https://leetcode.com/problems/product-of-array-except-self/", "Medium"],
-    ["Sum of Even Numbers After Queries", "https://leetcode.com/problems/sum-of-even-numbers-after-queries/", "Medium"],
-    ["Range Sum Query - Immutable", "https://leetcode.com/problems/range-sum-query-immutable/", "Easy"],
-    ["Range Sum Query 2D - Immutable", "https://leetcode.com/problems/range-sum-query-2d-immutable/", "Medium"],
-    ["Minimum Value to Get Positive Step by Step Sum", "https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/", "Easy"],
-    ["Find Pivot Index", "https://leetcode.com/problems/find-pivot-index/", "Easy"],
-    ["Ways to Make a Fair Array", "https://leetcode.com/problems/ways-to-make-a-fair-array/", "Medium"],
-    ["Running Sum of 1d Array", "https://leetcode.com/problems/running-sum-of-1d-array/", "Easy"]
-  ],
-  "Binary Search": [
-    ["Binary Search", "https://leetcode.com/problems/binary-search/", "Easy"],
-    ["Find Minimum in Rotated Sorted Array", "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/", "Medium"],
-    ["Search in Rotated Sorted Array", "https://leetcode.com/problems/search-in-rotated-sorted-array/", "Medium"],
-    ["Peak Index in a Mountain Array", "https://leetcode.com/problems/peak-index-in-a-mountain-array/", "Medium"],
-    ["Capacity To Ship Packages Within D Days", "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/", "Medium"],
-    ["Find Peak Element", "https://leetcode.com/problems/find-peak-element/", "Medium"],
-    ["Search a 2D Matrix", "https://leetcode.com/problems/search-a-2d-matrix/", "Medium"],
-    ["Median of Two Sorted Arrays", "https://leetcode.com/problems/median-of-two-sorted-arrays/", "Hard"],
-    ["Single Element in a Sorted Array", "https://leetcode.com/problems/single-element-in-a-sorted-array/", "Medium"]
-  ],
-  "Binary Search on Answers": [
-    ["Book Allocation Problem", "https://www.geeksforgeeks.org/allocate-minimum-number-pages/", "Medium"],
-    ["Painter's Partition Problem", "https://www.geeksforgeeks.org/painters-partition-problem/", "Hard"],
-    ["Aggressive Cows", "https://www.geeksforgeeks.org/problems/aggressive-cows/1", "Medium"],
-    ["Split Array Largest Sum", "https://leetcode.com/problems/split-array-largest-sum/", "Hard"],
-    ["Capacity To Ship Packages Within D Days", "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/", "Medium"],
-    ["Koko Eating Bananas", "https://leetcode.com/problems/koko-eating-bananas/", "Medium"],
-    ["Minimum Number of Days to Make m Bouquets", "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/", "Medium"],
-    ["Magnetic Force Between Two Balls", "https://leetcode.com/problems/magnetic-force-between-two-balls/", "Medium"]
-  ],
-  "Strings": [
-    ["Valid Palindrome", "https://leetcode.com/problems/valid-palindrome/", "Easy"],
-    ["Valid Anagram", "https://leetcode.com/problems/valid-anagram/", "Easy"],
-    ["Reverse Words in a String III", "https://leetcode.com/problems/reverse-words-in-a-string-iii/", "Easy"],
-    ["Implement strStr()", "https://leetcode.com/problems/implement-strstr/", "Easy"],
-    ["Longest Common Prefix", "https://leetcode.com/problems/longest-common-prefix/", "Easy"],
-    ["Check if the Sentence Is Pangram", "https://leetcode.com/problems/check-if-the-sentence-is-pangram/", "Easy"],
-    ["Reverse Only Letters", "https://leetcode.com/problems/reverse-only-letters/", "Easy"],
-    ["Remove All Occurrences of a Substring", "https://leetcode.com/problems/remove-all-occurrences-of-a-substring/", "Medium"],
-    [" Reverse Words in a String", "https://leetcode.com/problems/reverse-words-in-a-string/", "Medium"],
-    ["String Compression", "https://leetcode.com/problems/string-compression/", "Medium"],
-    ["Permutation in String", "https://leetcode.com/problems/permutation-in-string/", "Medium"],
-    ["Longest Substring Without Repeating Characters", "https://leetcode.com/problems/longest-substring-without-repeating-characters/", "Medium"],
-    ["Group Anagrams", "https://leetcode.com/problems/group-anagrams/", "Medium"],
-    ["Remove All Adjacent Duplicates in String", "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/", "Medium"],
-    ["Valid Palindrome II", "https://leetcode.com/problems/valid-palindrome-ii/", "Medium"],
-    ["Find All Anagrams in a String", "https://leetcode.com/problems/find-all-anagrams-in-a-string/", "Medium"]
-  ],
-  "2D Arrays and 2D Vectors": [
-  ["Matrix Diagonal Sum", "https://leetcode.com/problems/matrix-diagonal-sum/", "Easy"],
-  ["Transpose Matrix", "https://leetcode.com/problems/transpose-matrix/", "Easy"],
-  ["Reshape the Matrix", "https://leetcode.com/problems/reshape-the-matrix/", "Easy"],
-  ["Lucky Numbers in a Matrix", "https://leetcode.com/problems/lucky-numbers-in-a-matrix/", "Easy"],
-  ["Flipping an Image", "https://leetcode.com/problems/flipping-an-image/", "Easy"],
-  ["Cells with Odd Values in a Matrix", "https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/", "Easy"],
-
-  ["Spiral Matrix", "https://leetcode.com/problems/spiral-matrix/", "Medium"],
-  ["Rotate Image", "https://leetcode.com/problems/rotate-image/", "Medium"],
-  ["Set Matrix Zeroes", "https://leetcode.com/problems/set-matrix-zeroes/", "Medium"],
-  ["Search a 2D Matrix", "https://leetcode.com/problems/search-a-2d-matrix/", "Medium"],
-  ["Number of Islands", "https://leetcode.com/problems/number-of-islands/", "Medium"],
-  ["Max Area of Island", "https://leetcode.com/problems/max-area-of-island/", "Medium"],
-  ["Flood Fill", "https://leetcode.com/problems/flood-fill/", "Medium"],
-
-  ["Game of Life", "https://leetcode.com/problems/game-of-life/", "Medium"],
-  ["Shortest Path in Binary Matrix", "https://leetcode.com/problems/shortest-path-in-binary-matrix/", "Medium"],
-  ["Word Search", "https://leetcode.com/problems/word-search/", "Medium"],
-  ["Surrounded Regions", "https://leetcode.com/problems/surrounded-regions/", "Medium"],
-  ["Minimum Path Sum", "https://leetcode.com/problems/minimum-path-sum/", "Medium"],
-  ["Unique Paths", "https://leetcode.com/problems/unique-paths/", "Medium"],
-  ["01 Matrix", "https://leetcode.com/problems/01-matrix/", "Medium"],
-
-  ["Matrix Block Sum", "https://leetcode.com/problems/matrix-block-sum/", "Medium"],
-  ["Kth Smallest Element in a Sorted Matrix", "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/", "Medium"],
-  ["Spiral Matrix II", "https://leetcode.com/problems/spiral-matrix-ii/", "Medium"],
-  ["Rotate Function", "https://leetcode.com/problems/rotate-function/", "Hard"]
-],
-"Recursion and Backtracking Master List": [
-  ["Subsets (Power Set)", "https://leetcode.com/problems/subsets/", "Medium"],
-  ["Subsets II (Handle Duplicates)", "https://leetcode.com/problems/subsets-ii/", "Medium"],
-  ["Permutations", "https://leetcode.com/problems/permutations/", "Medium"],
-  ["Permutations II (Handle Duplicates)", "https://leetcode.com/problems/permutations-ii/", "Medium"],
-  
-  ["Combination Sum", "https://leetcode.com/problems/combination-sum/", "Medium"],
-  ["Combination Sum II", "https://leetcode.com/problems/combination-sum-ii/", "Medium"],
-  ["Combinations (nCr)", "https://leetcode.com/problems/combinations/", "Medium"],
-  ["Letter Combinations of a Phone Number", "https://leetcode.com/problems/letter-combinations-of-a-phone-number/", "Medium"],
-
-  ["Generate Parentheses", "https://leetcode.com/problems/generate-parentheses/", "Medium"],
-  ["Word Search", "https://leetcode.com/problems/word-search/", "Medium"],
-  ["N-Queens", "https://leetcode.com/problems/n-queens/", "Hard"],
-  ["Sudoku Solver", "https://leetcode.com/problems/sudoku-solver/", "Hard"],
-
-  ["Rat in a Maze", "https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1", "Medium"],
-  ["Flood Fill", "https://leetcode.com/problems/flood-fill/", "Easy"],
-  ["Number of Islands", "https://leetcode.com/problems/number-of-islands/", "Medium"],
-  ["Max Area of Island", "https://leetcode.com/problems/max-area-of-island/", "Medium"],
-
-  ["Palindrome Partitioning", "https://leetcode.com/problems/palindrome-partitioning/", "Medium"],
-  ["Restore IP Addresses", "https://leetcode.com/problems/restore-ip-addresses/", "Medium"],
-  ["Target Sum", "https://leetcode.com/problems/target-sum/", "Medium"],
-  ["Word Break II", "https://leetcode.com/problems/word-break-ii/", "Hard"]
-],
-"Linked List (SLL)": [
-    ["Reverse Linked List", "https://leetcode.com/problems/reverse-linked-list/", "Easy"],
-    ["Reverse Linked List II (Recursive or Partial)", "https://leetcode.com/problems/reverse-linked-list-ii/", "Medium"],
-    ["Middle of the Linked List", "https://leetcode.com/problems/middle-of-the-linked-list/", "Easy"],
-    ["Linked List Cycle", "https://leetcode.com/problems/linked-list-cycle/", "Easy"],
-    ["Linked List Cycle II", "https://leetcode.com/problems/linked-list-cycle-ii/", "Medium"],
-    ["Remove Nth Node From End", "https://leetcode.com/problems/remove-nth-node-from-end-of-list/", "Medium"],
-    ["Merge Two Sorted Lists", "https://leetcode.com/problems/merge-two-sorted-lists/", "Easy"],
-    ["Sort List (Merge Sort)", "https://leetcode.com/problems/sort-list/", "Medium"],
-    ["Intersection of Two Linked Lists", "https://leetcode.com/problems/intersection-of-two-linked-lists/", "Easy"],
-    ["Add Two Numbers", "https://leetcode.com/problems/add-two-numbers/", "Medium"],
-    ["Palindrome Linked List", "https://leetcode.com/problems/palindrome-linked-list/", "Easy"],
-    ["Reverse Nodes in k-Group", "https://leetcode.com/problems/reverse-nodes-in-k-group/", "Hard"],
-    ["Reorder List", "https://leetcode.com/problems/reorder-list/", "Medium"],
-    ["Copy List with Random Pointer", "https://leetcode.com/problems/copy-list-with-random-pointer/", "Medium"],
-    ["Swap Nodes in Pairs", "https://leetcode.com/problems/swap-nodes-in-pairs/", "Medium"]
+  "01_Basics_and_Complexity": [
+    ["Time Complexity Basics", "https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/", "Easy", ["Big-O", "Time Complexity"]],
+    ["Space Complexity Basics", "https://www.geeksforgeeks.org/space-complexity/", "Easy", ["Space Complexity"]],
+    ["Array Traversal", "https://www.geeksforgeeks.org/array-data-structure/", "Easy", ["Array Basics", "Traversal"]],
+    ["Linear Search", "https://leetcode.com/problems/linear-search/", "Easy", ["Linear Search"]],
+    ["Maximum Element in Array", "https://www.geeksforgeeks.org/problems/largest-element-in-array4009/1", "Easy", ["Array Basics", "Traversal"]],
+    ["Second Largest Element", "https://www.geeksforgeeks.org/problems/second-largest3735/1", "Easy", ["Array Basics", "Traversal"]]
   ],
 
-  "Doubly Linked List (DLL)": [
-    ["Flatten a Multilevel Doubly Linked List", "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/", "Medium"],
-    ["LRU Cache (DLL + HashMap)", "https://leetcode.com/problems/lru-cache/", "Medium"],
-    ["Rotate DLL (similar concept via SLL rotate)", "https://leetcode.com/problems/rotate-list/", "Medium"],
-    ["Remove Duplicates from Sorted DLL", "https://tinyurl.com/sorted-dll-duplicates", "Easy"],
-    ["Two Sum in DLL (two pointer)", "https://tinyurl.com/dll-two-sum", "Medium"]
+  "02_Arrays_and_Vectors": [
+    ["Contains Duplicate", "https://leetcode.com/problems/contains-duplicate/", "Easy", ["Array", "HashSet"]],
+    ["Best Time to Buy and Sell Stock", "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/", "Easy", ["Array", "Greedy"]],
+    ["Remove Duplicates from Sorted Array", "https://leetcode.com/problems/remove-duplicates-from-sorted-array/", "Easy", ["Array", "Two Pointers"]],
+    ["Move Zeroes", "https://leetcode.com/problems/move-zeroes/", "Easy", ["Array", "Two Pointers"]],
+    ["Merge Sorted Array", "https://leetcode.com/problems/merge-sorted-array/", "Easy", ["Array", "Two Pointers"]],
+    ["Missing Number", "https://leetcode.com/problems/missing-number/", "Easy", ["Array", "Math", "XOR"]],
+    ["Third Maximum Number", "https://leetcode.com/problems/third-maximum-number/", "Easy", ["Array", "Sorting"]],
+    ["Find All Numbers Disappeared in an Array", "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/", "Easy", ["Array", "Index Marking"]],
+    ["Rotate Array", "https://leetcode.com/problems/rotate-array/", "Medium", ["Array", "Reversal Technique"]],
+    ["Sort Colors", "https://leetcode.com/problems/sort-colors/", "Medium", ["Array", "Dutch National Flag", "Two Pointers"]],
+    ["Majority Element", "https://leetcode.com/problems/majority-element/", "Easy", ["Array", "Moore's Voting Algorithm"]],
+    ["Majority Element II", "https://leetcode.com/problems/majority-element-ii/", "Medium", ["Array", "Moore's Voting Algorithm"]],
+    ["Check If Array Pairs Are Divisible by k", "https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/", "Medium", ["Array", "Hashing", "Modulo"]]
   ],
 
-  "Circular Linked List (CLL)": [
-    ["Linked List Cycle (covers circular detection fully)", "https://leetcode.com/problems/linked-list-cycle/", "Easy"],
-    ["Josephus Problem (CLL)", "https://tinyurl.com/josephus-cll", "Hard"]
+  "03_Strings": [
+    ["Valid Palindrome", "https://leetcode.com/problems/valid-palindrome/", "Easy", ["String", "Two Pointers"]],
+    ["Longest Common Prefix", "https://leetcode.com/problems/longest-common-prefix/", "Easy", ["String"]],
+    ["Check if the Sentence Is Pangram", "https://leetcode.com/problems/check-if-the-sentence-is-pangram/", "Easy", ["String", "HashSet"]],
+    ["Reverse String", "https://leetcode.com/problems/reverse-string/", "Easy", ["String", "Two Pointers"]],
+    ["Reverse Words in a String III", "https://leetcode.com/problems/reverse-words-in-a-string-iii/", "Easy", ["String", "Two Pointers"]],
+    ["Reverse Only Letters", "https://leetcode.com/problems/reverse-only-letters/", "Easy", ["String", "Two Pointers"]],
+    ["Valid Anagram", "https://leetcode.com/problems/valid-anagram/", "Easy", ["String", "HashMap", "Frequency Counting"]],
+    ["Find the Difference", "https://leetcode.com/problems/find-the-difference/", "Easy", ["String", "XOR", "Hashing"]],
+    ["First Palindromic String in the Array", "https://leetcode.com/problems/find-first-palindromic-string-in-the-array/", "Easy", ["String", "Palindrome"]],
+    ["Implement strStr()", "https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/", "Easy", ["String", "Pattern Matching"]],
+    ["Remove All Adjacent Duplicates in String", "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/", "Easy", ["String", "Stack"]],
+    ["String Compression", "https://leetcode.com/problems/string-compression/", "Medium", ["String", "Two Pointers"]],
+    ["Reverse Words in a String", "https://leetcode.com/problems/reverse-words-in-a-string/", "Medium", ["String", "Parsing"]],
+    ["Valid Palindrome II", "https://leetcode.com/problems/valid-palindrome-ii/", "Easy", ["String", "Two Pointers", "Greedy"]],
+    ["Remove All Occurrences of a Substring", "https://leetcode.com/problems/remove-all-occurrences-of-a-substring/", "Medium", ["String", "Stack", "Simulation"]],
+    ["Permutation in String", "https://leetcode.com/problems/permutation-in-string/", "Medium", ["String", "Sliding Window", "HashMap"]],
+    ["Find All Anagrams in a String", "https://leetcode.com/problems/find-all-anagrams-in-a-string/", "Medium", ["String", "Sliding Window", "HashMap"]],
+    ["Longest Substring Without Repeating Characters", "https://leetcode.com/problems/longest-substring-without-repeating-characters/", "Medium", ["String", "Sliding Window", "HashMap"]],
+    ["Group Anagrams", "https://leetcode.com/problems/group-anagrams/", "Medium", ["String", "HashMap", "Sorting"]],
+    ["Longest Palindromic Substring", "https://leetcode.com/problems/longest-palindromic-substring/", "Medium", ["String", "Two Pointers", "Dynamic Programming"]]
   ],
-"Stack": [
-  ["Implement Stack using Array", "https://www.geeksforgeeks.org/stack-data-structure/", "Easy"],
-  ["Implement Stack using Linked List", "https://www.geeksforgeeks.org/implement-a-stack-using-singly-linked-list/", "Easy"],
-  ["Min Stack", "https://leetcode.com/problems/min-stack/", "Medium"],
-  ["Implement Two Stacks in One Array", "https://www.geeksforgeeks.org/implement-two-stacks-in-an-array/", "Medium"],
-  
-  ["Valid Parentheses", "https://leetcode.com/problems/valid-parentheses/", "Easy"],
-  ["Remove All Adjacent Duplicates in String", "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/", "Easy"],
-  ["Decode String", "https://leetcode.com/problems/decode-string/", "Medium"],
-  ["Simplify Path", "https://leetcode.com/problems/simplify-path/", "Medium"],
-  ["Evaluate Reverse Polish Notation", "https://leetcode.com/problems/evaluate-reverse-polish-notation/", "Medium"],
 
-  ["Next Greater Element I", "https://leetcode.com/problems/next-greater-element-i/", "Easy"],
-  ["Next Greater Element II", "https://leetcode.com/problems/next-greater-element-ii/", "Medium"],
-  ["Next Smaller Element (Custom Problem)", "https://www.geeksforgeeks.org/previous-smaller-element/", "Medium"],
-  ["Stock Span Problem", "https://leetcode.com/problems/online-stock-span/", "Medium"],
-  ["Daily Temperatures", "https://leetcode.com/problems/daily-temperatures/", "Medium"],
+  "04_Hashing_HashMap_HashSet": [
+    ["Contains Duplicate", "https://leetcode.com/problems/contains-duplicate/", "Easy", ["HashSet", "Duplicate Detection"]],
+    ["Valid Anagram", "https://leetcode.com/problems/valid-anagram/", "Easy", ["HashMap", "Frequency Counting"]],
+    ["Intersection of Two Arrays", "https://leetcode.com/problems/intersection-of-two-arrays/", "Easy", ["HashSet"]],
+    ["Intersection of Two Arrays II", "https://leetcode.com/problems/intersection-of-two-arrays-ii/", "Easy", ["HashMap", "Frequency Counting"]],
+    ["Two Sum", "https://leetcode.com/problems/two-sum/", "Easy", ["HashMap", "Complement Lookup"]],
+    ["Happy Number", "https://leetcode.com/problems/happy-number/", "Easy", ["HashSet", "Cycle Detection"]],
+    ["First Unique Character in a String", "https://leetcode.com/problems/first-unique-character-in-a-string/", "Easy", ["HashMap", "Frequency Counting"]],
+    ["Isomorphic Strings", "https://leetcode.com/problems/isomorphic-strings/", "Easy", ["HashMap", "Mapping"]],
+    ["Word Pattern", "https://leetcode.com/problems/word-pattern/", "Easy", ["HashMap", "Mapping"]],
+    ["Majority Element", "https://leetcode.com/problems/majority-element/", "Easy", ["HashMap", "Frequency Counting"]],
+    ["Subarray Sum Equals K", "https://leetcode.com/problems/subarray-sum-equals-k/", "Medium", ["HashMap", "Prefix Sum"]],
+    ["Longest Consecutive Sequence", "https://leetcode.com/problems/longest-consecutive-sequence/", "Medium", ["HashSet"]],
+    ["4Sum II", "https://leetcode.com/problems/4sum-ii/", "Medium", ["HashMap", "Two Sum Pattern"]],
+    ["Top K Frequent Elements", "https://leetcode.com/problems/top-k-frequent-elements/", "Medium", ["HashMap", "Heap", "Bucket Sort"]],
+    ["Group Anagrams", "https://leetcode.com/problems/group-anagrams/", "Medium", ["HashMap", "String", "Sorting"]],
+    ["Product of Array Except Self", "https://leetcode.com/problems/product-of-array-except-self/", "Medium", ["Hashing", "Prefix", "Suffix"]],
+    ["Longest Subarray With Sum K", "https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1", "Medium", ["HashMap", "Prefix Sum"]],
+    ["Count Number of Subarrays With Given XOR", "https://www.geeksforgeeks.org/problems/count-the-subarrays-having-given-xor/1", "Medium", ["HashMap", "Prefix XOR"]],
+    ["Subarray Sums Divisible by K", "https://leetcode.com/problems/subarray-sums-divisible-by-k/", "Medium", ["HashMap", "Prefix Sum", "Modulo"]]
+  ],
 
-  ["Largest Rectangle in Histogram", "https://leetcode.com/problems/largest-rectangle-in-histogram/", "Hard"],
-  ["Maximal Rectangle", "https://leetcode.com/problems/maximal-rectangle/", "Hard"],
-  ["Trapping Rain Water", "https://leetcode.com/problems/trapping-rain-water/", "Hard"],
-  ["Asteroid Collision", "https://leetcode.com/problems/asteroid-collision/", "Medium"]
-],
-"Queue": [
-  ["Implement Queue using Array", "https://www.geeksforgeeks.org/queue-data-structure/", "Easy"],
-  ["Implement Queue using Linked List", "https://www.geeksforgeeks.org/implement-queue-using-linked-list/", "Easy"],
-  ["Implement Queue using Stacks", "https://leetcode.com/problems/implement-queue-using-stacks/", "Easy"],
-  ["Design Circular Queue", "https://leetcode.com/problems/design-circular-queue/", "Medium"],
-  ["Design Circular Deque", "https://leetcode.com/problems/design-circular-deque/", "Medium"],
+  "05_Sorting": [
+    ["Bubble Sort", "https://www.geeksforgeeks.org/bubble-sort/", "Easy", ["Bubble Sort", "Comparison Sort"]],
+    ["Selection Sort", "https://www.geeksforgeeks.org/selection-sort/", "Easy", ["Selection Sort", "Comparison Sort"]],
+    ["Insertion Sort", "https://www.geeksforgeeks.org/insertion-sort/", "Easy", ["Insertion Sort", "Comparison Sort"]],
+    ["Merge Sort", "https://www.geeksforgeeks.org/merge-sort/", "Medium", ["Merge Sort", "Divide and Conquer"]],
+    ["Quick Sort", "https://www.geeksforgeeks.org/quick-sort/", "Medium", ["Quick Sort", "Divide and Conquer", "Partition"]],
+    ["Counting Sort", "https://www.geeksforgeeks.org/counting-sort/", "Medium", ["Counting Sort", "Non-Comparison Sort"]],
+    ["Radix Sort", "https://www.geeksforgeeks.org/radix-sort/", "Medium", ["Radix Sort", "Non-Comparison Sort"]],
+    ["Heap Sort", "https://www.geeksforgeeks.org/heap-sort/", "Medium", ["Heap Sort", "Heap"]],
+    ["Sort an Array", "https://leetcode.com/problems/sort-an-array/", "Medium", ["Sorting", "Merge Sort", "Quick Sort", "Heap Sort"]],
+    ["Sort Colors", "https://leetcode.com/problems/sort-colors/", "Medium", ["Dutch National Flag", "Counting Sort", "Two Pointers"]],
+    ["Merge Sorted Array", "https://leetcode.com/problems/merge-sorted-array/", "Easy", ["Sorting", "Two Pointers"]],
+    ["Sort List", "https://leetcode.com/problems/sort-list/", "Medium", ["Merge Sort", "Linked List"]],
+    ["Largest Number", "https://leetcode.com/problems/largest-number/", "Medium", ["Sorting", "Custom Comparator"]],
+    ["Kth Largest Element in an Array", "https://leetcode.com/problems/kth-largest-element-in-an-array/", "Medium", ["Quickselect", "Sorting", "Heap"]],
+    ["Maximum Gap", "https://leetcode.com/problems/maximum-gap/", "Medium", ["Sorting", "Bucket Sort"]],
+    ["Count of Smaller Numbers After Self", "https://leetcode.com/problems/count-of-smaller-numbers-after-self/", "Hard", ["Merge Sort", "Fenwick Tree"]],
+    ["Reverse Pairs", "https://leetcode.com/problems/reverse-pairs/", "Hard", ["Merge Sort", "Divide and Conquer"]]
+  ],
 
-  ["Number of Recent Calls", "https://leetcode.com/problems/number-of-recent-calls/", "Easy"],
-  ["Dota2 Senate", "https://leetcode.com/problems/dota2-senate/", "Medium"],
-  ["Time Needed to Buy Tickets", "https://leetcode.com/problems/time-needed-to-buy-tickets/", "Easy"],
-  ["Sliding Window Maximum", "https://leetcode.com/problems/sliding-window-maximum/", "Hard"],
-  ["First Unique Character in a String", "https://leetcode.com/problems/first-unique-character-in-a-string/", "Easy"],
+  "06_Two_Pointers": [
+    ["Reverse String", "https://leetcode.com/problems/reverse-string/", "Easy", ["Two Pointers"]],
+    ["Valid Palindrome", "https://leetcode.com/problems/valid-palindrome/", "Easy", ["Two Pointers"]],
+    ["Move Zeroes", "https://leetcode.com/problems/move-zeroes/", "Easy", ["Two Pointers"]],
+    ["Two Sum II - Input Array Is Sorted", "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/", "Medium", ["Two Pointers"]],
+    ["Remove Duplicates from Sorted Array", "https://leetcode.com/problems/remove-duplicates-from-sorted-array/", "Easy", ["Two Pointers"]],
+    ["Remove Duplicates from Sorted Array II", "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/", "Medium", ["Two Pointers"]],
+    ["Container With Most Water", "https://leetcode.com/problems/container-with-most-water/", "Medium", ["Two Pointers", "Greedy"]],
+    ["3Sum", "https://leetcode.com/problems/3sum/", "Medium", ["Two Pointers", "Sorting"]],
+    ["4Sum", "https://leetcode.com/problems/4sum/", "Medium", ["Two Pointers", "Sorting"]],
+    ["Valid Palindrome II", "https://leetcode.com/problems/valid-palindrome-ii/", "Easy", ["Two Pointers", "Greedy"]],
+    ["Trapping Rain Water", "https://leetcode.com/problems/trapping-rain-water/", "Hard", ["Two Pointers", "Prefix", "Monotonic Stack"]]
+  ],
 
-  ["Rotting Oranges", "https://leetcode.com/problems/rotting-oranges/", "Medium"],
-  ["Flood Fill", "https://leetcode.com/problems/flood-fill/", "Easy"],
-  ["Walls and Gates", "https://leetcode.com/problems/walls-and-gates/", "Medium"],
-  ["Open the Lock", "https://leetcode.com/problems/open-the-lock/", "Medium"],
-  ["Shortest Path in Binary Matrix", "https://leetcode.com/problems/shortest-path-in-binary-matrix/", "Medium"]
-],
-"BinaryTree_BST": [
-  ["Binary Tree Inorder Traversal", "https://leetcode.com/problems/binary-tree-inorder-traversal/", "Easy"],
-  ["Binary Tree Level Order Traversal", "https://leetcode.com/problems/binary-tree-level-order-traversal/", "Medium"],
-  ["Binary Tree Right Side View", "https://leetcode.com/problems/binary-tree-right-side-view/", "Medium"],
-  
-  ["Diameter of Binary Tree", "https://leetcode.com/problems/diameter-of-binary-tree/", "Easy"],
-  ["Balanced Binary Tree", "https://leetcode.com/problems/balanced-binary-tree/", "Easy"],
-  ["Maximum Depth of Binary Tree", "https://leetcode.com/problems/maximum-depth-of-binary-tree/", "Easy"],
-  
-  ["Invert Binary Tree", "https://leetcode.com/problems/invert-binary-tree/", "Easy"],
-  ["Symmetric Tree", "https://leetcode.com/problems/symmetric-tree/", "Easy"],
-  ["Subtree of Another Tree", "https://leetcode.com/problems/subtree-of-another-tree/", "Easy"],
-  
-  ["Binary Tree Maximum Path Sum", "https://leetcode.com/problems/binary-tree-maximum-path-sum/", "Hard"],
-  ["Path Sum II", "https://leetcode.com/problems/path-sum-ii/", "Medium"],
-  
-  ["Construct BT from Preorder & Inorder", "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/", "Medium"],
-  ["Serialize and Deserialize Binary Tree", "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/", "Hard"],
+  "07_Sliding_Window": [
+    ["Minimum Size Subarray Sum", "https://leetcode.com/problems/minimum-size-subarray-sum/", "Medium", ["Sliding Window", "Two Pointers"]],
+    ["Longest Substring Without Repeating Characters", "https://leetcode.com/problems/longest-substring-without-repeating-characters/", "Medium", ["Sliding Window", "HashMap"]],
+    ["Permutation in String", "https://leetcode.com/problems/permutation-in-string/", "Medium", ["Sliding Window", "HashMap"]],
+    ["Find All Anagrams in a String", "https://leetcode.com/problems/find-all-anagrams-in-a-string/", "Medium", ["Sliding Window", "HashMap"]],
+    ["Longest Repeating Character Replacement", "https://leetcode.com/problems/longest-repeating-character-replacement/", "Medium", ["Sliding Window", "HashMap"]],
+    ["Max Consecutive Ones III", "https://leetcode.com/problems/max-consecutive-ones-iii/", "Medium", ["Sliding Window", "Two Pointers"]],
+    ["Fruit Into Baskets", "https://leetcode.com/problems/fruit-into-baskets/", "Medium", ["Sliding Window", "HashMap"]],
+    ["Minimum Window Substring", "https://leetcode.com/problems/minimum-window-substring/", "Hard", ["Sliding Window", "HashMap"]],
+    ["Sliding Window Maximum", "https://leetcode.com/problems/sliding-window-maximum/", "Hard", ["Sliding Window", "Deque", "Monotonic Queue"]]
+  ],
 
-  ["Validate Binary Search Tree", "https://leetcode.com/problems/validate-binary-search-tree/", "Medium"],
-  ["Lowest Common Ancestor in BST", "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/", "Medium"],
-  ["Search in BST", "https://leetcode.com/problems/search-in-a-binary-search-tree/", "Easy"],
-  ["Insert into BST", "https://leetcode.com/problems/insert-into-a-binary-search-tree/", "Medium"],
-  ["Delete Node in BST", "https://leetcode.com/problems/delete-node-in-a-binary-search-tree/", "Medium"],
-  ["Kth Smallest in BST", "https://leetcode.com/problems/kth-smallest-element-in-a-bst/", "Medium"],
-  
-  ["Flatten Binary Tree to Linked List", "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/", "Medium"]
-],
-"Dynamic Programming": [
-  ["Climbing Stairs", "https://leetcode.com/problems/climbing-stairs/", "Easy"],
-  ["Fibonacci Number", "https://leetcode.com/problems/fibonacci-number/", "Easy"],
-  ["House Robber", "https://leetcode.com/problems/house-robber/", "Medium"],
-  ["House Robber II", "https://leetcode.com/problems/house-robber-ii/", "Medium"],
-  ["Coin Change", "https://leetcode.com/problems/coin-change/", "Medium"],
-  ["Longest Increasing Subsequence", "https://leetcode.com/problems/longest-increasing-subsequence/", "Medium"],
-  ["Unique Paths", "https://leetcode.com/problems/unique-paths/", "Medium"],
-  ["Partition Equal Subset Sum", "https://leetcode.com/problems/partition-equal-subset-sum/", "Medium"],
-  ["Longest Common Subsequence", "https://leetcode.com/problems/longest-common-subsequence/", "Medium"],
-  ["Edit Distance", "https://leetcode.com/problems/edit-distance/", "Hard"]
-],
-"Graphs": [
-  ["Number of Islands", "https://leetcode.com/problems/number-of-islands/", "Medium"],
-  ["Flood Fill", "https://leetcode.com/problems/flood-fill/", "Easy"],
-  ["Rotting Oranges", "https://leetcode.com/problems/rotting-oranges/", "Medium"],
-  ["Clone Graph", "https://leetcode.com/problems/clone-graph/", "Medium"],
-  ["Course Schedule", "https://leetcode.com/problems/course-schedule/", "Medium"],
-  ["Course Schedule II", "https://leetcode.com/problems/course-schedule-ii/", "Medium"],
-  ["Word Ladder", "https://leetcode.com/problems/word-ladder/", "Hard"],
-  ["Detect Cycle in Directed Graph", "https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1", "Medium"],
-  ["Detect Cycle in Undirected Graph", "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1", "Medium"],
-  ["Dijkstra's Algorithm", "https://leetcode.com/problems/network-delay-time/", "Medium"]
-]
+  "08_Prefix_Suffix_and_Kadane": [
+    ["Running Sum of 1d Array", "https://leetcode.com/problems/running-sum-of-1d-array/", "Easy", ["Prefix Sum"]],
+    ["Find Pivot Index", "https://leetcode.com/problems/find-pivot-index/", "Easy", ["Prefix Sum"]],
+    ["Range Sum Query - Immutable", "https://leetcode.com/problems/range-sum-query-immutable/", "Easy", ["Prefix Sum"]],
+    ["Minimum Value to Get Positive Step by Step Sum", "https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/", "Easy", ["Prefix Sum"]],
+    ["Product of Array Except Self", "https://leetcode.com/problems/product-of-array-except-self/", "Medium", ["Prefix", "Suffix"]],
+    ["Range Sum Query 2D - Immutable", "https://leetcode.com/problems/range-sum-query-2d-immutable/", "Medium", ["2D Prefix Sum"]],
+    ["Sum of Even Numbers After Queries", "https://leetcode.com/problems/sum-of-even-numbers-after-queries/", "Medium", ["Prefix", "Simulation"]],
+    ["Ways to Make a Fair Array", "https://leetcode.com/problems/ways-to-make-a-fair-array/", "Medium", ["Prefix", "Suffix"]],
+    ["Maximum Subarray", "https://leetcode.com/problems/maximum-subarray/", "Medium", ["Kadane's Algorithm"]],
+    ["Best Time to Buy and Sell Stock", "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/", "Easy", ["Kadane's Algorithm", "Greedy"]],
+    ["Maximum Product Subarray", "https://leetcode.com/problems/maximum-product-subarray/", "Medium", ["Kadane's Algorithm", "Dynamic Programming"]],
+    ["Maximum Sum Circular Subarray", "https://leetcode.com/problems/maximum-sum-circular-subarray/", "Medium", ["Kadane's Algorithm"]],
+    ["Subarray Sum Equals K", "https://leetcode.com/problems/subarray-sum-equals-k/", "Medium", ["Prefix Sum", "HashMap"]],
+    ["Subarray Sums Divisible by K", "https://leetcode.com/problems/subarray-sums-divisible-by-k/", "Medium", ["Prefix Sum", "HashMap", "Modulo"]]
+  ],
+
+  "09_2D_Arrays_and_Matrices": [
+    ["Matrix Diagonal Sum", "https://leetcode.com/problems/matrix-diagonal-sum/", "Easy", ["Matrix"]],
+    ["Transpose Matrix", "https://leetcode.com/problems/transpose-matrix/", "Easy", ["Matrix"]],
+    ["Reshape the Matrix", "https://leetcode.com/problems/reshape-the-matrix/", "Easy", ["Matrix"]],
+    ["Lucky Numbers in a Matrix", "https://leetcode.com/problems/lucky-numbers-in-a-matrix/", "Easy", ["Matrix"]],
+    ["Flipping an Image", "https://leetcode.com/problems/flipping-an-image/", "Easy", ["Matrix", "Two Pointers"]],
+    ["Cells with Odd Values in a Matrix", "https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/", "Easy", ["Matrix", "Simulation"]],
+    ["Spiral Matrix", "https://leetcode.com/problems/spiral-matrix/", "Medium", ["Matrix", "Simulation"]],
+    ["Rotate Image", "https://leetcode.com/problems/rotate-image/", "Medium", ["Matrix", "Transpose", "Reverse"]],
+    ["Set Matrix Zeroes", "https://leetcode.com/problems/set-matrix-zeroes/", "Medium", ["Matrix", "In-place"]],
+    ["Search a 2D Matrix", "https://leetcode.com/problems/search-a-2d-matrix/", "Medium", ["Matrix", "Binary Search"]],
+    ["Game of Life", "https://leetcode.com/problems/game-of-life/", "Medium", ["Matrix", "Simulation"]],
+    ["Number of Islands", "https://leetcode.com/problems/number-of-islands/", "Medium", ["Matrix", "DFS", "BFS"]],
+    ["Max Area of Island", "https://leetcode.com/problems/max-area-of-island/", "Medium", ["Matrix", "DFS", "BFS"]],
+    ["Word Search", "https://leetcode.com/problems/word-search/", "Medium", ["Matrix", "Backtracking", "DFS"]],
+    ["Surrounded Regions", "https://leetcode.com/problems/surrounded-regions/", "Medium", ["Matrix", "DFS", "BFS"]],
+    ["Minimum Path Sum", "https://leetcode.com/problems/minimum-path-sum/", "Medium", ["Matrix", "Dynamic Programming"]],
+    ["Unique Paths", "https://leetcode.com/problems/unique-paths/", "Medium", ["Matrix", "Dynamic Programming"]],
+    ["01 Matrix", "https://leetcode.com/problems/01-matrix/", "Medium", ["Matrix", "BFS", "Dynamic Programming"]],
+    ["Matrix Block Sum", "https://leetcode.com/problems/matrix-block-sum/", "Medium", ["Matrix", "2D Prefix Sum"]],
+    ["Kth Smallest Element in a Sorted Matrix", "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/", "Medium", ["Matrix", "Binary Search", "Heap"]],
+    ["Spiral Matrix II", "https://leetcode.com/problems/spiral-matrix-ii/", "Medium", ["Matrix", "Simulation"]],
+    ["Rotate Function", "https://leetcode.com/problems/rotate-function/", "Hard", ["Array", "Math", "Dynamic Programming"]]
+  ],
+
+  "10_Linked_List_SLL": [
+    ["Middle of the Linked List", "https://leetcode.com/problems/middle-of-the-linked-list/", "Easy", ["Linked List", "Fast Slow Pointer"]],
+    ["Reverse Linked List", "https://leetcode.com/problems/reverse-linked-list/", "Easy", ["Linked List", "Reversal"]],
+    ["Linked List Cycle", "https://leetcode.com/problems/linked-list-cycle/", "Easy", ["Linked List", "Fast Slow Pointer"]],
+    ["Intersection of Two Linked Lists", "https://leetcode.com/problems/intersection-of-two-linked-lists/", "Easy", ["Linked List", "Two Pointers"]],
+    ["Palindrome Linked List", "https://leetcode.com/problems/palindrome-linked-list/", "Easy", ["Linked List", "Fast Slow Pointer"]],
+    ["Merge Two Sorted Lists", "https://leetcode.com/problems/merge-two-sorted-lists/", "Easy", ["Linked List", "Merge"]],
+    ["Remove Nth Node From End", "https://leetcode.com/problems/remove-nth-node-from-end-of-list/", "Medium", ["Linked List", "Two Pointers"]],
+    ["Linked List Cycle II", "https://leetcode.com/problems/linked-list-cycle-ii/", "Medium", ["Linked List", "Fast Slow Pointer"]],
+    ["Add Two Numbers", "https://leetcode.com/problems/add-two-numbers/", "Medium", ["Linked List", "Math"]],
+    ["Swap Nodes in Pairs", "https://leetcode.com/problems/swap-nodes-in-pairs/", "Medium", ["Linked List", "Reversal"]],
+    ["Reorder List", "https://leetcode.com/problems/reorder-list/", "Medium", ["Linked List", "Fast Slow Pointer", "Reversal"]],
+    ["Reverse Linked List II", "https://leetcode.com/problems/reverse-linked-list-ii/", "Medium", ["Linked List", "Reversal"]],
+    ["Sort List", "https://leetcode.com/problems/sort-list/", "Medium", ["Linked List", "Merge Sort"]],
+    ["Copy List with Random Pointer", "https://leetcode.com/problems/copy-list-with-random-pointer/", "Medium", ["Linked List", "HashMap"]],
+    ["Reverse Nodes in k-Group", "https://leetcode.com/problems/reverse-nodes-in-k-group/", "Hard", ["Linked List", "Reversal", "Recursion"]]
+  ],
+
+  "11_Doubly_and_Circular_Linked_List": [
+    ["Implement Doubly Linked List", "https://www.geeksforgeeks.org/doubly-linked-list/", "Easy", ["DLL", "Linked List Basics"]],
+    ["Flatten a Multilevel Doubly Linked List", "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/", "Medium", ["DLL", "DFS"]],
+    ["Rotate List", "https://leetcode.com/problems/rotate-list/", "Medium", ["Linked List", "Circular Linked List"]],
+    ["LRU Cache", "https://leetcode.com/problems/lru-cache/", "Medium", ["DLL", "HashMap", "Design"]],
+    ["Josephus Problem", "https://www.geeksforgeeks.org/josephus-problem/", "Medium", ["Circular Linked List", "Recursion"]]
+  ],
+
+  "12_Stack": [
+    ["Implement Stack using Array", "https://www.geeksforgeeks.org/stack-data-structure/", "Easy", ["Stack", "Implementation"]],
+    ["Implement Stack using Linked List", "https://www.geeksforgeeks.org/implement-a-stack-using-singly-linked-list/", "Easy", ["Stack", "Linked List"]],
+    ["Valid Parentheses", "https://leetcode.com/problems/valid-parentheses/", "Easy", ["Stack"]],
+    ["Remove All Adjacent Duplicates in String", "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/", "Easy", ["Stack", "String"]],
+    ["Min Stack", "https://leetcode.com/problems/min-stack/", "Medium", ["Stack", "Design"]],
+    ["Implement Two Stacks in One Array", "https://www.geeksforgeeks.org/implement-two-stacks-in-an-array/", "Medium", ["Stack", "Array"]],
+    ["Evaluate Reverse Polish Notation", "https://leetcode.com/problems/evaluate-reverse-polish-notation/", "Medium", ["Stack", "Expression Evaluation"]],
+    ["Decode String", "https://leetcode.com/problems/decode-string/", "Medium", ["Stack", "String"]],
+    ["Simplify Path", "https://leetcode.com/problems/simplify-path/", "Medium", ["Stack", "String"]],
+    ["Asteroid Collision", "https://leetcode.com/problems/asteroid-collision/", "Medium", ["Stack", "Simulation"]],
+    ["Next Greater Element I", "https://leetcode.com/problems/next-greater-element-i/", "Easy", ["Monotonic Stack"]],
+    ["Next Greater Element II", "https://leetcode.com/problems/next-greater-element-ii/", "Medium", ["Monotonic Stack", "Circular Array"]],
+    ["Stock Span Problem", "https://leetcode.com/problems/online-stock-span/", "Medium", ["Monotonic Stack"]],
+    ["Daily Temperatures", "https://leetcode.com/problems/daily-temperatures/", "Medium", ["Monotonic Stack"]],
+    ["Next Smaller Element", "https://www.geeksforgeeks.org/problems/previous-smaller-element/1", "Medium", ["Monotonic Stack"]],
+    ["Largest Rectangle in Histogram", "https://leetcode.com/problems/largest-rectangle-in-histogram/", "Hard", ["Monotonic Stack"]],
+    ["Maximal Rectangle", "https://leetcode.com/problems/maximal-rectangle/", "Hard", ["Monotonic Stack", "Matrix", "DP"]],
+    ["Trapping Rain Water", "https://leetcode.com/problems/trapping-rain-water/", "Hard", ["Monotonic Stack", "Two Pointers"]]
+  ],
+
+  "13_Queue_and_Deque": [
+    ["Implement Queue using Array", "https://www.geeksforgeeks.org/queue-data-structure/", "Easy", ["Queue", "Implementation"]],
+    ["Implement Queue using Linked List", "https://www.geeksforgeeks.org/implement-queue-using-linked-list/", "Easy", ["Queue", "Linked List"]],
+    ["Implement Queue using Stacks", "https://leetcode.com/problems/implement-queue-using-stacks/", "Easy", ["Queue", "Stack"]],
+    ["Number of Recent Calls", "https://leetcode.com/problems/number-of-recent-calls/", "Easy", ["Queue"]],
+    ["Time Needed to Buy Tickets", "https://leetcode.com/problems/time-needed-to-buy-tickets/", "Easy", ["Queue", "Simulation"]],
+    ["Design Circular Queue", "https://leetcode.com/problems/design-circular-queue/", "Medium", ["Queue", "Circular Queue"]],
+    ["Design Circular Deque", "https://leetcode.com/problems/design-circular-deque/", "Medium", ["Deque"]],
+    ["Dota2 Senate", "https://leetcode.com/problems/dota2-senate/", "Medium", ["Queue", "Greedy"]],
+    ["Sliding Window Maximum", "https://leetcode.com/problems/sliding-window-maximum/", "Hard", ["Deque", "Monotonic Queue", "Sliding Window"]]
+  ],
+
+  "14_Binary_Search": [
+    ["Binary Search", "https://leetcode.com/problems/binary-search/", "Easy", ["Binary Search"]],
+    ["Search Insert Position", "https://leetcode.com/problems/search-insert-position/", "Easy", ["Binary Search"]],
+    ["First Bad Version", "https://leetcode.com/problems/first-bad-version/", "Easy", ["Binary Search"]],
+    ["Find Smallest Letter Greater Than Target", "https://leetcode.com/problems/find-smallest-letter-greater-than-target/", "Easy", ["Binary Search"]],
+    ["Find Minimum in Rotated Sorted Array", "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/", "Medium", ["Binary Search", "Rotated Array"]],
+    ["Search in Rotated Sorted Array", "https://leetcode.com/problems/search-in-rotated-sorted-array/", "Medium", ["Binary Search", "Rotated Array"]],
+    ["Peak Index in a Mountain Array", "https://leetcode.com/problems/peak-index-in-a-mountain-array/", "Medium", ["Binary Search"]],
+    ["Find Peak Element", "https://leetcode.com/problems/find-peak-element/", "Medium", ["Binary Search"]],
+    ["Single Element in a Sorted Array", "https://leetcode.com/problems/single-element-in-a-sorted-array/", "Medium", ["Binary Search", "XOR"]],
+    ["Search a 2D Matrix", "https://leetcode.com/problems/search-a-2d-matrix/", "Medium", ["Binary Search", "Matrix"]],
+    ["Find First and Last Position of Element in Sorted Array", "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/", "Medium", ["Binary Search", "Lower Bound", "Upper Bound"]],
+    ["Median of Two Sorted Arrays", "https://leetcode.com/problems/median-of-two-sorted-arrays/", "Hard", ["Binary Search", "Partitioning"]]
+  ],
+
+  "15_Binary_Search_on_Answer": [
+    ["Koko Eating Bananas", "https://leetcode.com/problems/koko-eating-bananas/", "Medium", ["Binary Search on Answer"]],
+    ["Capacity To Ship Packages Within D Days", "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/", "Medium", ["Binary Search on Answer", "Greedy"]],
+    ["Minimum Number of Days to Make m Bouquets", "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/", "Medium", ["Binary Search on Answer"]],
+    ["Magnetic Force Between Two Balls", "https://leetcode.com/problems/magnetic-force-between-two-balls/", "Medium", ["Binary Search on Answer", "Greedy"]],
+    ["Aggressive Cows", "https://www.geeksforgeeks.org/problems/aggressive-cows/1", "Medium", ["Binary Search on Answer", "Greedy"]],
+    ["Book Allocation Problem", "https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1", "Hard", ["Binary Search on Answer", "Greedy"]],
+    ["Painter's Partition Problem", "https://www.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1", "Hard", ["Binary Search on Answer", "Greedy"]],
+    ["Split Array Largest Sum", "https://leetcode.com/problems/split-array-largest-sum/", "Hard", ["Binary Search on Answer", "Greedy"]]
+  ],
+
+  "16_Recursion": [
+    ["Fibonacci Number", "https://leetcode.com/problems/fibonacci-number/", "Easy", ["Recursion", "Base Case"]],
+    ["Climbing Stairs", "https://leetcode.com/problems/climbing-stairs/", "Easy", ["Recursion", "Dynamic Programming"]],
+    ["Power of Two", "https://leetcode.com/problems/power-of-two/", "Easy", ["Recursion", "Bit Manipulation"]],
+    ["Reverse String", "https://leetcode.com/problems/reverse-string/", "Easy", ["Recursion", "Two Pointers"]],
+    ["Subsets", "https://leetcode.com/problems/subsets/", "Medium", ["Recursion", "Backtracking"]],
+    ["Combinations", "https://leetcode.com/problems/combinations/", "Medium", ["Recursion", "Backtracking"]],
+    ["Permutations", "https://leetcode.com/problems/permutations/", "Medium", ["Recursion", "Backtracking"]],
+    ["Subsets II", "https://leetcode.com/problems/subsets-ii/", "Medium", ["Recursion", "Backtracking", "Duplicates"]],
+    ["Permutations II", "https://leetcode.com/problems/permutations-ii/", "Medium", ["Recursion", "Backtracking", "Duplicates"]]
+  ],
+
+  "17_Backtracking": [
+    ["Combination Sum", "https://leetcode.com/problems/combination-sum/", "Medium", ["Backtracking"]],
+    ["Combination Sum II", "https://leetcode.com/problems/combination-sum-ii/", "Medium", ["Backtracking", "Duplicates"]],
+    ["Letter Combinations of a Phone Number", "https://leetcode.com/problems/letter-combinations-of-a-phone-number/", "Medium", ["Backtracking", "String"]],
+    ["Generate Parentheses", "https://leetcode.com/problems/generate-parentheses/", "Medium", ["Backtracking", "Stack"]],
+    ["Palindrome Partitioning", "https://leetcode.com/problems/palindrome-partitioning/", "Medium", ["Backtracking", "Palindrome"]],
+    ["Restore IP Addresses", "https://leetcode.com/problems/restore-ip-addresses/", "Medium", ["Backtracking", "String"]],
+    ["Word Search", "https://leetcode.com/problems/word-search/", "Medium", ["Backtracking", "DFS", "Matrix"]],
+    ["Rat in a Maze", "https://www.geeksforgeeks.org/problems/rat-in-a-maze-problem/1", "Medium", ["Backtracking", "Matrix"]],
+    ["N-Queens", "https://leetcode.com/problems/n-queens/", "Hard", ["Backtracking", "Constraint Satisfaction"]],
+    ["Sudoku Solver", "https://leetcode.com/problems/sudoku-solver/", "Hard", ["Backtracking", "Constraint Satisfaction"]],
+    ["Word Break II", "https://leetcode.com/problems/word-break-ii/", "Hard", ["Backtracking", "Dynamic Programming", "Memoization"]]
+  ],
+
+  "18_Heap_Priority_Queue": [
+    ["Implement Min Heap", "https://www.geeksforgeeks.org/heap-data-structure/", "Easy", ["Heap", "Priority Queue", "Implementation"]],
+    ["Implement Max Heap", "https://www.geeksforgeeks.org/heap-data-structure/", "Easy", ["Heap", "Priority Queue", "Implementation"]],
+    ["Kth Largest Element in an Array", "https://leetcode.com/problems/kth-largest-element-in-an-array/", "Medium", ["Heap", "Priority Queue", "Quickselect"]],
+    ["Kth Smallest Element in a Sorted Matrix", "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/", "Medium", ["Heap", "Matrix", "Binary Search"]],
+    ["Last Stone Weight", "https://leetcode.com/problems/last-stone-weight/", "Easy", ["Max Heap", "Priority Queue"]],
+    ["K Closest Points to Origin", "https://leetcode.com/problems/k-closest-points-to-origin/", "Medium", ["Heap", "Priority Queue"]],
+    ["Top K Frequent Elements", "https://leetcode.com/problems/top-k-frequent-elements/", "Medium", ["Heap", "HashMap"]],
+    ["Kth Largest Element in a Stream", "https://leetcode.com/problems/kth-largest-element-in-a-stream/", "Easy", ["Min Heap", "Priority Queue", "Design"]],
+    ["Merge K Sorted Lists", "https://leetcode.com/problems/merge-k-sorted-lists/", "Hard", ["Heap", "Priority Queue", "Linked List"]],
+    ["Find Median from Data Stream", "https://leetcode.com/problems/find-median-from-data-stream/", "Hard", ["Two Heaps", "Priority Queue"]],
+    ["Task Scheduler", "https://leetcode.com/problems/task-scheduler/", "Medium", ["Heap", "Greedy", "HashMap"]],
+    ["Reorganize String", "https://leetcode.com/problems/reorganize-string/", "Medium", ["Heap", "Greedy", "HashMap"]],
+    ["Meeting Rooms II", "https://leetcode.com/problems/meeting-rooms-ii/", "Medium", ["Heap", "Intervals", "Sorting"]],
+    ["Smallest Range Covering Elements from K Lists", "https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/", "Hard", ["Heap", "K-Way Merge", "Sliding Window"]],
+    ["IPO", "https://leetcode.com/problems/ipo/", "Hard", ["Heap", "Greedy", "Sorting"]]
+  ],
+
+  "19_Binary_Tree": [
+    ["Maximum Depth of Binary Tree", "https://leetcode.com/problems/maximum-depth-of-binary-tree/", "Easy", ["Binary Tree", "DFS", "BFS"]],
+    ["Invert Binary Tree", "https://leetcode.com/problems/invert-binary-tree/", "Easy", ["Binary Tree", "DFS"]],
+    ["Symmetric Tree", "https://leetcode.com/problems/symmetric-tree/", "Easy", ["Binary Tree", "DFS", "BFS"]],
+    ["Binary Tree Inorder Traversal", "https://leetcode.com/problems/binary-tree-inorder-traversal/", "Easy", ["Binary Tree", "DFS", "Traversal"]],
+    ["Balanced Binary Tree", "https://leetcode.com/problems/balanced-binary-tree/", "Easy", ["Binary Tree", "DFS"]],
+    ["Diameter of Binary Tree", "https://leetcode.com/problems/diameter-of-binary-tree/", "Easy", ["Binary Tree", "DFS"]],
+    ["Subtree of Another Tree", "https://leetcode.com/problems/subtree-of-another-tree/", "Easy", ["Binary Tree", "DFS"]],
+    ["Binary Tree Level Order Traversal", "https://leetcode.com/problems/binary-tree-level-order-traversal/", "Medium", ["Binary Tree", "BFS", "Queue"]],
+    ["Binary Tree Right Side View", "https://leetcode.com/problems/binary-tree-right-side-view/", "Medium", ["Binary Tree", "BFS", "DFS"]],
+    ["Path Sum II", "https://leetcode.com/problems/path-sum-ii/", "Medium", ["Binary Tree", "DFS", "Backtracking"]],
+    ["Flatten Binary Tree to Linked List", "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/", "Medium", ["Binary Tree", "DFS", "Linked List"]],
+    ["Construct Binary Tree from Preorder and Inorder Traversal", "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/", "Medium", ["Binary Tree", "Recursion", "HashMap"]],
+    ["Binary Tree Maximum Path Sum", "https://leetcode.com/problems/binary-tree-maximum-path-sum/", "Hard", ["Binary Tree", "DFS", "Dynamic Programming"]],
+    ["Serialize and Deserialize Binary Tree", "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/", "Hard", ["Binary Tree", "DFS", "BFS", "Design"]]
+  ],
+
+  "20_BST": [
+    ["Search in a Binary Search Tree", "https://leetcode.com/problems/search-in-a-binary-search-tree/", "Easy", ["BST", "Binary Search"]],
+    ["Validate Binary Search Tree", "https://leetcode.com/problems/validate-binary-search-tree/", "Medium", ["BST", "DFS", "Inorder"]],
+    ["Lowest Common Ancestor of a BST", "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/", "Medium", ["BST", "LCA"]],
+    ["Insert into a Binary Search Tree", "https://leetcode.com/problems/insert-into-a-binary-search-tree/", "Medium", ["BST", "Recursion"]],
+    ["Delete Node in a BST", "https://leetcode.com/problems/delete-node-in-a-binary-search-tree/", "Medium", ["BST", "Recursion"]],
+    ["Kth Smallest Element in a BST", "https://leetcode.com/problems/kth-smallest-element-in-a-bst/", "Medium", ["BST", "Inorder", "Stack"]],
+    ["Convert Sorted Array to Binary Search Tree", "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/", "Easy", ["BST", "Divide and Conquer"]],
+    ["Recover Binary Search Tree", "https://leetcode.com/problems/recover-binary-search-tree/", "Medium", ["BST", "Inorder", "Morris Traversal"]],
+    ["Serialize and Deserialize BST", "https://leetcode.com/problems/serialize-and-deserialize-bst/", "Medium", ["BST", "Serialization"]]
+  ],
+
+  "21_Graph_Basics_BFS_DFS": [
+    ["Flood Fill", "https://leetcode.com/problems/flood-fill/", "Easy", ["Graph", "DFS", "BFS"]],
+    ["Number of Islands", "https://leetcode.com/problems/number-of-islands/", "Medium", ["Graph", "DFS", "BFS", "Matrix"]],
+    ["Max Area of Island", "https://leetcode.com/problems/max-area-of-island/", "Medium", ["Graph", "DFS", "BFS"]],
+    ["Rotting Oranges", "https://leetcode.com/problems/rotting-oranges/", "Medium", ["Graph", "BFS", "Multi-source BFS"]],
+    ["Clone Graph", "https://leetcode.com/problems/clone-graph/", "Medium", ["Graph", "DFS", "BFS", "HashMap"]],
+    ["Open the Lock", "https://leetcode.com/problems/open-the-lock/", "Medium", ["Graph", "BFS"]],
+    ["Shortest Path in Binary Matrix", "https://leetcode.com/problems/shortest-path-in-binary-matrix/", "Medium", ["Graph", "BFS"]],
+    ["Walls and Gates", "https://leetcode.com/problems/walls-and-gates/", "Medium", ["Graph", "BFS", "Multi-source BFS"]],
+    ["Word Ladder", "https://leetcode.com/problems/word-ladder/", "Hard", ["Graph", "BFS", "HashSet"]]
+  ],
+
+  "22_Graph_Cycle_Topological_Sort": [
+    ["Detect Cycle in Undirected Graph", "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1", "Medium", ["Graph", "DFS", "BFS", "Cycle Detection"]],
+    ["Detect Cycle in Directed Graph", "https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1", "Medium", ["Graph", "DFS", "Cycle Detection"]],
+    ["Course Schedule", "https://leetcode.com/problems/course-schedule/", "Medium", ["Graph", "Topological Sort", "Cycle Detection"]],
+    ["Course Schedule II", "https://leetcode.com/problems/course-schedule-ii/", "Medium", ["Graph", "Topological Sort", "BFS", "DFS"]],
+    ["Alien Dictionary", "https://www.geeksforgeeks.org/problems/alien-dictionary/1", "Hard", ["Graph", "Topological Sort", "Ordering"]],
+    ["Parallel Courses", "https://leetcode.com/problems/parallel-courses/", "Medium", ["Graph", "Topological Sort", "BFS"]]
+  ],
+
+  "23_Graph_Shortest_Path": [
+    ["Network Delay Time", "https://leetcode.com/problems/network-delay-time/", "Medium", ["Graph", "Dijkstra"]],
+    ["Dijkstra's Algorithm", "https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1", "Medium", ["Graph", "Dijkstra", "Priority Queue"]],
+    ["Path With Minimum Effort", "https://leetcode.com/problems/path-with-minimum-effort/", "Medium", ["Graph", "Dijkstra", "Binary Search"]],
+    ["Cheapest Flights Within K Stops", "https://leetcode.com/problems/cheapest-flights-within-k-stops/", "Medium", ["Graph", "Shortest Path", "Bellman-Ford"]],
+    ["Swim in Rising Water", "https://leetcode.com/problems/swim-in-rising-water/", "Hard", ["Graph", "Dijkstra", "Heap"]],
+    ["Bellman-Ford Algorithm", "https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/", "Medium", ["Graph", "Bellman-Ford"]],
+    ["Floyd Warshall Algorithm", "https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/", "Medium", ["Graph", "Floyd Warshall", "Dynamic Programming"]]
+  ],
+
+  "24_Graph_MST_DSU": [
+    ["Disjoint Set Union Implementation", "https://www.geeksforgeeks.org/disjoint-set-data-structures/", "Medium", ["DSU", "Union Find"]],
+    ["Number of Provinces", "https://leetcode.com/problems/number-of-provinces/", "Medium", ["Graph", "DSU", "DFS"]],
+    ["Redundant Connection", "https://leetcode.com/problems/redundant-connection/", "Medium", ["Graph", "DSU"]],
+    ["Min Cost to Connect All Points", "https://leetcode.com/problems/min-cost-to-connect-all-points/", "Medium", ["Graph", "MST", "Prim", "Kruskal"]],
+    ["Kruskal's Algorithm", "https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/", "Medium", ["Graph", "MST", "DSU"]],
+    ["Prim's Algorithm", "https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/", "Medium", ["Graph", "MST", "Priority Queue"]]
+  ],
+
+  "25_Dynamic_Programming_Basics": [
+    ["Fibonacci Number", "https://leetcode.com/problems/fibonacci-number/", "Easy", ["DP", "1D DP"]],
+    ["Climbing Stairs", "https://leetcode.com/problems/climbing-stairs/", "Easy", ["DP", "1D DP"]],
+    ["Min Cost Climbing Stairs", "https://leetcode.com/problems/min-cost-climbing-stairs/", "Easy", ["DP", "1D DP"]],
+    ["House Robber", "https://leetcode.com/problems/house-robber/", "Medium", ["DP", "1D DP"]],
+    ["House Robber II", "https://leetcode.com/problems/house-robber-ii/", "Medium", ["DP", "Circular DP"]],
+    ["Maximum Subarray", "https://leetcode.com/problems/maximum-subarray/", "Medium", ["DP", "Kadane"]],
+    ["Unique Paths", "https://leetcode.com/problems/unique-paths/", "Medium", ["DP", "Grid DP"]],
+    ["Minimum Path Sum", "https://leetcode.com/problems/minimum-path-sum/", "Medium", ["DP", "Grid DP"]],
+    ["Coin Change", "https://leetcode.com/problems/coin-change/", "Medium", ["DP", "Unbounded Knapsack"]],
+    ["Partition Equal Subset Sum", "https://leetcode.com/problems/partition-equal-subset-sum/", "Medium", ["DP", "0/1 Knapsack"]],
+    ["Target Sum", "https://leetcode.com/problems/target-sum/", "Medium", ["DP", "0/1 Knapsack"]]
+  ],
+
+  "26_Dynamic_Programming_Subsequence": [
+    ["Longest Increasing Subsequence", "https://leetcode.com/problems/longest-increasing-subsequence/", "Medium", ["DP", "LIS", "Binary Search"]],
+    ["Longest Common Subsequence", "https://leetcode.com/problems/longest-common-subsequence/", "Medium", ["DP", "LCS", "2D DP"]],
+    ["Longest Palindromic Subsequence", "https://leetcode.com/problems/longest-palindromic-subsequence/", "Medium", ["DP", "LPS"]],
+    ["Distinct Subsequences", "https://leetcode.com/problems/distinct-subsequences/", "Hard", ["DP", "String DP"]],
+    ["Edit Distance", "https://leetcode.com/problems/edit-distance/", "Hard", ["DP", "String DP"]],
+    ["Interleaving String", "https://leetcode.com/problems/interleaving-string/", "Medium", ["DP", "String DP"]],
+    ["Word Break", "https://leetcode.com/problems/word-break/", "Medium", ["DP", "HashSet"]],
+    ["Word Break II", "https://leetcode.com/problems/word-break-ii/", "Hard", ["DP", "Backtracking", "Memoization"]]
+  ],
+
+  "27_Dynamic_Programming_Advanced": [
+    ["Maximum Product Subarray", "https://leetcode.com/problems/maximum-product-subarray/", "Medium", ["DP", "Kadane"]],
+    ["Best Time to Buy and Sell Stock II", "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/", "Medium", ["DP", "Greedy", "State Machine"]],
+    ["Best Time to Buy and Sell Stock III", "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/", "Hard", ["DP", "State Machine"]],
+    ["Best Time to Buy and Sell Stock IV", "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/", "Hard", ["DP", "State Machine"]],
+    ["Best Time to Buy and Sell Stock with Cooldown", "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/", "Medium", ["DP", "State Machine"]],
+    ["Best Time to Buy and Sell Stock with Transaction Fee", "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/", "Medium", ["DP", "State Machine"]],
+    ["Burst Balloons", "https://leetcode.com/problems/burst-balloons/", "Hard", ["DP", "Interval DP"]],
+    ["Palindrome Partitioning II", "https://leetcode.com/problems/palindrome-partitioning-ii/", "Hard", ["DP", "Palindrome", "Interval DP"]],
+    ["Regular Expression Matching", "https://leetcode.com/problems/regular-expression-matching/", "Hard", ["DP", "String DP"]],
+    ["Wildcard Matching", "https://leetcode.com/problems/wildcard-matching/", "Hard", ["DP", "String DP"]]
+  ],
+
+  "28_Greedy": [
+    ["Assign Cookies", "https://leetcode.com/problems/assign-cookies/", "Easy", ["Greedy", "Sorting"]],
+    ["Best Time to Buy and Sell Stock", "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/", "Easy", ["Greedy"]],
+    ["Jump Game", "https://leetcode.com/problems/jump-game/", "Medium", ["Greedy"]],
+    ["Jump Game II", "https://leetcode.com/problems/jump-game-ii/", "Medium", ["Greedy", "BFS Pattern"]],
+    ["Gas Station", "https://leetcode.com/problems/gas-station/", "Medium", ["Greedy"]],
+    ["Partition Labels", "https://leetcode.com/problems/partition-labels/", "Medium", ["Greedy", "HashMap"]],
+    ["Non-overlapping Intervals", "https://leetcode.com/problems/non-overlapping-intervals/", "Medium", ["Greedy", "Intervals", "Sorting"]],
+    ["Merge Triplets to Form Target Triplet", "https://leetcode.com/problems/merge-triplets-to-form-target-triplet/", "Medium", ["Greedy"]],
+    ["Candy", "https://leetcode.com/problems/candy/", "Hard", ["Greedy"]],
+    ["Task Scheduler", "https://leetcode.com/problems/task-scheduler/", "Medium", ["Greedy", "Heap", "HashMap"]]
+  ],
+
+  "29_Intervals": [
+    ["Meeting Rooms", "https://www.geeksforgeeks.org/problems/meeting-rooms-iii/1", "Easy", ["Intervals", "Sorting"]],
+    ["Merge Intervals", "https://leetcode.com/problems/merge-intervals/", "Medium", ["Intervals", "Sorting"]],
+    ["Insert Interval", "https://leetcode.com/problems/insert-interval/", "Medium", ["Intervals", "Sorting"]],
+    ["Non-overlapping Intervals", "https://leetcode.com/problems/non-overlapping-intervals/", "Medium", ["Intervals", "Greedy", "Sorting"]],
+    ["Meeting Rooms II", "https://leetcode.com/problems/meeting-rooms-ii/", "Medium", ["Intervals", "Heap", "Sorting"]],
+    ["Minimum Number of Arrows to Burst Balloons", "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/", "Medium", ["Intervals", "Greedy", "Sorting"]],
+    ["Employee Free Time", "https://leetcode.com/problems/employee-free-time/", "Hard", ["Intervals", "Sorting", "Heap"]]
+  ],
+
+  "30_Bit_Manipulation": [
+    ["Single Number", "https://leetcode.com/problems/single-number/", "Easy", ["Bit Manipulation", "XOR"]],
+    ["Number of 1 Bits", "https://leetcode.com/problems/number-of-1-bits/", "Easy", ["Bit Manipulation"]],
+    ["Counting Bits", "https://leetcode.com/problems/counting-bits/", "Easy", ["Bit Manipulation", "DP"]],
+    ["Power of Two", "https://leetcode.com/problems/power-of-two/", "Easy", ["Bit Manipulation"]],
+    ["Missing Number", "https://leetcode.com/problems/missing-number/", "Easy", ["Bit Manipulation", "XOR"]],
+    ["Reverse Bits", "https://leetcode.com/problems/reverse-bits/", "Easy", ["Bit Manipulation"]],
+    ["Single Number II", "https://leetcode.com/problems/single-number-ii/", "Medium", ["Bit Manipulation"]],
+    ["Single Number III", "https://leetcode.com/problems/single-number-iii/", "Medium", ["Bit Manipulation", "XOR"]],
+    ["Subsets", "https://leetcode.com/problems/subsets/", "Medium", ["Bit Manipulation", "Power Set"]],
+    ["Maximum XOR for Each Query", "https://leetcode.com/problems/maximum-xor-for-each-query/", "Medium", ["Bit Manipulation", "XOR"]]
+  ],
+
+  "31_Advanced_Data_Structures_and_Design": [
+    ["LRU Cache", "https://leetcode.com/problems/lru-cache/", "Medium", ["Design", "DLL", "HashMap"]],
+    ["LFU Cache", "https://leetcode.com/problems/lfu-cache/", "Hard", ["Design", "HashMap", "DLL"]],
+    ["Design Twitter", "https://leetcode.com/problems/design-twitter/", "Medium", ["Design", "Heap", "HashMap"]],
+    ["Insert Delete GetRandom O(1)", "https://leetcode.com/problems/insert-delete-getrandom-o1/", "Medium", ["Design", "HashMap", "Array"]],
+    ["Random Pick with Weight", "https://leetcode.com/problems/random-pick-with-weight/", "Medium", ["Prefix Sum", "Binary Search"]],
+    ["Design Add and Search Words Data Structure", "https://leetcode.com/problems/design-add-and-search-words-data-structure/", "Medium", ["Trie", "DFS"]],
+    ["Implement Trie Prefix Tree", "https://leetcode.com/problems/implement-trie-prefix-tree/", "Medium", ["Trie", "String"]],
+    ["Word Search II", "https://leetcode.com/problems/word-search-ii/", "Hard", ["Trie", "Backtracking", "DFS"]],
+    ["Time Based Key-Value Store", "https://leetcode.com/problems/time-based-key-value-store/", "Medium", ["HashMap", "Binary Search", "Design"]],
+    ["All Oone Data Structure", "https://leetcode.com/problems/all-oone-data-structure/", "Hard", ["HashMap", "DLL", "Design"]]
+  ],
+
+  "32_Advanced_Graph_Problems": [
+    ["Number of Connected Components in an Undirected Graph", "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/", "Medium", ["Graph", "DFS", "BFS", "DSU"]],
+    ["Graph Valid Tree", "https://leetcode.com/problems/graph-valid-tree/", "Medium", ["Graph", "DFS", "BFS", "DSU"]],
+    ["Critical Connections in a Network", "https://leetcode.com/problems/critical-connections-in-a-network/", "Hard", ["Graph", "Tarjan", "DFS"]],
+    ["Reconstruct Itinerary", "https://leetcode.com/problems/reconstruct-itinerary/", "Hard", ["Graph", "DFS", "Eulerian Path"]],
+    ["Minimum Height Trees", "https://leetcode.com/problems/minimum-height-trees/", "Medium", ["Graph", "BFS", "Topological Sort"]],
+    ["Strongly Connected Components", "https://www.geeksforgeeks.org/strongly-connected-components/", "Hard", ["Graph", "Kosaraju", "Tarjan"]],
+    ["Articulation Points", "https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/", "Hard", ["Graph", "Tarjan", "DFS"]],
+    ["Bridges in Graph", "https://www.geeksforgeeks.org/bridge-in-a-graph/", "Hard", ["Graph", "Tarjan", "DFS"]]
+  ],
+
+  "33_Advanced_Tree_Problems": [
+    ["Lowest Common Ancestor of a Binary Tree", "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/", "Medium", ["Binary Tree", "LCA", "DFS"]],
+    ["Binary Tree Zigzag Level Order Traversal", "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/", "Medium", ["Binary Tree", "BFS", "Queue"]],
+    ["Boundary of Binary Tree", "https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/", "Medium", ["Binary Tree", "DFS"]],
+    ["Vertical Order Traversal of a Binary Tree", "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/", "Hard", ["Binary Tree", "BFS", "Sorting"]],
+    ["Binary Tree Cameras", "https://leetcode.com/problems/binary-tree-cameras/", "Hard", ["Binary Tree", "Greedy", "DP"]],
+    ["House Robber III", "https://leetcode.com/problems/house-robber-iii/", "Medium", ["Binary Tree", "DP", "DFS"]],
+    ["Maximum Width of Binary Tree", "https://leetcode.com/problems/maximum-width-of-binary-tree/", "Medium", ["Binary Tree", "BFS"]],
+    ["Recover Binary Search Tree", "https://leetcode.com/problems/recover-binary-search-tree/", "Medium", ["BST", "Morris Traversal"]],
+    ["Serialize and Deserialize Binary Tree", "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/", "Hard", ["Binary Tree", "Design", "DFS", "BFS"]]
+  ],
+
+  "34_FAANG_Mixed_Interview_Final_Round": [
+    ["Two Sum", "https://leetcode.com/problems/two-sum/", "Easy", ["HashMap", "Array"]],
+    ["3Sum", "https://leetcode.com/problems/3sum/", "Medium", ["Two Pointers", "Sorting"]],
+    ["Longest Substring Without Repeating Characters", "https://leetcode.com/problems/longest-substring-without-repeating-characters/", "Medium", ["Sliding Window", "HashMap"]],
+    ["Product of Array Except Self", "https://leetcode.com/problems/product-of-array-except-self/", "Medium", ["Prefix", "Suffix"]],
+    ["Maximum Subarray", "https://leetcode.com/problems/maximum-subarray/", "Medium", ["Kadane", "DP"]],
+    ["Merge Intervals", "https://leetcode.com/problems/merge-intervals/", "Medium", ["Intervals", "Sorting"]],
+    ["Valid Parentheses", "https://leetcode.com/problems/valid-parentheses/", "Easy", ["Stack"]],
+    ["Daily Temperatures", "https://leetcode.com/problems/daily-temperatures/", "Medium", ["Monotonic Stack"]],
+    ["Binary Tree Level Order Traversal", "https://leetcode.com/problems/binary-tree-level-order-traversal/", "Medium", ["Tree", "BFS"]],
+    ["Validate Binary Search Tree", "https://leetcode.com/problems/validate-binary-search-tree/", "Medium", ["BST", "DFS"]],
+    ["Number of Islands", "https://leetcode.com/problems/number-of-islands/", "Medium", ["Graph", "DFS", "BFS"]],
+    ["Course Schedule", "https://leetcode.com/problems/course-schedule/", "Medium", ["Graph", "Topological Sort"]],
+    ["Kth Largest Element in an Array", "https://leetcode.com/problems/kth-largest-element-in-an-array/", "Medium", ["Heap", "Quickselect"]],
+    ["Merge K Sorted Lists", "https://leetcode.com/problems/merge-k-sorted-lists/", "Hard", ["Heap", "Linked List"]],
+    ["Word Search II", "https://leetcode.com/problems/word-search-ii/", "Hard", ["Trie", "Backtracking"]],
+    ["LRU Cache", "https://leetcode.com/problems/lru-cache/", "Medium", ["HashMap", "DLL", "Design"]],
+    ["Word Ladder", "https://leetcode.com/problems/word-ladder/", "Hard", ["Graph", "BFS"]],
+    ["Median of Two Sorted Arrays", "https://leetcode.com/problems/median-of-two-sorted-arrays/", "Hard", ["Binary Search"]],
+    ["Trapping Rain Water", "https://leetcode.com/problems/trapping-rain-water/", "Hard", ["Two Pointers", "Stack"]],
+    ["Largest Rectangle in Histogram", "https://leetcode.com/problems/largest-rectangle-in-histogram/", "Hard", ["Monotonic Stack"]],
+    ["Binary Tree Maximum Path Sum", "https://leetcode.com/problems/binary-tree-maximum-path-sum/", "Hard", ["Tree", "DFS", "DP"]],
+    ["Edit Distance", "https://leetcode.com/problems/edit-distance/", "Hard", ["Dynamic Programming"]],
+    ["Regular Expression Matching", "https://leetcode.com/problems/regular-expression-matching/", "Hard", ["Dynamic Programming", "String"]],
+    ["Critical Connections in a Network", "https://leetcode.com/problems/critical-connections-in-a-network/", "Hard", ["Graph", "Tarjan"]],
+    ["Find Median from Data Stream", "https://leetcode.com/problems/find-median-from-data-stream/", "Hard", ["Two Heaps", "Priority Queue"]]
+  ]
 }
