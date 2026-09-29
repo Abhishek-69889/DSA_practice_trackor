@@ -1,2341 +1,1364 @@
 {
-  "meta": {
-    "title": "60-Day DSA Interview Question Bank",
-    "total_days": 60,
-    "target": "Service-based companies + startups",
-    "strategy": "Pattern recognition + unfamiliar interview problems - avoids basic Two Sum/Valid Palindrome/Reverse LL, focuses on combined patterns, monotonic stack, BS on answer, heap, trees, graphs, DP, greedy, bit, design",
-    "difficulty_distribution": "9 Easy / 136 Medium / 35 Hard"
-  },
   "Day 01": {
     "goal": "Monotonic stack foundations - next greater, temperatures, span",
-    "topics": [
-      "Monotonic Stack"
-    ],
-    "questions": [
-      {
-        "title": "Daily Temperatures",
-        "url": "https://leetcode.com/problems/daily-temperatures/",
-        "difficulty": "Medium",
-        "tags": [
-          "Monotonic Stack"
+    "topics": {
+      "Monotonic Stack": [
+        [
+          "Daily Temperatures",
+          "https://leetcode.com/problems/daily-temperatures/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Next Greater Element II",
-        "url": "https://leetcode.com/problems/next-greater-element-ii/",
-        "difficulty": "Medium",
-        "tags": [
-          "Monotonic Stack",
-          "Circular Array"
+        [
+          "Next Greater Element II",
+          "https://leetcode.com/problems/next-greater-element-ii/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Online Stock Span",
-        "url": "https://leetcode.com/problems/online-stock-span/",
-        "difficulty": "Medium",
-        "tags": [
-          "Monotonic Stack",
-          "Design"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Online Stock Span",
+          "https://leetcode.com/problems/online-stock-span/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 02": {
     "goal": "Monotonic stack advanced - histogram, trapping, sum of minimums",
-    "topics": [
-      "Monotonic Stack",
-      "Heap"
-    ],
-    "questions": [
-      {
-        "title": "Trapping Rain Water",
-        "url": "https://leetcode.com/problems/trapping-rain-water/",
-        "difficulty": "Hard",
-        "tags": [
-          "Monotonic Stack",
-          "Two Pointers"
+    "topics": {
+      "Monotonic Stack": [
+        [
+          "Trapping Rain Water",
+          "https://leetcode.com/problems/trapping-rain-water/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Largest Rectangle in Histogram",
-        "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
-        "difficulty": "Hard",
-        "tags": [
-          "Monotonic Stack"
+        [
+          "Largest Rectangle in Histogram",
+          "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Sum of Subarray Minimums",
-        "url": "https://leetcode.com/problems/sum-of-subarray-minimums/",
-        "difficulty": "Medium",
-        "tags": [
-          "Monotonic Stack",
-          "DP"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Sum of Subarray Minimums",
+          "https://leetcode.com/problems/sum-of-subarray-minimums/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 03": {
     "goal": "Stack for parsing, collision and decoding",
-    "topics": [
-      "Stack"
-    ],
-    "questions": [
-      {
-        "title": "Asteroid Collision",
-        "url": "https://leetcode.com/problems/asteroid-collision/",
-        "difficulty": "Medium",
-        "tags": [
-          "Stack"
+    "topics": {
+      "Stack": [
+        [
+          "Asteroid Collision",
+          "https://leetcode.com/problems/asteroid-collision/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Evaluate Reverse Polish Notation",
-        "url": "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
-        "difficulty": "Medium",
-        "tags": [
-          "Stack"
+        [
+          "Evaluate Reverse Polish Notation",
+          "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Decode String",
-        "url": "https://leetcode.com/problems/decode-string/",
-        "difficulty": "Medium",
-        "tags": [
-          "Stack",
-          "Recursion"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Decode String",
+          "https://leetcode.com/problems/decode-string/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 04": {
     "goal": "Stack + greedy - remove k digits, smallest subsequence",
-    "topics": [
-      "Stack",
-      "Greedy"
-    ],
-    "questions": [
-      {
-        "title": "Remove K Digits",
-        "url": "https://leetcode.com/problems/remove-k-digits/",
-        "difficulty": "Medium",
-        "tags": [
-          "Stack",
-          "Greedy"
+    "topics": {
+      "Stack": [
+        [
+          "Remove K Digits",
+          "https://leetcode.com/problems/remove-k-digits/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Smallest Subsequence of Distinct Characters",
-        "url": "https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/",
-        "difficulty": "Medium",
-        "tags": [
-          "Stack",
-          "Greedy"
+        [
+          "Smallest Subsequence of Distinct Characters",
+          "https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Basic Calculator II",
-        "url": "https://leetcode.com/problems/basic-calculator-ii/",
-        "difficulty": "Medium",
-        "tags": [
-          "Stack",
-          "String"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Basic Calculator II",
+          "https://leetcode.com/problems/basic-calculator-ii/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 05": {
     "goal": "Binary search on rotated array and boundary finding",
-    "topics": [
-      "Binary Search"
-    ],
-    "questions": [
-      {
-        "title": "Search in Rotated Sorted Array",
-        "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
-        "difficulty": "Medium",
-        "tags": [
-          "Binary Search"
+    "topics": {
+      "Binary Search": [
+        [
+          "Search in Rotated Sorted Array",
+          "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Find First and Last Position of Element in Sorted Array",
-        "url": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
-        "difficulty": "Medium",
-        "tags": [
-          "Binary Search"
+        [
+          "Find First and Last Position of Element in Sorted Array",
+          "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Find Peak Element",
-        "url": "https://leetcode.com/problems/find-peak-element/",
-        "difficulty": "Medium",
-        "tags": [
-          "Binary Search"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Find Peak Element",
+          "https://leetcode.com/problems/find-peak-element/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 06": {
     "goal": "Binary search on matrix and duplicates",
-    "topics": [
-      "Binary Search",
-      "Matrix"
-    ],
-    "questions": [
-      {
-        "title": "Search a 2D Matrix II",
-        "url": "https://leetcode.com/problems/search-a-2d-matrix-ii/",
-        "difficulty": "Medium",
-        "tags": [
-          "Binary Search",
-          "Matrix"
+    "topics": {
+      "Binary Search": [
+        [
+          "Search a 2D Matrix II",
+          "https://leetcode.com/problems/search-a-2d-matrix-ii/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Single Element in a Sorted Array",
-        "url": "https://leetcode.com/problems/single-element-in-a-sorted-array/",
-        "difficulty": "Medium",
-        "tags": [
-          "Binary Search"
+        [
+          "Single Element in a Sorted Array",
+          "https://leetcode.com/problems/single-element-in-a-sorted-array/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Search in Rotated Sorted Array II",
-        "url": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
-        "difficulty": "Medium",
-        "tags": [
-          "Binary Search"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Search in Rotated Sorted Array II",
+          "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 07": {
     "goal": "Binary Search on Answer - eating, shipping, split array",
-    "topics": [
-      "Binary Search on Answer"
-    ],
-    "questions": [
-      {
-        "title": "Koko Eating Bananas",
-        "url": "https://leetcode.com/problems/koko-eating-bananas/",
-        "difficulty": "Medium",
-        "tags": [
-          "Binary Search on Answer"
+    "topics": {
+      "Binary Search on Answer": [
+        [
+          "Koko Eating Bananas",
+          "https://leetcode.com/problems/koko-eating-bananas/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Capacity To Ship Packages Within D Days",
-        "url": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
-        "difficulty": "Medium",
-        "tags": [
-          "Binary Search on Answer"
+        [
+          "Capacity To Ship Packages Within D Days",
+          "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Split Array Largest Sum",
-        "url": "https://leetcode.com/problems/split-array-largest-sum/",
-        "difficulty": "Hard",
-        "tags": [
-          "Binary Search on Answer",
-          "Greedy"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Split Array Largest Sum",
+          "https://leetcode.com/problems/split-array-largest-sum/",
+          "Hard"
+        ]
+      ]
+    }
   },
   "Day 08": {
     "goal": "Binary Search on Answer - aggressive cows, median, pairs",
-    "topics": [
-      "Binary Search on Answer"
-    ],
-    "questions": [
-      {
-        "title": "Aggressive Cows",
-        "url": "https://www.geeksforgeeks.org/problems/aggressive-cows/1",
-        "difficulty": "Medium",
-        "tags": [
-          "Binary Search on Answer",
-          "Sorting"
+    "topics": {
+      "Binary Search on Answer": [
+        [
+          "Aggressive Cows",
+          "https://www.geeksforgeeks.org/problems/aggressive-cows/1",
+          "Medium"
         ],
-        "source": "GeeksforGeeks"
-      },
-      {
-        "title": "Median of Two Sorted Arrays",
-        "url": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
-        "difficulty": "Hard",
-        "tags": [
-          "Binary Search"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Minimize the Maximum Difference of Pairs",
-        "url": "https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/",
-        "difficulty": "Medium",
-        "tags": [
-          "Binary Search on Answer",
-          "Greedy"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Minimize the Maximum Difference of Pairs",
+          "https://leetcode.com/problems/minimize-the-maximum-difference-of-pairs/",
+          "Medium"
+        ]
+      ],
+      "Binary Search": [
+        [
+          "Median of Two Sorted Arrays",
+          "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+          "Hard"
+        ]
+      ]
+    }
   },
   "Day 09": {
     "goal": "Heap - Top K frequent, closest points, reorganize",
-    "topics": [
-      "Heap"
-    ],
-    "questions": [
-      {
-        "title": "Top K Frequent Elements",
-        "url": "https://leetcode.com/problems/top-k-frequent-elements/",
-        "difficulty": "Medium",
-        "tags": [
-          "Heap",
-          "HashMap"
+    "topics": {
+      "Heap": [
+        [
+          "Top K Frequent Elements",
+          "https://leetcode.com/problems/top-k-frequent-elements/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "K Closest Points to Origin",
-        "url": "https://leetcode.com/problems/k-closest-points-to-origin/",
-        "difficulty": "Medium",
-        "tags": [
-          "Heap"
+        [
+          "K Closest Points to Origin",
+          "https://leetcode.com/problems/k-closest-points-to-origin/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Reorganize String",
-        "url": "https://leetcode.com/problems/reorganize-string/",
-        "difficulty": "Medium",
-        "tags": [
-          "Heap",
-          "Greedy"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Reorganize String",
+          "https://leetcode.com/problems/reorganize-string/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 10": {
     "goal": "Heap - two heaps, k-way merge, median stream",
-    "topics": [
-      "Heap",
-      "Design"
-    ],
-    "questions": [
-      {
-        "title": "Find Median from Data Stream",
-        "url": "https://leetcode.com/problems/find-median-from-data-stream/",
-        "difficulty": "Hard",
-        "tags": [
-          "Heap",
-          "Design"
+    "topics": {
+      "Heap": [
+        [
+          "Find Median from Data Stream",
+          "https://leetcode.com/problems/find-median-from-data-stream/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Merge k Sorted Lists",
-        "url": "https://leetcode.com/problems/merge-k-sorted-lists/",
-        "difficulty": "Hard",
-        "tags": [
-          "Heap",
-          "Linked List"
+        [
+          "Merge k Sorted Lists",
+          "https://leetcode.com/problems/merge-k-sorted-lists/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Kth Largest Element in an Array",
-        "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
-        "difficulty": "Medium",
-        "tags": [
-          "Heap",
-          "Quickselect"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Kth Largest Element in an Array",
+          "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 11": {
     "goal": "Heap + intervals + task scheduling",
-    "topics": [
-      "Heap",
-      "Intervals",
-      "Greedy"
-    ],
-    "questions": [
-      {
-        "title": "Task Scheduler",
-        "url": "https://leetcode.com/problems/task-scheduler/",
-        "difficulty": "Medium",
-        "tags": [
-          "Heap",
-          "Greedy"
+    "topics": {
+      "Heap": [
+        [
+          "Task Scheduler",
+          "https://leetcode.com/problems/task-scheduler/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Meeting Rooms II",
-        "url": "https://leetcode.com/problems/meeting-rooms-ii/",
-        "difficulty": "Medium",
-        "tags": [
-          "Heap",
-          "Intervals"
+        [
+          "Meeting Rooms II",
+          "https://leetcode.com/problems/meeting-rooms-ii/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Top K Frequent Words",
-        "url": "https://leetcode.com/problems/top-k-frequent-words/",
-        "difficulty": "Medium",
-        "tags": [
-          "Heap",
-          "HashMap"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Top K Frequent Words",
+          "https://leetcode.com/problems/top-k-frequent-words/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 12": {
     "goal": "Queue/Deque and Sliding Window Maximum review of Phase 1",
-    "topics": [
-      "Deque",
-      "Sliding Window"
-    ],
-    "questions": [
-      {
-        "title": "Sliding Window Maximum",
-        "url": "https://leetcode.com/problems/sliding-window-maximum/",
-        "difficulty": "Hard",
-        "tags": [
-          "Deque",
-          "Sliding Window",
-          "Monotonic Queue"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Sliding Window Median",
-        "url": "https://leetcode.com/problems/sliding-window-median/",
-        "difficulty": "Hard",
-        "tags": [
-          "Heap",
-          "Sliding Window"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Car Fleet",
-        "url": "https://leetcode.com/problems/car-fleet/",
-        "difficulty": "Medium",
-        "tags": [
-          "Stack",
-          "Sorting"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+    "topics": {
+      "Deque": [
+        [
+          "Sliding Window Maximum",
+          "https://leetcode.com/problems/sliding-window-maximum/",
+          "Hard"
+        ]
+      ],
+      "Heap": [
+        [
+          "Sliding Window Median",
+          "https://leetcode.com/problems/sliding-window-median/",
+          "Hard"
+        ]
+      ],
+      "Stack": [
+        [
+          "Car Fleet",
+          "https://leetcode.com/problems/car-fleet/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 13": {
     "goal": "Tree DFS - max path sum, diameter, path sum III",
-    "topics": [
-      "Tree",
-      "DFS"
-    ],
-    "questions": [
-      {
-        "title": "Binary Tree Maximum Path Sum",
-        "url": "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
-        "difficulty": "Hard",
-        "tags": [
-          "Tree",
-          "DFS",
-          "DP"
+    "topics": {
+      "Tree": [
+        [
+          "Binary Tree Maximum Path Sum",
+          "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Diameter of Binary Tree",
-        "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
-        "difficulty": "Easy",
-        "tags": [
-          "Tree",
-          "DFS"
+        [
+          "Diameter of Binary Tree",
+          "https://leetcode.com/problems/diameter-of-binary-tree/",
+          "Easy"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Path Sum III",
-        "url": "https://leetcode.com/problems/path-sum-iii/",
-        "difficulty": "Medium",
-        "tags": [
-          "Tree",
-          "DFS",
-          "Prefix Sum"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Path Sum III",
+          "https://leetcode.com/problems/path-sum-iii/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 14": {
     "goal": "Tree BFS - right view, zigzag, vertical order",
-    "topics": [
-      "Tree",
-      "BFS"
-    ],
-    "questions": [
-      {
-        "title": "Binary Tree Right Side View",
-        "url": "https://leetcode.com/problems/binary-tree-right-side-view/",
-        "difficulty": "Medium",
-        "tags": [
-          "Tree",
-          "BFS"
+    "topics": {
+      "Tree": [
+        [
+          "Binary Tree Right Side View",
+          "https://leetcode.com/problems/binary-tree-right-side-view/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Binary Tree Zigzag Level Order Traversal",
-        "url": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
-        "difficulty": "Medium",
-        "tags": [
-          "Tree",
-          "BFS"
+        [
+          "Binary Tree Zigzag Level Order Traversal",
+          "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Vertical Order Traversal of a Binary Tree",
-        "url": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
-        "difficulty": "Hard",
-        "tags": [
-          "Tree",
-          "BFS",
-          "HashMap"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Vertical Order Traversal of a Binary Tree",
+          "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
+          "Hard"
+        ]
+      ]
+    }
   },
   "Day 15": {
     "goal": "Tree construction and serialization",
-    "topics": [
-      "Tree Construction"
-    ],
-    "questions": [
-      {
-        "title": "Construct Binary Tree from Preorder and Inorder Traversal",
-        "url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
-        "difficulty": "Medium",
-        "tags": [
-          "Tree",
-          "Recursion"
+    "topics": {
+      "Tree": [
+        [
+          "Construct Binary Tree from Preorder and Inorder Traversal",
+          "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Construct Binary Tree from Inorder and Postorder Traversal",
-        "url": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
-        "difficulty": "Medium",
-        "tags": [
-          "Tree",
-          "Recursion"
+        [
+          "Construct Binary Tree from Inorder and Postorder Traversal",
+          "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Serialize and Deserialize Binary Tree",
-        "url": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
-        "difficulty": "Hard",
-        "tags": [
-          "Tree",
-          "Design"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Serialize and Deserialize Binary Tree",
+          "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/",
+          "Hard"
+        ]
+      ]
+    }
   },
   "Day 16": {
     "goal": "BST - validate, kth smallest, delete",
-    "topics": [
-      "BST"
-    ],
-    "questions": [
-      {
-        "title": "Validate Binary Search Tree",
-        "url": "https://leetcode.com/problems/validate-binary-search-tree/",
-        "difficulty": "Medium",
-        "tags": [
-          "BST",
-          "DFS"
+    "topics": {
+      "BST": [
+        [
+          "Validate Binary Search Tree",
+          "https://leetcode.com/problems/validate-binary-search-tree/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Kth Smallest Element in a BST",
-        "url": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
-        "difficulty": "Medium",
-        "tags": [
-          "BST",
-          "DFS"
+        [
+          "Kth Smallest Element in a BST",
+          "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Delete Node in a BST",
-        "url": "https://leetcode.com/problems/delete-node-in-a-bst/",
-        "difficulty": "Medium",
-        "tags": [
-          "BST",
-          "Recursion"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Delete Node in a BST",
+          "https://leetcode.com/problems/delete-node-in-a-bst/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 17": {
     "goal": "LCA variations and distance K",
-    "topics": [
-      "Tree",
-      "LCA"
-    ],
-    "questions": [
-      {
-        "title": "Lowest Common Ancestor of a Binary Tree",
-        "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
-        "difficulty": "Medium",
-        "tags": [
-          "Tree",
-          "DFS"
+    "topics": {
+      "Tree": [
+        [
+          "Lowest Common Ancestor of a Binary Tree",
+          "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Lowest Common Ancestor of Deepest Leaves",
-        "url": "https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/",
-        "difficulty": "Medium",
-        "tags": [
-          "Tree",
-          "DFS"
+        [
+          "Lowest Common Ancestor of Deepest Leaves",
+          "https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "All Nodes Distance K in Binary Tree",
-        "url": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
-        "difficulty": "Medium",
-        "tags": [
-          "Tree",
-          "BFS",
-          "DFS"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "All Nodes Distance K in Binary Tree",
+          "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 18": {
     "goal": "Tree next pointers, flatten, width",
-    "topics": [
-      "Tree",
-      "BFS"
-    ],
-    "questions": [
-      {
-        "title": "Populating Next Right Pointers in Each Node",
-        "url": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
-        "difficulty": "Medium",
-        "tags": [
-          "Tree",
-          "BFS"
+    "topics": {
+      "Tree": [
+        [
+          "Populating Next Right Pointers in Each Node",
+          "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Flatten Binary Tree to Linked List",
-        "url": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
-        "difficulty": "Medium",
-        "tags": [
-          "Tree",
-          "DFS"
+        [
+          "Flatten Binary Tree to Linked List",
+          "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Maximum Width of Binary Tree",
-        "url": "https://leetcode.com/problems/maximum-width-of-binary-tree/",
-        "difficulty": "Medium",
-        "tags": [
-          "Tree",
-          "BFS"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Maximum Width of Binary Tree",
+          "https://leetcode.com/problems/maximum-width-of-binary-tree/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 19": {
     "goal": "Tree DP - house robber III, cameras, complete nodes",
-    "topics": [
-      "Tree DP"
-    ],
-    "questions": [
-      {
-        "title": "House Robber III",
-        "url": "https://leetcode.com/problems/house-robber-iii/",
-        "difficulty": "Medium",
-        "tags": [
-          "Tree",
-          "DP"
+    "topics": {
+      "Tree": [
+        [
+          "House Robber III",
+          "https://leetcode.com/problems/house-robber-iii/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Binary Tree Cameras",
-        "url": "https://leetcode.com/problems/binary-tree-cameras/",
-        "difficulty": "Hard",
-        "tags": [
-          "Tree",
-          "DP",
-          "Greedy"
+        [
+          "Binary Tree Cameras",
+          "https://leetcode.com/problems/binary-tree-cameras/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Count Complete Tree Nodes",
-        "url": "https://leetcode.com/problems/count-complete-tree-nodes/",
-        "difficulty": "Easy",
-        "tags": [
-          "Tree",
-          "Binary Search"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Count Complete Tree Nodes",
+          "https://leetcode.com/problems/count-complete-tree-nodes/",
+          "Easy"
+        ]
+      ]
+    }
   },
   "Day 20": {
     "goal": "Advanced tree - boundary traversal and sum distances",
-    "topics": [
-      "Tree",
-      "Advanced"
-    ],
-    "questions": [
-      {
-        "title": "Boundary Traversal of binary tree",
-        "url": "https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1",
-        "difficulty": "Medium",
-        "tags": [
-          "Tree",
-          "DFS"
+    "topics": {
+      "Tree": [
+        [
+          "Boundary Traversal of binary tree",
+          "https://www.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1",
+          "Medium"
         ],
-        "source": "GeeksforGeeks"
-      },
-      {
-        "title": "Sum of Distances in Tree",
-        "url": "https://leetcode.com/problems/sum-of-distances-in-tree/",
-        "difficulty": "Hard",
-        "tags": [
-          "Tree",
-          "DFS",
-          "DP"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Recover Binary Search Tree",
-        "url": "https://leetcode.com/problems/recover-binary-search-tree/",
-        "difficulty": "Medium",
-        "tags": [
-          "BST",
-          "DFS"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Sum of Distances in Tree",
+          "https://leetcode.com/problems/sum-of-distances-in-tree/",
+          "Hard"
+        ]
+      ],
+      "BST": [
+        [
+          "Recover Binary Search Tree",
+          "https://leetcode.com/problems/recover-binary-search-tree/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 21": {
     "goal": "Advanced linked list - random pointer, LRU, reorder",
-    "topics": [
-      "Linked List",
-      "Design"
-    ],
-    "questions": [
-      {
-        "title": "Copy List with Random Pointer",
-        "url": "https://leetcode.com/problems/copy-list-with-random-pointer/",
-        "difficulty": "Medium",
-        "tags": [
-          "Linked List",
-          "HashMap"
+    "topics": {
+      "Linked List": [
+        [
+          "Copy List with Random Pointer",
+          "https://leetcode.com/problems/copy-list-with-random-pointer/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "LRU Cache",
-        "url": "https://leetcode.com/problems/lru-cache/",
-        "difficulty": "Medium",
-        "tags": [
-          "Linked List",
-          "HashMap",
-          "Design"
+        [
+          "LRU Cache",
+          "https://leetcode.com/problems/lru-cache/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Reorder List",
-        "url": "https://leetcode.com/problems/reorder-list/",
-        "difficulty": "Medium",
-        "tags": [
-          "Linked List",
-          "Two Pointers"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Reorder List",
+          "https://leetcode.com/problems/reorder-list/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 22": {
     "goal": "Linked list k-group and addition variations",
-    "topics": [
-      "Linked List"
-    ],
-    "questions": [
-      {
-        "title": "Reverse Nodes in k-Group",
-        "url": "https://leetcode.com/problems/reverse-nodes-in-k-group/",
-        "difficulty": "Hard",
-        "tags": [
-          "Linked List"
+    "topics": {
+      "Linked List": [
+        [
+          "Reverse Nodes in k-Group",
+          "https://leetcode.com/problems/reverse-nodes-in-k-group/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Rotate List",
-        "url": "https://leetcode.com/problems/rotate-list/",
-        "difficulty": "Medium",
-        "tags": [
-          "Linked List",
-          "Two Pointers"
+        [
+          "Rotate List",
+          "https://leetcode.com/problems/rotate-list/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Add Two Numbers II",
-        "url": "https://leetcode.com/problems/add-two-numbers-ii/",
-        "difficulty": "Medium",
-        "tags": [
-          "Linked List",
-          "Stack"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Add Two Numbers II",
+          "https://leetcode.com/problems/add-two-numbers-ii/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 23": {
     "goal": "Advanced HashMap + prefix sum combinations",
-    "topics": [
-      "HashMap",
-      "Prefix Sum"
-    ],
-    "questions": [
-      {
-        "title": "Subarray Sum Equals K",
-        "url": "https://leetcode.com/problems/subarray-sum-equals-k/",
-        "difficulty": "Medium",
-        "tags": [
-          "HashMap",
-          "Prefix Sum"
+    "topics": {
+      "HashMap": [
+        [
+          "Subarray Sum Equals K",
+          "https://leetcode.com/problems/subarray-sum-equals-k/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Subarray Sums Divisible by K",
-        "url": "https://leetcode.com/problems/subarray-sums-divisible-by-k/",
-        "difficulty": "Medium",
-        "tags": [
-          "HashMap",
-          "Prefix Sum"
+        [
+          "Subarray Sums Divisible by K",
+          "https://leetcode.com/problems/subarray-sums-divisible-by-k/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Longest Consecutive Sequence",
-        "url": "https://leetcode.com/problems/longest-consecutive-sequence/",
-        "difficulty": "Medium",
-        "tags": [
-          "HashMap",
-          "DSU"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Longest Consecutive Sequence",
+          "https://leetcode.com/problems/longest-consecutive-sequence/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 24": {
     "goal": "Matrix and grid preparation for graphs",
-    "topics": [
-      "Matrix",
-      "Graph"
-    ],
-    "questions": [
-      {
-        "title": "Rotate Image",
-        "url": "https://leetcode.com/problems/rotate-image/",
-        "difficulty": "Medium",
-        "tags": [
-          "Matrix"
+    "topics": {
+      "Matrix": [
+        [
+          "Rotate Image",
+          "https://leetcode.com/problems/rotate-image/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Spiral Matrix",
-        "url": "https://leetcode.com/problems/spiral-matrix/",
-        "difficulty": "Medium",
-        "tags": [
-          "Matrix",
-          "Simulation"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Number of Islands",
-        "url": "https://leetcode.com/problems/number-of-islands/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "DFS",
-          "BFS"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Spiral Matrix",
+          "https://leetcode.com/problems/spiral-matrix/",
+          "Medium"
+        ]
+      ],
+      "Graph": [
+        [
+          "Number of Islands",
+          "https://leetcode.com/problems/number-of-islands/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 25": {
     "goal": "Graph BFS/DFS - flood fill, surrounded regions, rotting oranges",
-    "topics": [
-      "Graph",
-      "BFS",
-      "DFS"
-    ],
-    "questions": [
-      {
-        "title": "Flood Fill",
-        "url": "https://leetcode.com/problems/flood-fill/",
-        "difficulty": "Easy",
-        "tags": [
-          "Graph",
-          "BFS",
-          "DFS"
+    "topics": {
+      "Graph": [
+        [
+          "Flood Fill",
+          "https://leetcode.com/problems/flood-fill/",
+          "Easy"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Surrounded Regions",
-        "url": "https://leetcode.com/problems/surrounded-regions/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "DFS",
-          "BFS"
+        [
+          "Surrounded Regions",
+          "https://leetcode.com/problems/surrounded-regions/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Rotting Oranges",
-        "url": "https://leetcode.com/problems/rotting-oranges/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "BFS",
-          "Matrix"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Rotting Oranges",
+          "https://leetcode.com/problems/rotting-oranges/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 26": {
     "goal": "Graph islands advanced",
-    "topics": [
-      "Graph",
-      "DFS"
-    ],
-    "questions": [
-      {
-        "title": "Number of Enclaves",
-        "url": "https://leetcode.com/problems/number-of-enclaves/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "DFS",
-          "BFS"
+    "topics": {
+      "Graph": [
+        [
+          "Number of Enclaves",
+          "https://leetcode.com/problems/number-of-enclaves/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Max Area of Island",
-        "url": "https://leetcode.com/problems/max-area-of-island/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "DFS"
+        [
+          "Max Area of Island",
+          "https://leetcode.com/problems/max-area-of-island/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Number of Distinct Islands",
-        "url": "https://leetcode.com/problems/number-of-distinct-islands/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "DFS",
-          "HashSet"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Number of Distinct Islands",
+          "https://leetcode.com/problems/number-of-distinct-islands/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 27": {
     "goal": "Graph cycle detection and course schedule",
-    "topics": [
-      "Graph",
-      "Cycle Detection"
-    ],
-    "questions": [
-      {
-        "title": "Course Schedule",
-        "url": "https://leetcode.com/problems/course-schedule/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "Topological Sort"
+    "topics": {
+      "Graph": [
+        [
+          "Course Schedule",
+          "https://leetcode.com/problems/course-schedule/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Course Schedule II",
-        "url": "https://leetcode.com/problems/course-schedule-ii/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "Topological Sort"
+        [
+          "Course Schedule II",
+          "https://leetcode.com/problems/course-schedule-ii/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Detect cycle in an undirected graph",
-        "url": "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "BFS",
-          "DFS"
-        ],
-        "source": "GeeksforGeeks"
-      }
-    ]
+        [
+          "Detect cycle in an undirected graph",
+          "https://www.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 28": {
     "goal": "Topological sort - alien dictionary, safe states",
-    "topics": [
-      "Topological Sort"
-    ],
-    "questions": [
-      {
-        "title": "Alien Dictionary",
-        "url": "https://leetcode.com/problems/alien-dictionary/",
-        "difficulty": "Hard",
-        "tags": [
-          "Graph",
-          "Topological Sort"
+    "topics": {
+      "Graph": [
+        [
+          "Alien Dictionary",
+          "https://leetcode.com/problems/alien-dictionary/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Topological sort",
-        "url": "https://www.geeksforgeeks.org/problems/topological-sort/1",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "Topological Sort"
+        [
+          "Topological sort",
+          "https://www.geeksforgeeks.org/problems/topological-sort/1",
+          "Medium"
         ],
-        "source": "GeeksforGeeks"
-      },
-      {
-        "title": "Find Eventual Safe States",
-        "url": "https://leetcode.com/problems/find-eventual-safe-states/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "DFS",
-          "Topological Sort"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Find Eventual Safe States",
+          "https://leetcode.com/problems/find-eventual-safe-states/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 29": {
     "goal": "Bipartite, clone, provinces",
-    "topics": [
-      "Graph",
-      "BFS"
-    ],
-    "questions": [
-      {
-        "title": "Is Graph Bipartite?",
-        "url": "https://leetcode.com/problems/is-graph-bipartite/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "BFS",
-          "DFS"
+    "topics": {
+      "Graph": [
+        [
+          "Is Graph Bipartite?",
+          "https://leetcode.com/problems/is-graph-bipartite/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Clone Graph",
-        "url": "https://leetcode.com/problems/clone-graph/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "DFS",
-          "BFS",
-          "HashMap"
+        [
+          "Clone Graph",
+          "https://leetcode.com/problems/clone-graph/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Number of Provinces",
-        "url": "https://leetcode.com/problems/number-of-provinces/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "DSU",
-          "DFS"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Number of Provinces",
+          "https://leetcode.com/problems/number-of-provinces/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 30": {
     "goal": "DSU patterns - accounts merge, redundant connection",
-    "topics": [
-      "DSU",
-      "Graph"
-    ],
-    "questions": [
-      {
-        "title": "Accounts Merge",
-        "url": "https://leetcode.com/problems/accounts-merge/",
-        "difficulty": "Medium",
-        "tags": [
-          "DSU",
-          "HashMap",
-          "DFS"
+    "topics": {
+      "DSU": [
+        [
+          "Accounts Merge",
+          "https://leetcode.com/problems/accounts-merge/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Redundant Connection",
-        "url": "https://leetcode.com/problems/redundant-connection/",
-        "difficulty": "Medium",
-        "tags": [
-          "DSU",
-          "Graph"
+        [
+          "Redundant Connection",
+          "https://leetcode.com/problems/redundant-connection/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Satisfiability of Equality Equations",
-        "url": "https://leetcode.com/problems/satisfiability-of-equality-equations/",
-        "difficulty": "Medium",
-        "tags": [
-          "DSU",
-          "Graph"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Satisfiability of Equality Equations",
+          "https://leetcode.com/problems/satisfiability-of-equality-equations/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 31": {
     "goal": "Shortest path - Dijkstra, minimum effort, cheapest flights",
-    "topics": [
-      "Shortest Path",
-      "Dijkstra"
-    ],
-    "questions": [
-      {
-        "title": "Network Delay Time",
-        "url": "https://leetcode.com/problems/network-delay-time/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "Dijkstra",
-          "Heap"
+    "topics": {
+      "Graph": [
+        [
+          "Network Delay Time",
+          "https://leetcode.com/problems/network-delay-time/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Path With Minimum Effort",
-        "url": "https://leetcode.com/problems/path-with-minimum-effort/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "Dijkstra",
-          "Binary Search"
+        [
+          "Path With Minimum Effort",
+          "https://leetcode.com/problems/path-with-minimum-effort/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Cheapest Flights Within K Stops",
-        "url": "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "Bellman Ford",
-          "Dijkstra"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Cheapest Flights Within K Stops",
+          "https://leetcode.com/problems/cheapest-flights-within-k-stops/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 32": {
     "goal": "Shortest path BFS - word ladder, binary matrix, 01 matrix",
-    "topics": [
-      "Graph",
-      "BFS",
-      "Shortest Path"
-    ],
-    "questions": [
-      {
-        "title": "Word Ladder",
-        "url": "https://leetcode.com/problems/word-ladder/",
-        "difficulty": "Hard",
-        "tags": [
-          "Graph",
-          "BFS"
+    "topics": {
+      "Graph": [
+        [
+          "Word Ladder",
+          "https://leetcode.com/problems/word-ladder/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Shortest Path in Binary Matrix",
-        "url": "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "BFS"
+        [
+          "Shortest Path in Binary Matrix",
+          "https://leetcode.com/problems/shortest-path-in-binary-matrix/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "01 Matrix",
-        "url": "https://leetcode.com/problems/01-matrix/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "BFS",
-          "DP"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "01 Matrix",
+          "https://leetcode.com/problems/01-matrix/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 33": {
     "goal": "MST and critical connections",
-    "topics": [
-      "MST",
-      "Graph"
-    ],
-    "questions": [
-      {
-        "title": "Min Cost to Connect All Points",
-        "url": "https://leetcode.com/problems/min-cost-to-connect-all-points/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "MST",
-          "Heap"
+    "topics": {
+      "Graph": [
+        [
+          "Min Cost to Connect All Points",
+          "https://leetcode.com/problems/min-cost-to-connect-all-points/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Critical Connections in a Network",
-        "url": "https://leetcode.com/problems/critical-connections-in-a-network/",
-        "difficulty": "Hard",
-        "tags": [
-          "Graph",
-          "DFS",
-          "Tarjan"
+        [
+          "Critical Connections in a Network",
+          "https://leetcode.com/problems/critical-connections-in-a-network/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Minimum Spanning Tree",
-        "url": "https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "MST"
-        ],
-        "source": "GeeksforGeeks"
-      }
-    ]
+        [
+          "Minimum Spanning Tree",
+          "https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 34": {
     "goal": "Recursion + backtracking - subsets and combinations II",
-    "topics": [
-      "Recursion",
-      "Backtracking"
-    ],
-    "questions": [
-      {
-        "title": "Subsets II",
-        "url": "https://leetcode.com/problems/subsets-ii/",
-        "difficulty": "Medium",
-        "tags": [
-          "Backtracking"
+    "topics": {
+      "Backtracking": [
+        [
+          "Subsets II",
+          "https://leetcode.com/problems/subsets-ii/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Combination Sum II",
-        "url": "https://leetcode.com/problems/combination-sum-ii/",
-        "difficulty": "Medium",
-        "tags": [
-          "Backtracking"
+        [
+          "Combination Sum II",
+          "https://leetcode.com/problems/combination-sum-ii/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Permutations II",
-        "url": "https://leetcode.com/problems/permutations-ii/",
-        "difficulty": "Medium",
-        "tags": [
-          "Backtracking"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Permutations II",
+          "https://leetcode.com/problems/permutations-ii/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 35": {
     "goal": "Backtracking - palindrome partitioning, word search, n-queens",
-    "topics": [
-      "Backtracking"
-    ],
-    "questions": [
-      {
-        "title": "Palindrome Partitioning",
-        "url": "https://leetcode.com/problems/palindrome-partitioning/",
-        "difficulty": "Medium",
-        "tags": [
-          "Backtracking",
-          "DP"
+    "topics": {
+      "Backtracking": [
+        [
+          "Palindrome Partitioning",
+          "https://leetcode.com/problems/palindrome-partitioning/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Word Search",
-        "url": "https://leetcode.com/problems/word-search/",
-        "difficulty": "Medium",
-        "tags": [
-          "Backtracking",
-          "Matrix"
+        [
+          "Word Search",
+          "https://leetcode.com/problems/word-search/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "N-Queens",
-        "url": "https://leetcode.com/problems/n-queens/",
-        "difficulty": "Hard",
-        "tags": [
-          "Backtracking"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "N-Queens",
+          "https://leetcode.com/problems/n-queens/",
+          "Hard"
+        ]
+      ]
+    }
   },
   "Day 36": {
     "goal": "Backtracking hard - word search II, sudoku, letter combos",
-    "topics": [
-      "Backtracking",
-      "Trie"
-    ],
-    "questions": [
-      {
-        "title": "Word Search II",
-        "url": "https://leetcode.com/problems/word-search-ii/",
-        "difficulty": "Hard",
-        "tags": [
-          "Backtracking",
-          "Trie"
+    "topics": {
+      "Backtracking": [
+        [
+          "Word Search II",
+          "https://leetcode.com/problems/word-search-ii/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Sudoku Solver",
-        "url": "https://leetcode.com/problems/sudoku-solver/",
-        "difficulty": "Hard",
-        "tags": [
-          "Backtracking"
+        [
+          "Sudoku Solver",
+          "https://leetcode.com/problems/sudoku-solver/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Letter Combinations of a Phone Number",
-        "url": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
-        "difficulty": "Medium",
-        "tags": [
-          "Backtracking"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Letter Combinations of a Phone Number",
+          "https://leetcode.com/problems/letter-combinations-of-a-phone-number/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 37": {
     "goal": "1D DP - house robber II, decode ways, max product",
-    "topics": [
-      "DP",
-      "1D DP"
-    ],
-    "questions": [
-      {
-        "title": "House Robber II",
-        "url": "https://leetcode.com/problems/house-robber-ii/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP"
+    "topics": {
+      "DP": [
+        [
+          "House Robber II",
+          "https://leetcode.com/problems/house-robber-ii/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Decode Ways",
-        "url": "https://leetcode.com/problems/decode-ways/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP",
-          "String"
+        [
+          "Decode Ways",
+          "https://leetcode.com/problems/decode-ways/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Maximum Product Subarray",
-        "url": "https://leetcode.com/problems/maximum-product-subarray/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP",
-          "Array"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Maximum Product Subarray",
+          "https://leetcode.com/problems/maximum-product-subarray/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 38": {
     "goal": "DP + binary search - LIS patterns",
-    "topics": [
-      "DP",
-      "Binary Search"
-    ],
-    "questions": [
-      {
-        "title": "Longest Increasing Subsequence",
-        "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP",
-          "Binary Search"
+    "topics": {
+      "DP": [
+        [
+          "Longest Increasing Subsequence",
+          "https://leetcode.com/problems/longest-increasing-subsequence/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Russian Doll Envelopes",
-        "url": "https://leetcode.com/problems/russian-doll-envelopes/",
-        "difficulty": "Hard",
-        "tags": [
-          "DP",
-          "Binary Search",
-          "Sorting"
+        [
+          "Russian Doll Envelopes",
+          "https://leetcode.com/problems/russian-doll-envelopes/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Number of Longest Increasing Subsequence",
-        "url": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Number of Longest Increasing Subsequence",
+          "https://leetcode.com/problems/number-of-longest-increasing-subsequence/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 39": {
     "goal": "Knapsack DP - partition equal subset, target sum, coin change II",
-    "topics": [
-      "DP",
-      "Knapsack"
-    ],
-    "questions": [
-      {
-        "title": "Partition Equal Subset Sum",
-        "url": "https://leetcode.com/problems/partition-equal-subset-sum/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP",
-          "Knapsack"
+    "topics": {
+      "DP": [
+        [
+          "Partition Equal Subset Sum",
+          "https://leetcode.com/problems/partition-equal-subset-sum/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Target Sum",
-        "url": "https://leetcode.com/problems/target-sum/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP",
-          "Knapsack"
+        [
+          "Target Sum",
+          "https://leetcode.com/problems/target-sum/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Coin Change II",
-        "url": "https://leetcode.com/problems/coin-change-ii/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP",
-          "Knapsack"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Coin Change II",
+          "https://leetcode.com/problems/coin-change-ii/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 40": {
     "goal": "Unbounded knapsack - coin change, perfect squares, rod cutting",
-    "topics": [
-      "DP",
-      "Knapsack"
-    ],
-    "questions": [
-      {
-        "title": "Coin Change",
-        "url": "https://leetcode.com/problems/coin-change/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP"
+    "topics": {
+      "DP": [
+        [
+          "Coin Change",
+          "https://leetcode.com/problems/coin-change/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Perfect Squares",
-        "url": "https://leetcode.com/problems/perfect-squares/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP",
-          "BFS"
+        [
+          "Perfect Squares",
+          "https://leetcode.com/problems/perfect-squares/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Rod Cutting",
-        "url": "https://www.geeksforgeeks.org/problems/rod-cutting/0",
-        "difficulty": "Medium",
-        "tags": [
-          "DP",
-          "Knapsack"
-        ],
-        "source": "GeeksforGeeks"
-      }
-    ]
+        [
+          "Rod Cutting",
+          "https://www.geeksforgeeks.org/problems/rod-cutting/0",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 41": {
     "goal": "Subsequence DP - LCS, LPS, edit distance",
-    "topics": [
-      "DP",
-      "String DP"
-    ],
-    "questions": [
-      {
-        "title": "Longest Common Subsequence",
-        "url": "https://leetcode.com/problems/longest-common-subsequence/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP",
-          "String"
+    "topics": {
+      "DP": [
+        [
+          "Longest Common Subsequence",
+          "https://leetcode.com/problems/longest-common-subsequence/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Longest Palindromic Subsequence",
-        "url": "https://leetcode.com/problems/longest-palindromic-subsequence/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP",
-          "String"
+        [
+          "Longest Palindromic Subsequence",
+          "https://leetcode.com/problems/longest-palindromic-subsequence/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Edit Distance",
-        "url": "https://leetcode.com/problems/edit-distance/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP",
-          "String"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Edit Distance",
+          "https://leetcode.com/problems/edit-distance/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 42": {
     "goal": "String DP advanced - distinct subseq, palindromic substrings",
-    "topics": [
-      "DP",
-      "String DP"
-    ],
-    "questions": [
-      {
-        "title": "Distinct Subsequences",
-        "url": "https://leetcode.com/problems/distinct-subsequences/",
-        "difficulty": "Hard",
-        "tags": [
-          "DP",
-          "String"
+    "topics": {
+      "DP": [
+        [
+          "Distinct Subsequences",
+          "https://leetcode.com/problems/distinct-subsequences/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Palindromic Substrings",
-        "url": "https://leetcode.com/problems/palindromic-substrings/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP",
-          "String"
+        [
+          "Palindromic Substrings",
+          "https://leetcode.com/problems/palindromic-substrings/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Longest Palindromic Substring",
-        "url": "https://leetcode.com/problems/longest-palindromic-substring/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP",
-          "String"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Longest Palindromic Substring",
+          "https://leetcode.com/problems/longest-palindromic-substring/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 43": {
     "goal": "Grid DP - unique paths II, min path sum, dungeon",
-    "topics": [
-      "DP",
-      "Grid DP"
-    ],
-    "questions": [
-      {
-        "title": "Unique Paths II",
-        "url": "https://leetcode.com/problems/unique-paths-ii/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP",
-          "Matrix"
+    "topics": {
+      "DP": [
+        [
+          "Unique Paths II",
+          "https://leetcode.com/problems/unique-paths-ii/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Minimum Path Sum",
-        "url": "https://leetcode.com/problems/minimum-path-sum/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP",
-          "Matrix"
+        [
+          "Minimum Path Sum",
+          "https://leetcode.com/problems/minimum-path-sum/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Dungeon Game",
-        "url": "https://leetcode.com/problems/dungeon-game/",
-        "difficulty": "Hard",
-        "tags": [
-          "DP",
-          "Matrix"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Dungeon Game",
+          "https://leetcode.com/problems/dungeon-game/",
+          "Hard"
+        ]
+      ]
+    }
   },
   "Day 44": {
     "goal": "DP on stocks and intervals - cooldown, IV, burst balloons",
-    "topics": [
-      "DP",
-      "Stocks"
-    ],
-    "questions": [
-      {
-        "title": "Best Time to Buy and Sell Stock with Cooldown",
-        "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP"
+    "topics": {
+      "DP": [
+        [
+          "Best Time to Buy and Sell Stock with Cooldown",
+          "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Best Time to Buy and Sell Stock IV",
-        "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
-        "difficulty": "Hard",
-        "tags": [
-          "DP"
+        [
+          "Best Time to Buy and Sell Stock IV",
+          "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Burst Balloons",
-        "url": "https://leetcode.com/problems/burst-balloons/",
-        "difficulty": "Hard",
-        "tags": [
-          "DP"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Burst Balloons",
+          "https://leetcode.com/problems/burst-balloons/",
+          "Hard"
+        ]
+      ]
+    }
   },
   "Day 45": {
     "goal": "Advanced DP - word break II, regex, interleaving",
-    "topics": [
-      "DP",
-      "String DP"
-    ],
-    "questions": [
-      {
-        "title": "Word Break II",
-        "url": "https://leetcode.com/problems/word-break-ii/",
-        "difficulty": "Hard",
-        "tags": [
-          "DP",
-          "Trie",
-          "Backtracking"
+    "topics": {
+      "DP": [
+        [
+          "Word Break II",
+          "https://leetcode.com/problems/word-break-ii/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Regular Expression Matching",
-        "url": "https://leetcode.com/problems/regular-expression-matching/",
-        "difficulty": "Hard",
-        "tags": [
-          "DP",
-          "String"
+        [
+          "Regular Expression Matching",
+          "https://leetcode.com/problems/regular-expression-matching/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Interleaving String",
-        "url": "https://leetcode.com/problems/interleaving-string/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP",
-          "String"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Interleaving String",
+          "https://leetcode.com/problems/interleaving-string/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 46": {
     "goal": "Greedy - jump game II, gas station, candy",
-    "topics": [
-      "Greedy"
-    ],
-    "questions": [
-      {
-        "title": "Jump Game II",
-        "url": "https://leetcode.com/problems/jump-game-ii/",
-        "difficulty": "Medium",
-        "tags": [
-          "Greedy",
-          "DP"
+    "topics": {
+      "Greedy": [
+        [
+          "Jump Game II",
+          "https://leetcode.com/problems/jump-game-ii/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Gas Station",
-        "url": "https://leetcode.com/problems/gas-station/",
-        "difficulty": "Medium",
-        "tags": [
-          "Greedy"
+        [
+          "Gas Station",
+          "https://leetcode.com/problems/gas-station/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Candy",
-        "url": "https://leetcode.com/problems/candy/",
-        "difficulty": "Hard",
-        "tags": [
-          "Greedy"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Candy",
+          "https://leetcode.com/problems/candy/",
+          "Hard"
+        ]
+      ]
+    }
   },
   "Day 47": {
     "goal": "Intervals - merge, non-overlapping, insert",
-    "topics": [
-      "Intervals",
-      "Greedy"
-    ],
-    "questions": [
-      {
-        "title": "Merge Intervals",
-        "url": "https://leetcode.com/problems/merge-intervals/",
-        "difficulty": "Medium",
-        "tags": [
-          "Intervals",
-          "Sorting"
+    "topics": {
+      "Intervals": [
+        [
+          "Merge Intervals",
+          "https://leetcode.com/problems/merge-intervals/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Non-overlapping Intervals",
-        "url": "https://leetcode.com/problems/non-overlapping-intervals/",
-        "difficulty": "Medium",
-        "tags": [
-          "Intervals",
-          "Greedy"
+        [
+          "Non-overlapping Intervals",
+          "https://leetcode.com/problems/non-overlapping-intervals/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Insert Interval",
-        "url": "https://leetcode.com/problems/insert-interval/",
-        "difficulty": "Medium",
-        "tags": [
-          "Intervals"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Insert Interval",
+          "https://leetcode.com/problems/insert-interval/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 48": {
     "goal": "Intervals advanced - arrows, meeting rooms III, employee free time",
-    "topics": [
-      "Intervals",
-      "Heap"
-    ],
-    "questions": [
-      {
-        "title": "Minimum Number of Arrows to Burst Balloons",
-        "url": "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/",
-        "difficulty": "Medium",
-        "tags": [
-          "Intervals",
-          "Greedy"
+    "topics": {
+      "Intervals": [
+        [
+          "Minimum Number of Arrows to Burst Balloons",
+          "https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/",
+          "Medium"
+        ]
+      ],
+      "Heap": [
+        [
+          "Meeting Rooms III",
+          "https://leetcode.com/problems/meeting-rooms-iii/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Meeting Rooms III",
-        "url": "https://leetcode.com/problems/meeting-rooms-iii/",
-        "difficulty": "Hard",
-        "tags": [
-          "Heap",
-          "Intervals"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Employee Free Time",
-        "url": "https://leetcode.com/problems/employee-free-time/",
-        "difficulty": "Hard",
-        "tags": [
-          "Heap",
-          "Intervals"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Employee Free Time",
+          "https://leetcode.com/problems/employee-free-time/",
+          "Hard"
+        ]
+      ]
+    }
   },
   "Day 49": {
     "goal": "Bit manipulation - single number III, sum of two ints, max xor",
-    "topics": [
-      "Bit Manipulation"
-    ],
-    "questions": [
-      {
-        "title": "Single Number III",
-        "url": "https://leetcode.com/problems/single-number-iii/",
-        "difficulty": "Medium",
-        "tags": [
-          "Bit Manipulation"
+    "topics": {
+      "Bit Manipulation": [
+        [
+          "Single Number III",
+          "https://leetcode.com/problems/single-number-iii/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Sum of Two Integers",
-        "url": "https://leetcode.com/problems/sum-of-two-integers/",
-        "difficulty": "Medium",
-        "tags": [
-          "Bit Manipulation"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Maximum XOR of Two Numbers in an Array",
-        "url": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
-        "difficulty": "Medium",
-        "tags": [
-          "Trie",
-          "Bit Manipulation"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Sum of Two Integers",
+          "https://leetcode.com/problems/sum-of-two-integers/",
+          "Medium"
+        ]
+      ],
+      "Trie": [
+        [
+          "Maximum XOR of Two Numbers in an Array",
+          "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 50": {
     "goal": "Bit manipulation + math - counting bits, divide, reverse bits",
-    "topics": [
-      "Bit Manipulation"
-    ],
-    "questions": [
-      {
-        "title": "Counting Bits",
-        "url": "https://leetcode.com/problems/counting-bits/",
-        "difficulty": "Easy",
-        "tags": [
-          "DP",
-          "Bit Manipulation"
+    "topics": {
+      "DP": [
+        [
+          "Counting Bits",
+          "https://leetcode.com/problems/counting-bits/",
+          "Easy"
+        ]
+      ],
+      "Bit Manipulation": [
+        [
+          "Divide Two Integers",
+          "https://leetcode.com/problems/divide-two-integers/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Divide Two Integers",
-        "url": "https://leetcode.com/problems/divide-two-integers/",
-        "difficulty": "Medium",
-        "tags": [
-          "Bit Manipulation",
-          "Binary Search"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Reverse Bits",
-        "url": "https://leetcode.com/problems/reverse-bits/",
-        "difficulty": "Easy",
-        "tags": [
-          "Bit Manipulation"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Reverse Bits",
+          "https://leetcode.com/problems/reverse-bits/",
+          "Easy"
+        ]
+      ]
+    }
   },
   "Day 51": {
     "goal": "Design problems - TimeMap, LFU, Twitter",
-    "topics": [
-      "Design",
-      "HashMap"
-    ],
-    "questions": [
-      {
-        "title": "Time Based Key-Value Store",
-        "url": "https://leetcode.com/problems/time-based-key-value-store/",
-        "difficulty": "Medium",
-        "tags": [
-          "HashMap",
-          "Binary Search",
-          "Design"
+    "topics": {
+      "HashMap": [
+        [
+          "Time Based Key-Value Store",
+          "https://leetcode.com/problems/time-based-key-value-store/",
+          "Medium"
+        ]
+      ],
+      "Design": [
+        [
+          "LFU Cache",
+          "https://leetcode.com/problems/lfu-cache/",
+          "Hard"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "LFU Cache",
-        "url": "https://leetcode.com/problems/lfu-cache/",
-        "difficulty": "Hard",
-        "tags": [
-          "Design",
-          "HashMap"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Design Twitter",
-        "url": "https://leetcode.com/problems/design-twitter/",
-        "difficulty": "Medium",
-        "tags": [
-          "Design",
-          "Heap",
-          "HashMap"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Design Twitter",
+          "https://leetcode.com/problems/design-twitter/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 52": {
     "goal": "Trie + string patterns - trie, word break, max xor with element",
-    "topics": [
-      "Trie",
-      "String"
-    ],
-    "questions": [
-      {
-        "title": "Implement Trie (Prefix Tree)",
-        "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
-        "difficulty": "Medium",
-        "tags": [
-          "Trie",
-          "Design"
+    "topics": {
+      "Trie": [
+        [
+          "Implement Trie (Prefix Tree)",
+          "https://leetcode.com/problems/implement-trie-prefix-tree/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Word Break",
-        "url": "https://leetcode.com/problems/word-break/",
-        "difficulty": "Medium",
-        "tags": [
-          "DP",
-          "Trie"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Maximum XOR With an Element From Array",
-        "url": "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/",
-        "difficulty": "Hard",
-        "tags": [
-          "Trie",
-          "Bit Manipulation"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Maximum XOR With an Element From Array",
+          "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/",
+          "Hard"
+        ]
+      ],
+      "DP": [
+        [
+          "Word Break",
+          "https://leetcode.com/problems/word-break/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 53": {
     "goal": "Two pointers advanced - 3Sum, 4Sum, container with most water",
-    "topics": [
-      "Two Pointers",
-      "Advanced"
-    ],
-    "questions": [
-      {
-        "title": "3Sum",
-        "url": "https://leetcode.com/problems/3sum/",
-        "difficulty": "Medium",
-        "tags": [
-          "Two Pointers",
-          "Sorting"
+    "topics": {
+      "Two Pointers": [
+        [
+          "3Sum",
+          "https://leetcode.com/problems/3sum/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "4Sum",
-        "url": "https://leetcode.com/problems/4sum/",
-        "difficulty": "Medium",
-        "tags": [
-          "Two Pointers",
-          "Sorting"
+        [
+          "4Sum",
+          "https://leetcode.com/problems/4sum/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Container With Most Water",
-        "url": "https://leetcode.com/problems/container-with-most-water/",
-        "difficulty": "Medium",
-        "tags": [
-          "Two Pointers",
-          "Greedy"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Container With Most Water",
+          "https://leetcode.com/problems/container-with-most-water/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 54": {
     "goal": "Sliding window advanced - fruit baskets, longest substring, k distinct",
-    "topics": [
-      "Sliding Window",
-      "HashMap"
-    ],
-    "questions": [
-      {
-        "title": "Fruit Into Baskets",
-        "url": "https://leetcode.com/problems/fruit-into-baskets/",
-        "difficulty": "Medium",
-        "tags": [
-          "Sliding Window",
-          "HashMap"
+    "topics": {
+      "Sliding Window": [
+        [
+          "Fruit Into Baskets",
+          "https://leetcode.com/problems/fruit-into-baskets/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Longest Substring Without Repeating Characters",
-        "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
-        "difficulty": "Medium",
-        "tags": [
-          "Sliding Window",
-          "HashMap"
+        [
+          "Longest Substring Without Repeating Characters",
+          "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Subarrays with K Different Integers",
-        "url": "https://leetcode.com/problems/subarrays-with-k-different-integers/",
-        "difficulty": "Hard",
-        "tags": [
-          "Sliding Window",
-          "HashMap"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Subarrays with K Different Integers",
+          "https://leetcode.com/problems/subarrays-with-k-different-integers/",
+          "Hard"
+        ]
+      ]
+    }
   },
   "Day 55": {
     "goal": "Mixed interview 1 - startup OA array + hash + stack",
-    "topics": [
-      "Mixed",
-      "Interview"
-    ],
-    "questions": [
-      {
-        "title": "Product of Array Except Self",
-        "url": "https://leetcode.com/problems/product-of-array-except-self/",
-        "difficulty": "Medium",
-        "tags": [
-          "Array",
-          "Prefix Sum"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Group Anagrams",
-        "url": "https://leetcode.com/problems/group-anagrams/",
-        "difficulty": "Medium",
-        "tags": [
-          "HashMap",
-          "Sorting"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Min Stack",
-        "url": "https://leetcode.com/problems/min-stack/",
-        "difficulty": "Medium",
-        "tags": [
-          "Stack",
-          "Design"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+    "topics": {
+      "Array": [
+        [
+          "Product of Array Except Self",
+          "https://leetcode.com/problems/product-of-array-except-self/",
+          "Medium"
+        ]
+      ],
+      "HashMap": [
+        [
+          "Group Anagrams",
+          "https://leetcode.com/problems/group-anagrams/",
+          "Medium"
+        ]
+      ],
+      "Stack": [
+        [
+          "Min Stack",
+          "https://leetcode.com/problems/min-stack/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 56": {
     "goal": "Mixed interview 2 - binary search + intervals + DP easy",
-    "topics": [
-      "Mixed",
-      "Interview"
-    ],
-    "questions": [
-      {
-        "title": "Pow(x, n)",
-        "url": "https://leetcode.com/problems/powx-n/",
-        "difficulty": "Medium",
-        "tags": [
-          "Binary Search",
-          "Math"
+    "topics": {
+      "Binary Search": [
+        [
+          "Pow(x, n)",
+          "https://leetcode.com/problems/powx-n/",
+          "Medium"
         ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Find K Closest Elements",
-        "url": "https://leetcode.com/problems/find-k-closest-elements/",
-        "difficulty": "Medium",
-        "tags": [
-          "Binary Search",
-          "Two Pointers"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Climbing Stairs",
-        "url": "https://leetcode.com/problems/climbing-stairs/",
-        "difficulty": "Easy",
-        "tags": [
-          "DP"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+        [
+          "Find K Closest Elements",
+          "https://leetcode.com/problems/find-k-closest-elements/",
+          "Medium"
+        ]
+      ],
+      "DP": [
+        [
+          "Climbing Stairs",
+          "https://leetcode.com/problems/climbing-stairs/",
+          "Easy"
+        ]
+      ]
+    }
   },
   "Day 57": {
     "goal": "Mixed interview 3 - tree BFS + graph water flow + string replacement",
-    "topics": [
-      "Mixed",
-      "Interview"
-    ],
-    "questions": [
-      {
-        "title": "Binary Tree Level Order Traversal",
-        "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
-        "difficulty": "Medium",
-        "tags": [
-          "Tree",
-          "BFS"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Pacific Atlantic Water Flow",
-        "url": "https://leetcode.com/problems/pacific-atlantic-water-flow/",
-        "difficulty": "Medium",
-        "tags": [
-          "Graph",
-          "DFS",
-          "BFS"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Longest Repeating Character Replacement",
-        "url": "https://leetcode.com/problems/longest-repeating-character-replacement/",
-        "difficulty": "Medium",
-        "tags": [
-          "Sliding Window",
-          "HashMap"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+    "topics": {
+      "Tree": [
+        [
+          "Binary Tree Level Order Traversal",
+          "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+          "Medium"
+        ]
+      ],
+      "Graph": [
+        [
+          "Pacific Atlantic Water Flow",
+          "https://leetcode.com/problems/pacific-atlantic-water-flow/",
+          "Medium"
+        ]
+      ],
+      "Sliding Window": [
+        [
+          "Longest Repeating Character Replacement",
+          "https://leetcode.com/problems/longest-repeating-character-replacement/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 58": {
     "goal": "Mixed interview 4 - prefix sum + heap + backtracking",
-    "topics": [
-      "Mixed",
-      "Interview"
-    ],
-    "questions": [
-      {
-        "title": "Kth Smallest Element in a Sorted Matrix",
-        "url": "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
-        "difficulty": "Medium",
-        "tags": [
-          "Binary Search",
-          "Heap"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Combination Sum",
-        "url": "https://leetcode.com/problems/combination-sum/",
-        "difficulty": "Medium",
-        "tags": [
-          "Backtracking"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "4Sum II",
-        "url": "https://leetcode.com/problems/4sum-ii/",
-        "difficulty": "Medium",
-        "tags": [
-          "HashMap"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+    "topics": {
+      "Binary Search": [
+        [
+          "Kth Smallest Element in a Sorted Matrix",
+          "https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/",
+          "Medium"
+        ]
+      ],
+      "Backtracking": [
+        [
+          "Combination Sum",
+          "https://leetcode.com/problems/combination-sum/",
+          "Medium"
+        ]
+      ],
+      "HashMap": [
+        [
+          "4Sum II",
+          "https://leetcode.com/problems/4sum-ii/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 59": {
     "goal": "Mock hard exposure - distinct hard patterns",
-    "topics": [
-      "Mock",
-      "Hard"
-    ],
-    "questions": [
-      {
-        "title": "Minimum Window Substring",
-        "url": "https://leetcode.com/problems/minimum-window-substring/",
-        "difficulty": "Hard",
-        "tags": [
-          "Sliding Window",
-          "HashMap"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "N-Queens II",
-        "url": "https://leetcode.com/problems/n-queens-ii/",
-        "difficulty": "Hard",
-        "tags": [
-          "Backtracking"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Binary Tree Inorder Traversal",
-        "url": "https://leetcode.com/problems/binary-tree-inorder-traversal/",
-        "difficulty": "Easy",
-        "tags": [
-          "Tree",
-          "Stack"
-        ],
-        "source": "LeetCode"
-      }
-    ]
+    "topics": {
+      "Sliding Window": [
+        [
+          "Minimum Window Substring",
+          "https://leetcode.com/problems/minimum-window-substring/",
+          "Hard"
+        ]
+      ],
+      "Backtracking": [
+        [
+          "N-Queens II",
+          "https://leetcode.com/problems/n-queens-ii/",
+          "Hard"
+        ]
+      ],
+      "Tree": [
+        [
+          "Binary Tree Inorder Traversal",
+          "https://leetcode.com/problems/binary-tree-inorder-traversal/",
+          "Easy"
+        ]
+      ]
+    }
   },
   "Day 60": {
     "goal": "Final mock - service-based + startup full loop",
-    "topics": [
-      "Mock",
-      "Interview"
-    ],
-    "questions": [
-      {
-        "title": "Design Add and Search Words Data Structure",
-        "url": "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
-        "difficulty": "Medium",
-        "tags": [
-          "Trie",
-          "Design"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Kth Largest Element in a Stream",
-        "url": "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
-        "difficulty": "Easy",
-        "tags": [
-          "Heap",
-          "Design"
-        ],
-        "source": "LeetCode"
-      },
-      {
-        "title": "Balanced Binary Tree",
-        "url": "https://leetcode.com/problems/balanced-binary-tree/",
-        "difficulty": "Easy",
-        "tags": [
-          "Tree",
-          "DFS"
-        ],
-        "source": "LeetCode"
-      }
-    ]
-  },
-  "statistics": {
-    "total_questions": 180,
-    "easy": 9,
-    "medium": 136,
-    "hard": 35,
-    "leetcode": 174,
-    "geeksforgeeks": 6,
-    "other": 0
+    "topics": {
+      "Trie": [
+        [
+          "Design Add and Search Words Data Structure",
+          "https://leetcode.com/problems/design-add-and-search-words-data-structure/",
+          "Medium"
+        ]
+      ],
+      "Heap": [
+        [
+          "Kth Largest Element in a Stream",
+          "https://leetcode.com/problems/kth-largest-element-in-a-stream/",
+          "Easy"
+        ]
+      ],
+      "Tree": [
+        [
+          "Balanced Binary Tree",
+          "https://leetcode.com/problems/balanced-binary-tree/",
+          "Easy"
+        ]
+      ]
+    }
   }
 }
