@@ -4,17 +4,17 @@
     "topics": {
       "Math": [
         [
-          "Pow(x, n)",
+          "Pow(x, n) []",
           "https://leetcode.com/problems/powx-n/",
           "Medium"
         ],
         [
-          "Reverse Integer",
+          "Reverse Integer []",
           "https://leetcode.com/problems/reverse-integer/",
           "Medium"
         ],
         [
-          "Palindrome Number",
+          "Palindrome Number []",
           "https://leetcode.com/problems/palindrome-number/",
           "Easy"
         ]
@@ -26,17 +26,17 @@
     "topics": {
       "Array": [
         [
-          "Product of Array Except Self",
+          "Product of Array Except Self []",
           "https://leetcode.com/problems/product-of-array-except-self/",
           "Medium"
         ],
         [
-          "Spiral Matrix",
+          "Spiral Matrix []",
           "https://leetcode.com/problems/spiral-matrix/",
           "Medium"
         ],
         [
-          "Rotate Image",
+          "Rotate Image []",
           "https://leetcode.com/problems/rotate-image/",
           "Medium"
         ]
@@ -48,17 +48,17 @@
     "topics": {
       "Array": [
         [
-          "Maximum Sum Circular Subarray",
+          "Maximum Sum Circular Subarray []",
           "https://leetcode.com/problems/maximum-sum-circular-subarray/",
           "Medium"
         ],
         [
-          "Trapping Rain Water",
+          "Trapping Rain Water []",
           "https://leetcode.com/problems/trapping-rain-water/",
           "Hard"
         ],
         [
-          "Container With Most Water",
+          "Container With Most Water []",
           "https://leetcode.com/problems/container-with-most-water/",
           "Medium"
         ]
@@ -70,23 +70,20 @@
     "topics": {
       "Linked List": [
         [
-          "\u2b50 Reverse Linked List",
-          "https://leetcode.com/problems/reverse-linked-list/",
-          "Easy"
-        ],
+          "Copy List with Random Pointer []",
+          "https://leetcode.com/problems/copy-list-with-random-pointer/",
+          "Medium"
+        ]
+      ],
+      "HashMap": [
         [
-          "\u2b50 Merge Two Sorted Lists",
-          "https://leetcode.com/problems/merge-two-sorted-lists/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Reorder List",
-          "https://leetcode.com/problems/reorder-list/",
+          "Group Anagrams []",
+          "https://leetcode.com/problems/group-anagrams/",
           "Medium"
         ],
         [
-          "\u2b50 Remove Nth Node From End of List",
-          "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+          "Top K Frequent Elements []",
+          "https://leetcode.com/problems/top-k-frequent-elements/",
           "Medium"
         ]
       ]
@@ -97,17 +94,17 @@
     "topics": {
       "HashMap": [
         [
-          "Longest Consecutive Sequence",
+          "Longest Consecutive Sequence []",
           "https://leetcode.com/problems/longest-consecutive-sequence/",
           "Medium"
         ],
         [
-          "Subarray Sum Equals K",
+          "Subarray Sum Equals K []",
           "https://leetcode.com/problems/subarray-sum-equals-k/",
           "Medium"
         ],
         [
-          "4Sum II",
+          "4Sum II []",
           "https://leetcode.com/problems/4sum-ii/",
           "Medium"
         ]
@@ -119,23 +116,18 @@
     "topics": {
       "Two Pointers": [
         [
-          "\u2b50 Valid Palindrome",
-          "https://leetcode.com/problems/valid-palindrome/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Two Sum II",
-          "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
-          "Medium"
-        ],
-        [
-          "\u2b50 3Sum",
+          "3Sum []",
           "https://leetcode.com/problems/3sum/",
           "Medium"
         ],
         [
-          "\u2b50 Container With Most Water",
-          "https://leetcode.com/problems/container-with-most-water/",
+          "Sort Colors []",
+          "https://leetcode.com/problems/sort-colors/",
+          "Medium"
+        ],
+        [
+          "Find K Closest Elements []",
+          "https://leetcode.com/problems/find-k-closest-elements/",
           "Medium"
         ]
       ]
@@ -146,23 +138,18 @@
     "topics": {
       "Sliding Window": [
         [
-          "\u2b50 Best Time to Buy and Sell Stock",
-          "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Longest Substring Without Repeating Characters",
+          "Longest Substring Without Repeating Characters []",
           "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
           "Medium"
         ],
         [
-          "\u2b50 Longest Repeating Character Replacement",
+          "Longest Repeating Character Replacement []",
           "https://leetcode.com/problems/longest-repeating-character-replacement/",
           "Medium"
         ],
         [
-          "\u2b50 Permutation in String",
-          "https://leetcode.com/problems/permutation-in-string/",
+          "Fruit Into Baskets []",
+          "https://leetcode.com/problems/fruit-into-baskets/",
           "Medium"
         ]
       ]
@@ -173,19 +160,19 @@
     "topics": {
       "Prefix Sum": [
         [
-          "Subarray Sums Divisible by K",
+          "Subarray Sums Divisible by K []",
           "https://leetcode.com/problems/subarray-sums-divisible-by-k/",
           "Medium"
         ]
       ],
       "Array": [
         [
-          "Maximum Product Subarray",
+          "Maximum Product Subarray []",
           "https://leetcode.com/problems/maximum-product-subarray/",
           "Medium"
         ],
         [
-          "Maximum Subarray",
+          "Maximum Subarray []",
           "https://leetcode.com/problems/maximum-subarray/",
           "Medium"
         ]
@@ -197,23 +184,18 @@
     "topics": {
       "Linked List": [
         [
-          "\u2b50 Reverse Linked List",
-          "https://leetcode.com/problems/reverse-linked-list/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Merge Two Sorted Lists",
-          "https://leetcode.com/problems/merge-two-sorted-lists/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Reorder List",
+          "Reorder List []",
           "https://leetcode.com/problems/reorder-list/",
           "Medium"
         ],
         [
-          "\u2b50 Remove Nth Node From End of List",
-          "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+          "Rotate List []",
+          "https://leetcode.com/problems/rotate-list/",
+          "Medium"
+        ],
+        [
+          "Add Two Numbers II []",
+          "https://leetcode.com/problems/add-two-numbers-ii/",
           "Medium"
         ]
       ]
@@ -222,25 +204,24 @@
   "Day 10": {
     "goal": "Stack & Intervals Warmup",
     "topics": {
+      "Monotonic Stack": [
+        [
+          "Daily Temperatures []",
+          "https://leetcode.com/problems/daily-temperatures/",
+          "Medium"
+        ]
+      ],
+      "Intervals": [
+        [
+          "Merge Intervals []",
+          "https://leetcode.com/problems/merge-intervals/",
+          "Medium"
+        ]
+      ],
       "Stack": [
         [
-          "\u2b50 Valid Parentheses",
-          "https://leetcode.com/problems/valid-parentheses/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Min Stack",
+          "Min Stack []",
           "https://leetcode.com/problems/min-stack/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Evaluate Reverse Polish Notation",
-          "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Generate Parentheses",
-          "https://leetcode.com/problems/generate-parentheses/",
           "Medium"
         ]
       ]
@@ -249,29 +230,27 @@
   "Day 11": {
     "goal": "Basic & Intermediate Arrays \u2013 Traversal",
     "topics": {
-      "Arrays & Hashing": [
+      "Array": [
         [
-          "\u2b50 Valid Sudoku",
-          "https://leetcode.com/problems/valid-sudoku/",
-          "Medium"
-        ]
-      ],
-      "Binary Search": [
-        [
-          "\u2b50 Search a 2D Matrix",
-          "https://leetcode.com/problems/search-a-2d-matrix/",
-          "Medium"
-        ]
-      ],
-      "Graphs": [
-        [
-          "\u2b50 Number of Islands",
-          "https://leetcode.com/problems/number-of-islands/",
-          "Medium"
+          "Two Sum [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/two-sum/",
+          "Easy"
         ],
         [
-          "\u2b50 Max Area of Island",
-          "https://leetcode.com/problems/max-area-of-island/",
+          "Best Time to Buy and Sell Stock [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+          "Easy"
+        ],
+        [
+          "Maximum Subarray (Kadane) [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/maximum-subarray/",
+          "Medium"
+        ]
+      ],
+      "2D Array": [
+        [
+          "Spiral Matrix [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/spiral-matrix/",
           "Medium"
         ]
       ]
@@ -280,29 +259,20 @@
   "Day 12": {
     "goal": "Arrays \u2013 Sub-arrays patterns",
     "topics": {
-      "Arrays & Hashing": [
+      "Array": [
         [
-          "\u2b50 Valid Sudoku",
-          "https://leetcode.com/problems/valid-sudoku/",
-          "Medium"
-        ]
-      ],
-      "Binary Search": [
-        [
-          "\u2b50 Search a 2D Matrix",
-          "https://leetcode.com/problems/search-a-2d-matrix/",
-          "Medium"
-        ]
-      ],
-      "Graphs": [
-        [
-          "\u2b50 Number of Islands",
-          "https://leetcode.com/problems/number-of-islands/",
+          "Product of Array Except Self [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/product-of-array-except-self/",
           "Medium"
         ],
         [
-          "\u2b50 Max Area of Island",
-          "https://leetcode.com/problems/max-area-of-island/",
+          "Maximum Sum Circular Subarray [Striver,LoveBabbar]",
+          "https://leetcode.com/problems/maximum-sum-circular-subarray/",
+          "Medium"
+        ],
+        [
+          "Rotate Array [Striver,LoveBabbar]",
+          "https://leetcode.com/problems/rotate-array/",
           "Medium"
         ]
       ]
@@ -311,25 +281,20 @@
   "Day 13": {
     "goal": "Arrays \u2013 Array rotations",
     "topics": {
-      "Two Pointers": [
+      "Array": [
         [
-          "\u2b50 Valid Palindrome",
-          "https://leetcode.com/problems/valid-palindrome/",
+          "Sort Colors [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/sort-colors/",
+          "Medium"
+        ],
+        [
+          "Move Zeroes [Striver,LoveBabbar]",
+          "https://leetcode.com/problems/move-zeroes/",
           "Easy"
         ],
         [
-          "\u2b50 Two Sum II",
-          "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
-          "Medium"
-        ],
-        [
-          "\u2b50 3Sum",
-          "https://leetcode.com/problems/3sum/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Container With Most Water",
-          "https://leetcode.com/problems/container-with-most-water/",
+          "Find the Duplicate Number [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/find-the-duplicate-number/",
           "Medium"
         ]
       ]
@@ -338,29 +303,22 @@
   "Day 14": {
     "goal": "Arrays \u2013 Element swapping & in-place",
     "topics": {
-      "Arrays & Hashing": [
+      "Array": [
         [
-          "\u2b50 Valid Sudoku",
-          "https://leetcode.com/problems/valid-sudoku/",
-          "Medium"
+          "Chocolate Distribution Problem [LoveBabbar,Striver]",
+          "https://leetcode.com/problems/chocolate-distribution-problem/",
+          "Easy"
         ]
       ],
-      "Binary Search": [
+      "2D Array": [
         [
-          "\u2b50 Search a 2D Matrix",
+          "Search a 2D Matrix [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/search-a-2d-matrix/",
-          "Medium"
-        ]
-      ],
-      "Graphs": [
-        [
-          "\u2b50 Number of Islands",
-          "https://leetcode.com/problems/number-of-islands/",
           "Medium"
         ],
         [
-          "\u2b50 Max Area of Island",
-          "https://leetcode.com/problems/max-area-of-island/",
+          "Set Matrix Zeroes [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/set-matrix-zeroes/",
           "Medium"
         ]
       ]
@@ -371,22 +329,12 @@
     "topics": {
       "Two Pointers": [
         [
-          "\u2b50 Valid Palindrome",
-          "https://leetcode.com/problems/valid-palindrome/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Two Sum II",
-          "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
-          "Medium"
-        ],
-        [
-          "\u2b50 3Sum",
+          "3Sum [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/3sum/",
           "Medium"
         ],
         [
-          "\u2b50 Container With Most Water",
+          "Container With Most Water [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/container-with-most-water/",
           "Medium"
         ]
@@ -396,25 +344,15 @@
   "Day 16": {
     "goal": "Sliding Window \u2013 Fixed & Variable size",
     "topics": {
-      "Sliding Window": [
+      "Two Pointers": [
         [
-          "\u2b50 Best Time to Buy and Sell Stock",
-          "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
-          "Easy"
+          "Trapping Rain Water [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/trapping-rain-water/",
+          "Hard"
         ],
         [
-          "\u2b50 Longest Substring Without Repeating Characters",
-          "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Longest Repeating Character Replacement",
-          "https://leetcode.com/problems/longest-repeating-character-replacement/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Permutation in String",
-          "https://leetcode.com/problems/permutation-in-string/",
+          "Two Sum II [NeetCode,Striver]",
+          "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
           "Medium"
         ]
       ]
@@ -422,16 +360,36 @@
   },
   "Day 17": {
     "goal": "Kadane's Algorithm",
-    "topics": {}
+    "topics": {
+      "Sliding Window": [
+        [
+          "Sliding Window Maximum [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/sliding-window-maximum/",
+          "Hard"
+        ],
+        [
+          "Fruit Into Baskets [Striver,LoveBabbar]",
+          "https://leetcode.com/problems/fruit-into-baskets/",
+          "Medium"
+        ]
+      ]
+    }
   },
   "Day 18": {
     "goal": "Sub-array sum problems \u2013 Kadane variants",
     "topics": {
-      "Sliding Window": [
+      "Prefix Sum": [
         [
-          "Subarrays with K Different Integers",
-          "https://leetcode.com/problems/subarrays-with-k-different-integers/",
-          "Hard"
+          "Subarray Sum Equals K [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/subarray-sum-equals-k/",
+          "Medium"
+        ]
+      ],
+      "Array": [
+        [
+          "Longest Consecutive Sequence [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/longest-consecutive-sequence/",
+          "Medium"
         ]
       ]
     }
@@ -441,18 +399,18 @@
     "topics": {
       "String": [
         [
-          "Reverse String II",
-          "https://leetcode.com/problems/reverse-string-ii/",
+          "Valid Anagram [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/valid-anagram/",
           "Easy"
         ],
         [
-          "Reverse Words in a String",
-          "https://leetcode.com/problems/reverse-words-in-a-string/",
+          "Group Anagrams [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/group-anagrams/",
           "Medium"
         ],
         [
-          "String to Integer (atoi)",
-          "https://leetcode.com/problems/string-to-integer-atoi/",
+          "Longest Substring Without Repeating Characters [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
           "Medium"
         ]
       ]
@@ -461,26 +419,21 @@
   "Day 20": {
     "goal": "String Basics \u2013 Validation",
     "topics": {
-      "Stack": [
+      "String": [
         [
-          "\u2b50 Valid Parentheses",
+          "Longest Repeating Character Replacement [NeetCode,Striver]",
+          "https://leetcode.com/problems/longest-repeating-character-replacement/",
+          "Medium"
+        ],
+        [
+          "Minimum Window Substring [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/minimum-window-substring/",
+          "Hard"
+        ],
+        [
+          "Valid Parentheses [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/valid-parentheses/",
           "Easy"
-        ],
-        [
-          "\u2b50 Min Stack",
-          "https://leetcode.com/problems/min-stack/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Evaluate Reverse Polish Notation",
-          "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Generate Parentheses",
-          "https://leetcode.com/problems/generate-parentheses/",
-          "Medium"
         ]
       ]
     }
@@ -488,25 +441,20 @@
   "Day 21": {
     "goal": "String Basics \u2013 Reversal",
     "topics": {
-      "Two Pointers": [
+      "String": [
         [
-          "\u2b50 Valid Palindrome",
-          "https://leetcode.com/problems/valid-palindrome/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Two Sum II",
-          "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
+          "Longest Palindromic Substring [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/longest-palindromic-substring/",
           "Medium"
         ],
         [
-          "\u2b50 3Sum",
-          "https://leetcode.com/problems/3sum/",
+          "String Compression [Striver,LoveBabbar]",
+          "https://leetcode.com/problems/string-compression/",
           "Medium"
         ],
         [
-          "\u2b50 Container With Most Water",
-          "https://leetcode.com/problems/container-with-most-water/",
+          "Reverse Words in a String [Striver,LoveBabbar]",
+          "https://leetcode.com/problems/reverse-words-in-a-string/",
           "Medium"
         ]
       ]
@@ -515,79 +463,10 @@
   "Day 22": {
     "goal": "String Patterns \u2013 Anagram checking, substring search",
     "topics": {
-      "Sliding Window": [
+      "String": [
         [
-          "\u2b50 Best Time to Buy and Sell Stock",
-          "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Longest Substring Without Repeating Characters",
-          "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Longest Repeating Character Replacement",
-          "https://leetcode.com/problems/longest-repeating-character-replacement/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Permutation in String",
-          "https://leetcode.com/problems/permutation-in-string/",
-          "Medium"
-        ]
-      ]
-    }
-  },
-  "Day 23": {
-    "goal": "String Patterns \u2013 Tokenization",
-    "topics": {
-      "Stack": [
-        [
-          "\u2b50 Valid Parentheses",
-          "https://leetcode.com/problems/valid-parentheses/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Min Stack",
-          "https://leetcode.com/problems/min-stack/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Evaluate Reverse Polish Notation",
-          "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Generate Parentheses",
-          "https://leetcode.com/problems/generate-parentheses/",
-          "Medium"
-        ]
-      ]
-    }
-  },
-  "Day 24": {
-    "goal": "String Patterns \u2013 String compression",
-    "topics": {
-      "Two Pointers": [
-        [
-          "\u2b50 Valid Palindrome",
-          "https://leetcode.com/problems/valid-palindrome/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Two Sum II",
-          "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
-          "Medium"
-        ],
-        [
-          "\u2b50 3Sum",
-          "https://leetcode.com/problems/3sum/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Container With Most Water",
-          "https://leetcode.com/problems/container-with-most-water/",
+          "Find All Anagrams in a String [Striver,LoveBabbar]",
+          "https://leetcode.com/problems/find-all-anagrams-in-a-string/",
           "Medium"
         ]
       ]
@@ -598,23 +477,13 @@
     "topics": {
       "Binary Search": [
         [
-          "\u2b50 Binary Search",
+          "Binary Search [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/binary-search/",
           "Easy"
         ],
         [
-          "\u2b50 Search a 2D Matrix",
-          "https://leetcode.com/problems/search-a-2d-matrix/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Koko Eating Bananas",
-          "https://leetcode.com/problems/koko-eating-bananas/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Find Minimum in Rotated Sorted Array",
-          "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+          "Find First and Last Position [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/",
           "Medium"
         ]
       ]
@@ -625,23 +494,15 @@
     "topics": {
       "Binary Search": [
         [
-          "\u2b50 Binary Search",
-          "https://leetcode.com/problems/binary-search/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Search a 2D Matrix",
-          "https://leetcode.com/problems/search-a-2d-matrix/",
+          "Search in Rotated Sorted Array [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/search-in-rotated-sorted-array/",
           "Medium"
-        ],
+        ]
+      ],
+      "Binary Search on Answer": [
         [
-          "\u2b50 Koko Eating Bananas",
+          "Koko Eating Bananas (BS on Answer) [NeetCode,Striver]",
           "https://leetcode.com/problems/koko-eating-bananas/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Find Minimum in Rotated Sorted Array",
-          "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
           "Medium"
         ]
       ]
@@ -650,10 +511,17 @@
   "Day 27": {
     "goal": "Sorting Algorithms \u2013 Bubble, Selection mechanics",
     "topics": {
+      "Binary Search": [
+        [
+          "Find Minimum in Rotated Sorted Array [NeetCode,Striver]",
+          "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/",
+          "Medium"
+        ]
+      ],
       "Sorting": [
         [
-          "Sort an Array",
-          "https://leetcode.com/problems/sort-an-array/",
+          "Merge Intervals [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/merge-intervals/",
           "Medium"
         ]
       ]
@@ -664,52 +532,13 @@
     "topics": {
       "Sorting": [
         [
-          "Insertion Sort List",
-          "https://leetcode.com/problems/insertion-sort-list/",
-          "Medium"
-        ],
-        [
-          "Sort List",
-          "https://leetcode.com/problems/sort-list/",
-          "Medium"
-        ],
-        [
-          "H-Index",
-          "https://leetcode.com/problems/h-index/",
-          "Medium"
-        ]
-      ]
-    }
-  },
-  "Day 29": {
-    "goal": "Sorting \u2013 Merge Sort mechanics",
-    "topics": {
-      "Sorting": [
-        [
-          "Merge k Sorted Lists",
-          "https://leetcode.com/problems/merge-k-sorted-lists/",
-          "Hard"
-        ],
-        [
-          "Sort Array By Parity",
-          "https://leetcode.com/problems/sort-array-by-parity/",
+          "Merge Sorted Array [Striver,LoveBabbar]",
+          "https://leetcode.com/problems/merge-sorted-array/",
           "Easy"
-        ]
-      ]
-    }
-  },
-  "Day 30": {
-    "goal": "Sorting \u2013 Quick Sort mechanics & time complexity trade-offs",
-    "topics": {
-      "Sorting": [
-        [
-          "Kth Largest Element in an Array",
-          "https://leetcode.com/problems/kth-largest-element-in-an-array/",
-          "Medium"
         ],
         [
-          "Meeting Rooms II",
-          "https://leetcode.com/problems/meeting-rooms-ii/",
+          "Sort an Array (Merge/Quick) [Striver,LoveBabbar]",
+          "https://leetcode.com/problems/sort-an-array/",
           "Medium"
         ]
       ]
@@ -718,25 +547,17 @@
   "Day 31": {
     "goal": "Basic Recursion \u2013 Call stack mechanics, base cases",
     "topics": {
-      "Stack": [
+      "Recursion": [
         [
-          "\u2b50 Valid Parentheses",
-          "https://leetcode.com/problems/valid-parentheses/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Min Stack",
-          "https://leetcode.com/problems/min-stack/",
+          "Pow(x, n) [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/powx-n/",
           "Medium"
-        ],
+        ]
+      ],
+      "Backtracking": [
         [
-          "\u2b50 Evaluate Reverse Polish Notation",
-          "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Generate Parentheses",
-          "https://leetcode.com/problems/generate-parentheses/",
+          "Subsets [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/subsets/",
           "Medium"
         ]
       ]
@@ -745,20 +566,15 @@
   "Day 32": {
     "goal": "Basic Recursion \u2013 Fibonacci, factorials",
     "topics": {
-      "Recursion": [
+      "Backtracking": [
         [
-          "Climbing Stairs",
-          "https://leetcode.com/problems/climbing-stairs/",
-          "Easy"
-        ],
-        [
-          "Decode Ways",
-          "https://leetcode.com/problems/decode-ways/",
+          "Combination Sum [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/combination-sum/",
           "Medium"
         ],
         [
-          "Generate Parentheses",
-          "https://leetcode.com/problems/generate-parentheses/",
+          "Permutations [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/permutations/",
           "Medium"
         ]
       ]
@@ -769,77 +585,13 @@
     "topics": {
       "Backtracking": [
         [
-          "\u2b50 Subsets",
-          "https://leetcode.com/problems/subsets/",
-          "Medium"
+          "N-Queens [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/n-queens/",
+          "Hard"
         ],
         [
-          "\u2b50 Combination Sum",
-          "https://leetcode.com/problems/combination-sum/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Permutations",
-          "https://leetcode.com/problems/permutations/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Subsets II",
-          "https://leetcode.com/problems/subsets-ii/",
-          "Medium"
-        ]
-      ]
-    }
-  },
-  "Day 34": {
-    "goal": "Basic Backtracking \u2013 State space trees, subset generation",
-    "topics": {
-      "Backtracking": [
-        [
-          "\u2b50 Subsets",
-          "https://leetcode.com/problems/subsets/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Combination Sum",
-          "https://leetcode.com/problems/combination-sum/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Permutations",
-          "https://leetcode.com/problems/permutations/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Subsets II",
-          "https://leetcode.com/problems/subsets-ii/",
-          "Medium"
-        ]
-      ]
-    }
-  },
-  "Day 35": {
-    "goal": "Basic Backtracking \u2013 String permutations",
-    "topics": {
-      "Backtracking": [
-        [
-          "\u2b50 Subsets",
-          "https://leetcode.com/problems/subsets/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Combination Sum",
-          "https://leetcode.com/problems/combination-sum/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Permutations",
-          "https://leetcode.com/problems/permutations/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Subsets II",
-          "https://leetcode.com/problems/subsets-ii/",
+          "Word Search [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/word-search/",
           "Medium"
         ]
       ]
@@ -850,24 +602,14 @@
     "topics": {
       "Linked List": [
         [
-          "\u2b50 Reverse Linked List",
+          "Reverse Linked List [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/reverse-linked-list/",
           "Easy"
         ],
         [
-          "\u2b50 Merge Two Sorted Lists",
-          "https://leetcode.com/problems/merge-two-sorted-lists/",
+          "Middle of Linked List [Striver,LoveBabbar]",
+          "https://leetcode.com/problems/middle-of-the-linked-list/",
           "Easy"
-        ],
-        [
-          "\u2b50 Reorder List",
-          "https://leetcode.com/problems/reorder-list/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Remove Nth Node From End of List",
-          "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
-          "Medium"
         ]
       ]
     }
@@ -877,22 +619,12 @@
     "topics": {
       "Linked List": [
         [
-          "\u2b50 Reverse Linked List",
-          "https://leetcode.com/problems/reverse-linked-list/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Merge Two Sorted Lists",
+          "Merge Two Sorted Lists [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/merge-two-sorted-lists/",
           "Easy"
         ],
         [
-          "\u2b50 Reorder List",
-          "https://leetcode.com/problems/reorder-list/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Remove Nth Node From End of List",
+          "Remove Nth Node From End [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
           "Medium"
         ]
@@ -904,23 +636,13 @@
     "topics": {
       "Linked List": [
         [
-          "\u2b50 Reverse Linked List",
-          "https://leetcode.com/problems/reverse-linked-list/",
+          "Linked List Cycle I/II [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/linked-list-cycle/",
           "Easy"
         ],
         [
-          "\u2b50 Merge Two Sorted Lists",
-          "https://leetcode.com/problems/merge-two-sorted-lists/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Reorder List",
-          "https://leetcode.com/problems/reorder-list/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Remove Nth Node From End of List",
-          "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+          "Add Two Numbers [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/add-two-numbers/",
           "Medium"
         ]
       ]
@@ -931,50 +653,13 @@
     "topics": {
       "Linked List": [
         [
-          "\u2b50 Reverse Linked List",
-          "https://leetcode.com/problems/reverse-linked-list/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Merge Two Sorted Lists",
-          "https://leetcode.com/problems/merge-two-sorted-lists/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Reorder List",
+          "Reorder List [NeetCode,Striver]",
           "https://leetcode.com/problems/reorder-list/",
           "Medium"
         ],
         [
-          "\u2b50 Remove Nth Node From End of List",
-          "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
-          "Medium"
-        ]
-      ]
-    }
-  },
-  "Day 40": {
-    "goal": "Doubly Linked Lists & Loops \u2013 Loop detection (Floyd's Cycle)",
-    "topics": {
-      "Linked List": [
-        [
-          "\u2b50 Reverse Linked List",
-          "https://leetcode.com/problems/reverse-linked-list/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Merge Two Sorted Lists",
-          "https://leetcode.com/problems/merge-two-sorted-lists/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Reorder List",
-          "https://leetcode.com/problems/reorder-list/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Remove Nth Node From End of List",
-          "https://leetcode.com/problems/remove-nth-node-from-end-of-list/",
+          "Copy List with Random Pointer [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/copy-list-with-random-pointer/",
           "Medium"
         ]
       ]
@@ -985,23 +670,15 @@
     "topics": {
       "Stack": [
         [
-          "\u2b50 Valid Parentheses",
-          "https://leetcode.com/problems/valid-parentheses/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Min Stack",
+          "Min Stack [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/min-stack/",
           "Medium"
-        ],
+        ]
+      ],
+      "Monotonic Stack": [
         [
-          "\u2b50 Evaluate Reverse Polish Notation",
-          "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Generate Parentheses",
-          "https://leetcode.com/problems/generate-parentheses/",
+          "Daily Temperatures [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/daily-temperatures/",
           "Medium"
         ]
       ]
@@ -1010,26 +687,16 @@
   "Day 42": {
     "goal": "Stacks & Queues \u2013 FIFO execution",
     "topics": {
-      "Stack": [
+      "Monotonic Stack": [
         [
-          "\u2b50 Valid Parentheses",
-          "https://leetcode.com/problems/valid-parentheses/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Min Stack",
-          "https://leetcode.com/problems/min-stack/",
+          "Next Greater Element II [Striver,LoveBabbar]",
+          "https://leetcode.com/problems/next-greater-element-ii/",
           "Medium"
         ],
         [
-          "\u2b50 Evaluate Reverse Polish Notation",
-          "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Generate Parentheses",
-          "https://leetcode.com/problems/generate-parentheses/",
-          "Medium"
+          "Largest Rectangle in Histogram [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+          "Hard"
         ]
       ]
     }
@@ -1037,80 +704,18 @@
   "Day 43": {
     "goal": "Stacks & Queues \u2013 Valid Parentheses problem",
     "topics": {
-      "Stack": [
+      "Queue": [
         [
-          "\u2b50 Valid Parentheses",
-          "https://leetcode.com/problems/valid-parentheses/",
+          "Implement Queue using Stacks [Striver,LoveBabbar]",
+          "https://leetcode.com/problems/implement-queue-using-stacks/",
           "Easy"
-        ],
-        [
-          "\u2b50 Min Stack",
-          "https://leetcode.com/problems/min-stack/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Evaluate Reverse Polish Notation",
-          "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Generate Parentheses",
-          "https://leetcode.com/problems/generate-parentheses/",
-          "Medium"
         ]
-      ]
-    }
-  },
-  "Day 44": {
-    "goal": "Monotonic Structures \u2013 Next Greater Element",
-    "topics": {
+      ],
       "Stack": [
         [
-          "\u2b50 Valid Parentheses",
+          "Valid Parentheses (Stack) [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/valid-parentheses/",
           "Easy"
-        ],
-        [
-          "\u2b50 Min Stack",
-          "https://leetcode.com/problems/min-stack/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Evaluate Reverse Polish Notation",
-          "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Generate Parentheses",
-          "https://leetcode.com/problems/generate-parentheses/",
-          "Medium"
-        ]
-      ]
-    }
-  },
-  "Day 45": {
-    "goal": "Monotonic Structures \u2013 Next Smaller Element",
-    "topics": {
-      "Stack": [
-        [
-          "\u2b50 Valid Parentheses",
-          "https://leetcode.com/problems/valid-parentheses/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Min Stack",
-          "https://leetcode.com/problems/min-stack/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Evaluate Reverse Polish Notation",
-          "https://leetcode.com/problems/evaluate-reverse-polish-notation/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Generate Parentheses",
-          "https://leetcode.com/problems/generate-parentheses/",
-          "Medium"
         ]
       ]
     }
@@ -1120,18 +725,13 @@
     "topics": {
       "HashMap": [
         [
-          "Design HashMap",
-          "https://leetcode.com/problems/design-hashmap/",
+          "Two Sum (HashMap) [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/two-sum/",
           "Easy"
         ],
         [
-          "Design HashSet",
-          "https://leetcode.com/problems/design-hashset/",
-          "Easy"
-        ],
-        [
-          "Time Based Key-Value Store",
-          "https://leetcode.com/problems/time-based-key-value-store/",
+          "Top K Frequent Elements [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/top-k-frequent-elements/",
           "Medium"
         ]
       ]
@@ -1142,35 +742,13 @@
     "topics": {
       "HashMap": [
         [
-          "Top K Frequent Words",
-          "https://leetcode.com/problems/top-k-frequent-words/",
-          "Medium"
-        ],
-        [
-          "Sort Characters By Frequency",
-          "https://leetcode.com/problems/sort-characters-by-frequency/",
-          "Medium"
-        ]
-      ]
-    }
-  },
-  "Day 48": {
-    "goal": "Hashing \u2013 Two-Sum problem & advanced hashing",
-    "topics": {
-      "HashMap": [
-        [
-          "Two Sum",
-          "https://leetcode.com/problems/two-sum/",
-          "Easy"
-        ],
-        [
-          "Subarray Sum Equals K",
+          "Subarray Sum Equals K (already) [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/subarray-sum-equals-k/",
           "Medium"
         ],
         [
-          "Longest Consecutive Sequence",
-          "https://leetcode.com/problems/longest-consecutive-sequence/",
+          "Group Anagrams (already) [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/group-anagrams/",
           "Medium"
         ]
       ]
@@ -1181,19 +759,19 @@
     "topics": {
       "Tree": [
         [
-          "Binary Tree Inorder Traversal",
+          "Binary Tree Inorder Traversal [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/binary-tree-inorder-traversal/",
           "Easy"
         ],
         [
-          "Binary Tree Preorder Traversal",
-          "https://leetcode.com/problems/binary-tree-preorder-traversal/",
-          "Easy"
+          "Binary Tree Level Order Traversal [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+          "Medium"
         ],
         [
-          "Construct Binary Tree from Preorder and Inorder Traversal",
-          "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
-          "Medium"
+          "Maximum Depth of Binary Tree [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/maximum-depth-of-binary-tree/",
+          "Easy"
         ]
       ]
     }
@@ -1203,18 +781,20 @@
     "topics": {
       "Tree": [
         [
-          "Binary Tree Postorder Traversal",
-          "https://leetcode.com/problems/binary-tree-postorder-traversal/",
+          "Diameter of Binary Tree [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/diameter-of-binary-tree/",
           "Easy"
         ],
         [
-          "Binary Tree Level Order Traversal",
-          "https://leetcode.com/problems/binary-tree-level-order-traversal/",
-          "Medium"
-        ],
+          "Balanced Binary Tree [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/balanced-binary-tree/",
+          "Easy"
+        ]
+      ],
+      "BST": [
         [
-          "Binary Tree Zigzag Level Order Traversal",
-          "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/",
+          "Lowest Common Ancestor of BST [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
           "Medium"
         ]
       ]
@@ -1223,21 +803,23 @@
   "Day 51": {
     "goal": "Binary Trees \u2013 Advanced traversal problems",
     "topics": {
-      "Tree": [
+      "BST": [
         [
-          "Binary Tree Right Side View",
-          "https://leetcode.com/problems/binary-tree-right-side-view/",
+          "Validate BST [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/validate-binary-search-tree/",
           "Medium"
         ],
         [
-          "Vertical Order Traversal of a Binary Tree",
-          "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/",
-          "Hard"
-        ],
+          "Kth Smallest in BST [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
+          "Medium"
+        ]
+      ],
+      "Tree": [
         [
-          "Binary Tree Maximum Path Sum",
-          "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
-          "Hard"
+          "Construct Tree from Preorder & Inorder [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/",
+          "Medium"
         ]
       ]
     }
@@ -1245,43 +827,11 @@
   "Day 52": {
     "goal": "Binary Search Trees \u2013 BST properties, node insertion",
     "topics": {
-      "BST": [
+      "Tree": [
         [
-          "Insert into a Binary Search Tree",
-          "https://leetcode.com/problems/insert-into-a-binary-search-tree/",
-          "Medium"
-        ],
-        [
-          "Search in a Binary Search Tree",
-          "https://leetcode.com/problems/search-in-a-binary-search-tree/",
-          "Easy"
-        ],
-        [
-          "Kth Smallest Element in a BST",
-          "https://leetcode.com/problems/kth-smallest-element-in-a-bst/",
-          "Medium"
-        ]
-      ]
-    }
-  },
-  "Day 53": {
-    "goal": "BST \u2013 Searching, deletion",
-    "topics": {
-      "BST": [
-        [
-          "Delete Node in a BST",
-          "https://leetcode.com/problems/delete-node-in-a-bst/",
-          "Medium"
-        ],
-        [
-          "Lowest Common Ancestor of a Binary Search Tree",
-          "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
-          "Medium"
-        ],
-        [
-          "Recover Binary Search Tree",
-          "https://leetcode.com/problems/recover-binary-search-tree/",
-          "Medium"
+          "Binary Tree Maximum Path Sum [NeetCode,Striver]",
+          "https://leetcode.com/problems/binary-tree-maximum-path-sum/",
+          "Hard"
         ]
       ]
     }
@@ -1289,23 +839,28 @@
   "Day 54": {
     "goal": "BST \u2013 Validation",
     "topics": {
-      "BST": [
+      "Bit Manipulation": [
         [
-          "Validate Binary Search Tree",
-          "https://leetcode.com/problems/validate-binary-search-tree/",
-          "Medium"
+          "Single Number [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/single-number/",
+          "Easy"
         ],
         [
-          "Convert Sorted Array to Binary Search Tree",
-          "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/",
+          "Counting Bits [NeetCode,Striver]",
+          "https://leetcode.com/problems/counting-bits/",
           "Easy"
         ]
       ],
-      "Tree": [
+      "Greedy": [
         [
-          "Balanced Binary Tree",
-          "https://leetcode.com/problems/balanced-binary-tree/",
-          "Easy"
+          "Jump Game [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/jump-game/",
+          "Medium"
+        ],
+        [
+          "Gas Station [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/gas-station/",
+          "Medium"
         ]
       ]
     }
@@ -1315,18 +870,23 @@
     "topics": {
       "Graph": [
         [
-          "Number of Islands",
+          "Number of Islands (2D) [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/number-of-islands/",
           "Medium"
         ],
         [
-          "Flood Fill",
+          "Flood Fill (2D) [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/flood-fill/",
           "Easy"
         ],
         [
-          "Rotting Oranges",
-          "https://leetcode.com/problems/rotting-oranges/",
+          "Course Schedule (Topo Sort) [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/course-schedule/",
+          "Medium"
+        ],
+        [
+          "Is Graph Bipartite? [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/is-graph-bipartite/",
           "Medium"
         ]
       ]
@@ -1337,18 +897,13 @@
     "topics": {
       "Graph": [
         [
-          "Clone Graph",
+          "Rotting Oranges (2D BFS) [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/rotting-oranges/",
+          "Medium"
+        ],
+        [
+          "Clone Graph [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/clone-graph/",
-          "Medium"
-        ],
-        [
-          "Course Schedule",
-          "https://leetcode.com/problems/course-schedule/",
-          "Medium"
-        ],
-        [
-          "Is Graph Bipartite?",
-          "https://leetcode.com/problems/is-graph-bipartite/",
           "Medium"
         ]
       ]
@@ -1359,8 +914,23 @@
     "topics": {
       "DP": [
         [
-          "House Robber",
+          "Climbing Stairs [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/climbing-stairs/",
+          "Easy"
+        ],
+        [
+          "House Robber [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/house-robber/",
+          "Medium"
+        ],
+        [
+          "Longest Common Subsequence [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/longest-common-subsequence/",
+          "Medium"
+        ],
+        [
+          "Partition Equal Subset Sum (0/1 Knapsack) [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/partition-equal-subset-sum/",
           "Medium"
         ]
       ]
@@ -1371,18 +941,13 @@
     "topics": {
       "DP": [
         [
-          "Partition Equal Subset Sum",
-          "https://leetcode.com/problems/partition-equal-subset-sum/",
-          "Medium"
-        ],
-        [
-          "Coin Change",
+          "Coin Change [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/coin-change/",
           "Medium"
         ],
         [
-          "Target Sum",
-          "https://leetcode.com/problems/target-sum/",
+          "Longest Increasing Subsequence [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/longest-increasing-subsequence/",
           "Medium"
         ]
       ]
@@ -1391,44 +956,18 @@
   "Day 59": {
     "goal": "Company Question Banks & Mocks \u2013 Mixed problem solving",
     "topics": {
-      "Array": [
-        [
-          "Product of Array Except Self",
-          "https://leetcode.com/problems/product-of-array-except-self/",
-          "Medium"
-        ]
-      ],
-      "String": [
-        [
-          "Longest Substring Without Repeating Characters",
-          "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
-          "Medium"
-        ]
-      ],
-      "Intervals": [
-        [
-          "Merge Intervals",
-          "https://leetcode.com/problems/merge-intervals/",
-          "Medium"
-        ]
-      ],
       "Design": [
         [
-          "LRU Cache",
+          "LRU Cache [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/lru-cache/",
           "Medium"
         ]
       ],
-      "Arrays & Hashing": [
+      "Graph": [
         [
-          "\u2b50 Contains Duplicate",
-          "https://leetcode.com/problems/contains-duplicate/",
-          "Easy"
-        ],
-        [
-          "\u2b50 Valid Anagram",
-          "https://leetcode.com/problems/valid-anagram/",
-          "Easy"
+          "Word Ladder [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/word-ladder/",
+          "Hard"
         ]
       ]
     }
@@ -1436,43 +975,17 @@
   "Day 60": {
     "goal": "Company Mocks \u2013 Timed mock assessments",
     "topics": {
-      "Array": [
-        [
-          "Trapping Rain Water",
-          "https://leetcode.com/problems/trapping-rain-water/",
-          "Hard"
-        ]
-      ],
-      "Graph": [
-        [
-          "Word Ladder",
-          "https://leetcode.com/problems/word-ladder/",
-          "Hard"
-        ]
-      ],
       "Binary Search": [
         [
-          "Median of Two Sorted Arrays",
+          "Median of Two Sorted Arrays [NeetCode,Striver,LoveBabbar]",
           "https://leetcode.com/problems/median-of-two-sorted-arrays/",
           "Hard"
         ]
       ],
-      "DP": [
+      "Intervals": [
         [
-          "Regular Expression Matching",
-          "https://leetcode.com/problems/regular-expression-matching/",
-          "Hard"
-        ]
-      ],
-      "Arrays & Hashing": [
-        [
-          "\u2b50 Group Anagrams",
-          "https://leetcode.com/problems/group-anagrams/",
-          "Medium"
-        ],
-        [
-          "\u2b50 Top K Frequent Elements",
-          "https://leetcode.com/problems/top-k-frequent-elements/",
+          "Merge Intervals (Company Fav) [NeetCode,Striver,LoveBabbar]",
+          "https://leetcode.com/problems/merge-intervals/",
           "Medium"
         ]
       ]
