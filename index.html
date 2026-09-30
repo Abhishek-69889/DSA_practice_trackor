@@ -4,109 +4,408 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>60 Day DSA Practice Tracker - Fixed</title>
+<title>DSA Mastery Pro • 60 Day Tracker</title>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-:root { --easy-color:#2e7d32; --medium-color:#f9a825; --hard-color:#c62828; --card-bg:rgba(40,40,40,0.85); --card-shadow:rgba(255,255,255,0.08); --day-bg:#181818; --topic-bg:#222222; }
-* { box-sizing:border-box; }
-body { font-family:Arial,sans-serif; margin:0; padding:0; background:#000; color:#f5f5f5; line-height:1.4; }
-header { background:#151515; color:white; padding:24px 20px; text-align:center; box-shadow:0 2px 6px rgba(255,255,255,0.05); }
-.container { max-width:1050px; margin:auto; padding:20px; }
-.summary { font-size:17px; margin-bottom:20px; background:var(--card-bg); padding:18px; border-radius:8px; display:flex; justify-content:space-around; align-items:center; flex-wrap:wrap; gap:12px; text-align:center; }
-.summary-number { display:block; font-size:22px; font-weight:bold; color:white; }
-.summary-label { font-size:13px; color:#999; }
-.filters { margin-bottom:25px; text-align:center; display:flex; justify-content:center; gap:10px; flex-wrap:wrap; }
-select { background:#1f1f1f; color:#f5f5f5; border:1px solid #555; padding:7px 10px; border-radius:5px; }
-.day-section { margin-top:35px; }
-.day-header { background:var(--day-bg); border-left:4px solid #777; padding:15px 18px; border-radius:8px; display:flex; justify-content:space-between; align-items:center; gap:15px; flex-wrap:wrap; }
-.day-title { margin:0; font-size:21px; }
-.day-goal { margin:4px 0 0; color:#999; font-size:14px; }
-.day-count { color:#bbb; font-size:14px; }
-.topic-section { margin-top:15px; }
-.topic-header { background:var(--topic-bg); padding:10px 14px; border-radius:6px; display:flex; justify-content:space-between; align-items:center; }
-ul { list-style:none; padding:0; margin:8px 0 0; }
-li { background:var(--card-bg); padding:14px 15px; margin-bottom:8px; border-radius:8px; display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; transition:all 0.2s; }
-li:hover { background:rgba(70,70,70,0.9); }
-.question-left { display:flex; align-items:center; flex-wrap:wrap; gap:8px; }
-.checkbox { transform:scale(1.25); margin-right:5px; cursor:pointer; }
-a { text-decoration:none; color:#66b2ff; font-weight:bold; word-break:break-word; }
-.difficulty-badge { padding:2px 8px; border-radius:12px; font-size:11px; font-weight:bold; color:#fff; white-space:nowrap; }
-.difficulty-badge.easy { background:var(--easy-color); }
-.difficulty-badge.medium { background:var(--medium-color); color:#000; }
-.difficulty-badge.hard { background:var(--hard-color); }
-.tags { font-size:11px; color:#888; margin-left:6px; }
+:root{
+  --bg:#08080a;
+  --bg2:#101012;
+  --card:rgba(22,22,26,0.8);
+  --card-hover:rgba(30,30,36,0.9);
+  --border:rgba(255,255,255,0.08);
+  --border-hover:rgba(255,255,255,0.14);
+  --text:#f5f5f7;
+  --muted:#9a9aa0;
+  --muted2:#5a5a62;
+  --easy:#10b981;
+  --medium:#f59e0b;
+  --hard:#ef4444;
+  --accent:#7c3aed;
+  --accent2:#06b6d4;
+  --bookmark:#facc15;
+  --revision:#f43f5e;
+  --revised:#10b981;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:'Geist', system-ui, -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height:1.5;
+  overflow-x:hidden;
+  background-image:
+    radial-gradient(1200px 600px at 20% -10%, rgba(124,58,237,0.18), transparent),
+    radial-gradient(900px 500px at 90% 0%, rgba(6,182,214,0.12), transparent),
+    radial-gradient(800px 400px at 50% 120%, rgba(124,58,237,0.08), transparent);
+  min-height:100vh;
+}
+.mono{font-family:'Geist Mono', monospace}
+
+/* Header */
+.header{
+  position:sticky; top:0; z-index:50;
+  backdrop-filter: blur(24px) saturate(180%);
+  background: rgba(8,8,10,0.7);
+  border-bottom:1px solid var(--border);
+}
+.header-inner{
+  max-width:1280px; margin:auto; padding:18px 24px;
+  display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap;
+}
+.brand{display:flex; align-items:center; gap:14px}
+.logo{
+  width:38px; height:38px; border-radius:12px;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  display:grid; place-items:center; font-weight:700; font-size:18px; color:white;
+  box-shadow: 0 8px 24px rgba(124,58,237,0.3);
+}
+.brand h1{margin:0; font-size:20px; font-weight:700; letter-spacing:-0.02em}
+.brand p{margin:0; font-size:12px; color:var(--muted); letter-spacing:0.02em}
+.header-stats{display:flex; gap:12px; align-items:center}
+.pill{
+  padding:7px 12px; border-radius:999px; font-size:12px; font-weight:500;
+  background: var(--card); border:1px solid var(--border); color:var(--muted);
+  display:flex; align-items:center; gap:6px;
+}
+.pill strong{color:var(--text); font-weight:600}
+
+/* Container */
+.container{max-width:1280px; margin:auto; padding:28px 24px}
+
+/* Summary Grid */
+.summary-grid{
+  display:grid; grid-template-columns: repeat(auto-fit, minmax(170px,1fr));
+  gap:12px; margin-bottom:28px;
+}
+.summary-card{
+  background: var(--card);
+  backdrop-filter: blur(16px);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:18px 20px;
+  position:relative; overflow:hidden;
+  transition: all 0.25s ease;
+}
+.summary-card:hover{border-color:var(--border-hover); transform: translateY(-2px)}
+.summary-card::before{
+  content:''; position:absolute; top:0; left:0; right:0; height:1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.12), transparent);
+}
+.summary-top{display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:10px}
+.summary-icon{width:32px; height:32px; border-radius:9px; display:grid; place-items:center; font-size:16px}
+.summary-number{font-size:26px; font-weight:700; letter-spacing:-0.03em; line-height:1}
+.summary-label{font-size:12px; color:var(--muted); margin-top:4px; font-weight:500}
+.progress-bar{height:4px; background:rgba(255,255,255,0.06); border-radius:99px; overflow:hidden; margin-top:12px}
+.progress-fill{height:100%; border-radius:99px; transition: width 0.6s cubic-bezier(0.16,1,0.3,1)}
+
+/* Controls */
+.controls{
+  background: var(--card);
+  border:1px solid var(--border);
+  border-radius:18px;
+  padding:16px;
+  display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between;
+  margin-bottom:28px;
+  backdrop-filter: blur(16px);
+}
+.controls-left, .controls-right{display:flex; flex-wrap:wrap; gap:10px; align-items:center}
+.select, .search-input{
+  background: rgba(0,0,0,0.4);
+  border:1px solid var(--border);
+  color: var(--text);
+  padding:9px 14px;
+  border-radius:12px;
+  font-size:13px;
+  font-weight:500;
+  outline:none;
+  transition: all 0.2s;
+  min-width:140px;
+}
+.select:focus, .search-input:focus{border-color: var(--accent); box-shadow: 0 0 0 3px rgba(124,58,237,0.15)}
+.search-input{min-width:240px}
+.filter-chips{display:flex; gap:8px; flex-wrap:wrap}
+.chip{
+  padding:6px 12px; border-radius:999px; font-size:12px; font-weight:600;
+  background: rgba(255,255,255,0.06); border:1px solid var(--border);
+  color: var(--muted); cursor:pointer; transition: all 0.2s; user-select:none;
+}
+.chip:hover{border-color: var(--border-hover); color: var(--text)}
+.chip.active{background: var(--text); color: var(--bg); border-color: var(--text)}
+
+/* Day Section */
+.day-section{margin-bottom:32px; animation: fadeIn 0.4s ease}
+@keyframes fadeIn{from{opacity:0; transform: translateY(8px)} to{opacity:1; transform: translateY(0)}}
+.day-header{
+  background: linear-gradient(180deg, rgba(28,28,32,0.9), rgba(20,20,24,0.9));
+  border:1px solid var(--border);
+  border-radius:18px;
+  padding:20px 22px;
+  display:flex; justify-content:space-between; align-items:center; gap:16px; flex-wrap:wrap;
+  backdrop-filter: blur(16px);
+  position:relative; overflow:hidden;
+}
+.day-header::before{
+  content:''; position:absolute; left:0; top:0; bottom:0; width:3px;
+  background: linear-gradient(180deg, var(--accent), var(--accent2));
+  border-radius:3px 0 0 3px;
+}
+.day-title{margin:0; font-size:18px; font-weight:700; letter-spacing:-0.02em; display:flex; align-items:center; gap:10px}
+.day-badge{font-size:10px; font-weight:700; letter-spacing:0.08em; padding:3px 8px; border-radius:99px; background:rgba(124,58,237,0.15); border:1px solid rgba(124,58,237,0.25); color:#a78bfa}
+.day-goal{margin:6px 0 0; color:var(--muted); font-size:13px; max-width:640px; line-height:1.5}
+.day-topics{display:flex; gap:6px; flex-wrap:wrap; margin-top:10px}
+.topic-pill{font-size:11px; font-weight:500; padding:3px 9px; border-radius:99px; background: rgba(255,255,255,0.06); border:1px solid var(--border); color:var(--muted)}
+.day-meta{display:flex; flex-direction:column; align-items:flex-end; gap:8px}
+.day-progress-text{font-size:12px; font-weight:600; color:var(--muted); font-family:'Geist Mono', monospace}
+.day-progress-ring{width:44px; height:44px; border-radius:50%; background: conic-gradient(var(--accent) var(--p,0%), rgba(255,255,255,0.08) 0); display:grid; place-items:center; position:relative}
+.day-progress-ring::after{content:''; position:absolute; inset:3px; background: var(--bg2); border-radius:50%}
+.day-progress-ring span{position:relative; z-index:1; font-size:11px; font-weight:700; font-family:'Geist Mono', monospace}
+
+/* Question List */
+.q-list{list-style:none; padding:0; margin:14px 0 0; display:grid; gap:10px}
+.q-item{
+  background: var(--card);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:14px 16px;
+  display:flex; justify-content:space-between; align-items:center; gap:12px;
+  transition: all 0.22s cubic-bezier(0.16,1,0.3,1);
+  backdrop-filter: blur(12px);
+  position:relative;
+}
+.q-item:hover{border-color: var(--border-hover); background: var(--card-hover); transform: translateY(-1px); box-shadow: 0 8px 24px rgba(0,0,0,0.3)}
+.q-item.solved{opacity:0.72}
+.q-item.solved .q-title{text-decoration: line-through; text-decoration-color: rgba(255,255,255,0.25)}
+.q-left{display:flex; align-items:center; gap:12px; flex:1; min-width:0}
+.check-wrap{
+  width:22px; height:22px; border-radius:7px; border:1.5px solid var(--border);
+  display:grid; place-items:center; cursor:pointer; transition: all 0.2s; flex-shrink:0;
+  background: rgba(0,0,0,0.3);
+}
+.check-wrap.checked{background: var(--easy); border-color: var(--easy); color:white}
+.check-wrap svg{width:12px; height:12px; opacity:0; transform: scale(0.6); transition: all 0.2s}
+.check-wrap.checked svg{opacity:1; transform: scale(1)}
+.q-title{font-size:14px; font-weight:600; color:var(--text); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:320px}
+.q-title a{color:inherit; text-decoration:none}
+.q-title a:hover{color:#a78bfa}
+.q-tags{display:flex; gap:6px; flex-wrap:wrap; align-items:center}
+.diff{padding:3px 8px; border-radius:99px; font-size:10px; font-weight:700; letter-spacing:0.05em; text-transform:uppercase}
+.diff.easy{background: rgba(16,185,129,0.15); color: var(--easy); border:1px solid rgba(16,185,129,0.25)}
+.diff.medium{background: rgba(245,158,11,0.15); color: var(--medium); border:1px solid rgba(245,158,11,0.25)}
+.diff.hard{background: rgba(239,68,68,0.15); color: var(--hard); border:1px solid rgba(239,68,68,0.25)}
+.tag{font-size:11px; color:var(--muted2); background: rgba(255,255,255,0.04); border:1px solid var(--border); padding:2px 7px; border-radius:99px}
+.q-actions{display:flex; gap:6px; align-items:center}
+.icon-btn{
+  width:32px; height:32px; border-radius:9px; border:1px solid var(--border);
+  background: rgba(255,255,255,0.03); display:grid; place-items:center;
+  cursor:pointer; transition: all 0.2s; color: var(--muted); font-size:14px;
+}
+.icon-btn:hover{border-color: var(--border-hover); color: var(--text); background: rgba(255,255,255,0.06); transform: translateY(-1px)}
+.icon-btn.active.bookmark{background: rgba(250,204,21,0.15); border-color: rgba(250,204,21,0.3); color: var(--bookmark)}
+.icon-btn.active.revision-needs{background: rgba(244,63,94,0.15); border-color: rgba(244,63,94,0.3); color: var(--revision)}
+.icon-btn.active.revision-done{background: rgba(16,185,129,0.15); border-color: rgba(16,185,129,0.3); color: var(--revised)}
+.tooltip{position:relative}
+.tooltip:hover::after{
+  content: attr(data-tip); position:absolute; bottom: calc(100% + 8px); left:50%; transform: translateX(-50%);
+  background: #1a1a1e; border:1px solid var(--border); color: var(--text);
+  padding:5px 9px; border-radius:8px; font-size:11px; font-weight:500; white-space:nowrap; pointer-events:none; z-index:10;
+}
+
+/* Empty */
+.empty{
+  background: var(--card); border:1px dashed var(--border); border-radius:18px;
+  padding:40px 24px; text-align:center; color: var(--muted);
+}
+
+/* Footer */
+.footer{margin-top:48px; padding:24px; border-top:1px solid var(--border); text-align:center; color:var(--muted2); font-size:12px}
+
+@media (max-width: 720px){
+  .container{padding:16px}
+  .header-inner{padding:14px 16px}
+  .q-item{flex-direction:column; align-items:flex-start}
+  .q-actions{width:100%; justify-content:flex-end}
+  .q-title{max-width:100%; white-space:normal}
+  .controls{flex-direction:column; align-items:stretch}
+  .search-input{min-width:100%}
+}
 </style>
 </head>
 <body>
-<header><h1>60 Day DSA Practice Roadmap</h1><p>Service-Based Companies + Startups - Pattern Based</p></header>
+<div class="header">
+  <div class="header-inner">
+    <div class="brand">
+      <div class="logo">D</div>
+      <div>
+        <h1>DSA Mastery Pro</h1>
+        <p>60-Day Interview Roadmap • Pattern Based • NeetCode 150 + Advanced</p>
+      </div>
+    </div>
+    <div class="header-stats">
+      <div class="pill"><span>🔥</span> <strong id="streak">0</strong> day streak</div>
+      <div class="pill"><span>⭐</span> <strong id="headerProgress">0%</strong> complete</div>
+    </div>
+  </div>
+</div>
+
 <div class="container">
-<div class="summary" id="summary">Loading...</div>
-<div class="filters">
-<label>Day: <select id="dayFilter"><option value="All">All Days</option></select></label>
-<label>Difficulty: <select id="difficultyFilter"><option value="All">All</option><option value="Easy">Easy</option><option value="Medium">Medium</option><option value="Hard">Hard</option></select></label>
-<label>Search: <input id="searchFilter" placeholder="Search pattern..." style="background:#1f1f1f;color:#fff;border:1px solid #555;padding:7px;border-radius:5px;"></label>
+  <div class="summary-grid" id="summary"></div>
+
+  <div class="controls">
+    <div class="controls-left">
+      <select id="dayFilter" class="select"><option value="All">All Days</option></select>
+      <select id="difficultyFilter" class="select">
+        <option value="All">All Levels</option>
+        <option value="Easy">Easy</option>
+        <option value="Medium">Medium</option>
+        <option value="Hard">Hard</option>
+      </select>
+      <input id="searchFilter" class="search-input" placeholder="Search questions, patterns, tags..." />
+    </div>
+    <div class="controls-right">
+      <div class="filter-chips">
+        <div class="chip" data-filter="all">All</div>
+        <div class="chip" data-filter="solved">✓ Solved</div>
+        <div class="chip" data-filter="bookmark">★ Later</div>
+        <div class="chip" data-filter="revision">↻ Needs Revision</div>
+        <div class="chip" data-filter="revised">✓ Revised</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="questionContainer"></div>
 </div>
-<div id="questionContainer"></div>
-</div>
+
+<div class="footer mono">Built for service-based + startup interviews • Progress saved locally • Premium Edition</div>
+
 <script>
 function slugify(str){return str.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');}
-function storageKey(day,title){return `dsa-${slugify(day)}-${slugify(title)}`;}
-function getStoredChecked(k){return localStorage.getItem(k)==='true';}
-function setStoredChecked(k,v){localStorage.setItem(k, v?'true':'false');}
+function keyFor(type, day, title){return `dsa-${type}-${slugify(day)}-${slugify(title)}`;}
+function getBool(k){return localStorage.getItem(k)==='true';}
+function setBool(k,v){localStorage.setItem(k, v?'true':'false');}
+function getRevision(k){return localStorage.getItem(k)||'none';}
+function setRevision(k,v){localStorage.setItem(k,v);}
 
-async function loadQuestions(){
- try{
-  // Try new bank format first
-  let response = await fetch('60-day-dsa-bank.json');
-  let raw;
-  if(response.ok){
-    raw = await response.json();
-  } else {
-    // fallback to questions.json
-    response = await fetch('questions.json');
-    if(!response.ok) throw new Error('No json found');
-    raw = await response.json();
-    // Convert old topics object format to new questions format for unified rendering
-    let convertedRaw = {meta:{}};
-    for(let day of Object.keys(raw)){
-      let dayData = raw[day];
-      let questions = [];
-      if(dayData.topics && typeof dayData.topics === 'object' && !Array.isArray(dayData.topics)){
-        for(let topic of Object.keys(dayData.topics)){
-          for(let [title,url,diff] of dayData.topics[topic]){
-            questions.push({title,url,difficulty:diff,tags:[topic],source:'LeetCode'});
-          }
+const FILES_TO_TRY = [
+  '60-day-absolute-breakdown.json',
+  '60-day-neetcode-merged.json',
+  '60-day-curriculum-order.json',
+  '60-day-dsa-bank-complete.json',
+  '60-day-dsa-bank.json',
+  'questions-absolute.json',
+  'questions-neetcode-merged.json',
+  'questions.json'
+];
+
+async function loadData(){
+  let raw=null, fileUsed='';
+  for(let f of FILES_TO_TRY){
+    try{
+      const res = await fetch(f);
+      if(res.ok){ raw = await res.json(); fileUsed=f; break; }
+    }catch(e){}
+  }
+  if(!raw) throw new Error('No JSON found. Put one of: '+FILES_TO_TRY.join(', ')+' in same folder as this HTML');
+
+  // Normalize: support both formats (questions array vs topics object)
+  let normalized={meta: raw.meta||{}};
+  for(let k of Object.keys(raw)){
+    if(!k.startsWith('Day')) continue;
+    let dayData = raw[k];
+    let questions=[];
+    if(dayData.questions && Array.isArray(dayData.questions)){
+      questions = dayData.questions;
+    } else if(dayData.topics && typeof dayData.topics === 'object' && !Array.isArray(dayData.topics)){
+      for(let topic of Object.keys(dayData.topics)){
+        for(let [title,url,diff] of dayData.topics[topic]){
+          questions.push({title,url,difficulty:diff,tags:[topic],source:'LeetCode'});
         }
-        convertedRaw[day]={goal:dayData.goal||'',topics:Object.keys(dayData.topics),questions};
-      } else {
-        convertedRaw[day]=dayData;
       }
     }
-    raw = convertedRaw;
+    normalized[k] = {
+      goal: dayData.goal||'',
+      topics: Array.isArray(dayData.topics) ? dayData.topics : Object.keys(dayData.topics||{}),
+      questions
+    };
   }
+  return {data: normalized, fileUsed};
+}
 
+function renderApp(bundle){
+  const raw = bundle.data;
   const days = Object.keys(raw).filter(k=>k.startsWith('Day')).sort((a,b)=>parseInt(a.split(' ')[1])-parseInt(b.split(' ')[1]));
-  const container=document.getElementById('questionContainer');
-  const summary=document.getElementById('summary');
-  const dayFilter=document.getElementById('dayFilter');
-  const diffFilter=document.getElementById('difficultyFilter');
-  const searchFilter=document.getElementById('searchFilter');
+  const container = document.getElementById('questionContainer');
+  const summary = document.getElementById('summary');
+  const dayFilter = document.getElementById('dayFilter');
+  const diffFilter = document.getElementById('difficultyFilter');
+  const searchFilter = document.getElementById('searchFilter');
+  let activeChip='all';
 
   days.forEach(day=>{
-    let opt=document.createElement('option');
-    opt.value=day; opt.textContent=day;
-    dayFilter.appendChild(opt);
+    let opt=document.createElement('option'); opt.value=day; opt.textContent=day; dayFilter.appendChild(opt);
   });
 
   function getAllQs(){
     let all=[];
     days.forEach(day=>{
       let d=raw[day];
-      if(!d || !d.questions) return;
-      d.questions.forEach(q=>all.push({day,title:q.title}));
+      if(!d||!d.questions) return;
+      d.questions.forEach(q=>all.push({day,title:q.title,url:q.url,difficulty:q.difficulty,tags:q.tags||[]}));
     });
     return all;
   }
-  const allQs=getAllQs();
+  const allQs = getAllQs();
+
+  function getStats(){
+    let solved=0, bookmark=0, needsRev=0, revised=0;
+    allQs.forEach(q=>{
+      if(getBool(keyFor('solved',q.day,q.title))) solved++;
+      if(getBool(keyFor('bookmark',q.day,q.title))) bookmark++;
+      let rev=getRevision(keyFor('revision',q.day,q.title));
+      if(rev==='needs') needsRev++;
+      if(rev==='done') revised++;
+    });
+    return {solved,bookmark,needsRev,revised,total:allQs.length};
+  }
+
+  function updateSummary(){
+    let s=getStats();
+    let pct = Math.round((s.solved/s.total)*100)||0;
+    document.getElementById('headerProgress').textContent = pct+'%';
+    // streak calc: count consecutive days with at least 1 solved from end
+    summary.innerHTML = `
+      <div class="summary-card">
+        <div class="summary-top"><div class="summary-icon" style="background:rgba(124,58,237,0.15); color:#a78bfa">◧</div><div class="mono" style="font-size:11px; color:var(--muted2)">${s.total} Qs</div></div>
+        <div class="summary-number">${s.solved}</div>
+        <div class="summary-label">Completed</div>
+        <div class="progress-bar"><div class="progress-fill" style="width:${pct}%; background: linear-gradient(90deg, #7c3aed, #06b6d4)"></div></div>
+      </div>
+      <div class="summary-card">
+        <div class="summary-top"><div class="summary-icon" style="background:rgba(250,204,21,0.15); color:#facc15">★</div><div class="mono" style="font-size:11px; color:var(--muted2)">SAVED</div></div>
+        <div class="summary-number">${s.bookmark}</div>
+        <div class="summary-label">Mark for Later</div>
+        <div class="progress-bar"><div class="progress-fill" style="width:${Math.round(s.bookmark/s.total*100)||0}%; background:#facc15"></div></div>
+      </div>
+      <div class="summary-card">
+        <div class="summary-top"><div class="summary-icon" style="background:rgba(244,63,94,0.15); color:#f43f5e">↻</div><div class="mono" style="font-size:11px; color:var(--muted2)">REVISION</div></div>
+        <div class="summary-number">${s.needsRev}</div>
+        <div class="summary-label">Needs Revision</div>
+        <div class="progress-bar"><div class="progress-fill" style="width:${Math.round(s.needsRev/s.total*100)||0}%; background:#f43f5e"></div></div>
+      </div>
+      <div class="summary-card">
+        <div class="summary-top"><div class="summary-icon" style="background:rgba(16,185,129,0.15); color:#10b981">✓</div><div class="mono" style="font-size:11px; color:var(--muted2)">REVISED</div></div>
+        <div class="summary-number">${s.revised}</div>
+        <div class="summary-label">Revised Done</div>
+        <div class="progress-bar"><div class="progress-fill" style="width:${Math.round(s.revised/s.total*100)||0}%; background:#10b981"></div></div>
+      </div>
+      <div class="summary-card">
+        <div class="summary-top"><div class="summary-icon" style="background:rgba(6,182,214,0.15); color:#06b6d4">◈</div><div class="mono" style="font-size:11px; color:var(--muted2)">${s.total - s.solved} LEFT</div></div>
+        <div class="summary-number">${pct}%</div>
+        <div class="summary-label">Overall Progress</div>
+        <div class="progress-bar"><div class="progress-fill" style="width:${pct}%; background: linear-gradient(90deg, #10b981, #06b6d4)"></div></div>
+      </div>
+    `;
+  }
 
   function render(){
     container.innerHTML='';
@@ -114,79 +413,137 @@ async function loadQuestions(){
     let selectedDiff=diffFilter.value;
     let search=searchFilter.value.toLowerCase();
 
-    let totalShown=0;
-
     days.forEach(day=>{
       if(selectedDay!=='All' && selectedDay!==day) return;
       let dayData=raw[day];
-      if(!dayData || !dayData.questions) return;
+      if(!dayData||!dayData.questions) return;
 
       let filtered = dayData.questions.filter(q=>{
         if(selectedDiff!=='All' && q.difficulty!==selectedDiff) return false;
-        if(search && !(q.title.toLowerCase().includes(search) || (q.tags||[]).join(' ').toLowerCase().includes(search))) return false;
+        if(search && !(q.title.toLowerCase().includes(search) || (q.tags||[]).join(' ').toLowerCase().includes(search) || (dayData.topics||[]).join(' ').toLowerCase().includes(search))) return false;
+
+        let isSolved = getBool(keyFor('solved',day,q.title));
+        let isBookmark = getBool(keyFor('bookmark',day,q.title));
+        let rev = getRevision(keyFor('revision',day,q.title));
+        if(activeChip==='solved' && !isSolved) return false;
+        if(activeChip==='bookmark' && !isBookmark) return false;
+        if(activeChip==='revision' && rev!=='needs') return false;
+        if(activeChip==='revised' && rev!=='done') return false;
         return true;
       });
       if(filtered.length===0) return;
 
-      let daySection=document.createElement('section');
-      daySection.className='day-section';
-      let dayHeader=document.createElement('div');
-      dayHeader.className='day-header';
-      dayHeader.innerHTML=`<div><h2 class="day-title">${day}</h2><p class="day-goal">${dayData.goal||''}<br><small style="color:#666">${(dayData.topics||[]).join(' • ')}</small></p></div><div class="day-count" id="count-${slugify(day)}"></div>`;
+      let solvedInDay = dayData.questions.filter(q=>getBool(keyFor('solved',day,q.title))).length;
+      let pct = Math.round((solvedInDay / dayData.questions.length)*100);
+
+      let daySection=document.createElement('section'); daySection.className='day-section';
+      let dayHeader=document.createElement('div'); dayHeader.className='day-header';
+      dayHeader.innerHTML=`
+        <div>
+          <h2 class="day-title"><span class="day-badge">${day}</span> ${dayData.goal||'Practice'}</h2>
+          <div class="day-topics">${(dayData.topics||[]).map(t=>`<span class="topic-pill">${t}</span>`).join('')}</div>
+        </div>
+        <div class="day-meta">
+          <div class="day-progress-text">${solvedInDay}/${dayData.questions.length}</div>
+          <div class="day-progress-ring" style="--p:${pct}%"><span>${pct}%</span></div>
+        </div>
+      `;
       daySection.appendChild(dayHeader);
 
-      let ul=document.createElement('ul');
-      let daySolved=0;
-
+      let ul=document.createElement('ul'); ul.className='q-list';
       filtered.forEach(q=>{
-        let li=document.createElement('li');
-        let left=document.createElement('div');
-        left.className='question-left';
-        let cb=document.createElement('input');
-        cb.type='checkbox'; cb.className='checkbox';
-        let key=storageKey(day,q.title);
-        cb.checked=getStoredChecked(key);
-        if(cb.checked) daySolved++;
-        cb.addEventListener('change',()=>{setStoredChecked(key,cb.checked); render();});
-        let link=document.createElement('a');
-        link.href=q.url; link.target='_blank'; link.rel='noopener noreferrer'; link.textContent=q.title;
-        let badge=document.createElement('span');
-        badge.className=`difficulty-badge ${q.difficulty.toLowerCase()}`;
-        badge.textContent=q.difficulty;
-        let tags=document.createElement('span');
-        tags.className='tags';
-        tags.textContent=(q.tags||[]).join(', ');
-        left.appendChild(cb); left.appendChild(link); left.appendChild(badge); left.appendChild(tags);
+        let li=document.createElement('li'); li.className='q-item';
+        let isSolved=getBool(keyFor('solved',day,q.title));
+        let isBookmark=getBool(keyFor('bookmark',day,q.title));
+        let rev=getRevision(keyFor('revision',day,q.title));
+        if(isSolved) li.classList.add('solved');
+
+        let check=document.createElement('div'); check.className='check-wrap'+(isSolved?' checked':'');
+        check.innerHTML=`<svg viewBox="0 0 12 12" fill="none"><path d="M2.5 6L4.8 8.3L9.5 3" stroke="white" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+        check.addEventListener('click',()=>{
+          setBool(keyFor('solved',day,q.title), !isSolved);
+          render(); updateSummary();
+        });
+
+        let left=document.createElement('div'); left.className='q-left';
+        let titleDiv=document.createElement('div'); titleDiv.className='q-title';
+        let a=document.createElement('a'); a.href=q.url; a.target='_blank'; a.rel='noopener noreferrer'; a.textContent=q.title;
+        titleDiv.appendChild(a);
+
+        let tagsDiv=document.createElement('div'); tagsDiv.className='q-tags';
+        let diffSpan=document.createElement('span'); diffSpan.className=`diff ${q.difficulty.toLowerCase()}`; diffSpan.textContent=q.difficulty;
+        tagsDiv.appendChild(diffSpan);
+        (q.tags||[]).slice(0,2).forEach(t=>{
+          let tag=document.createElement('span'); tag.className='tag'; tag.textContent=t;
+          tagsDiv.appendChild(tag);
+        });
+
+        left.appendChild(check);
+        let textWrap=document.createElement('div'); textWrap.style.minWidth='0';
+        textWrap.appendChild(titleDiv);
+        textWrap.appendChild(tagsDiv);
+        left.appendChild(textWrap);
+
+        let actions=document.createElement('div'); actions.className='q-actions';
+        let bm=document.createElement('button'); bm.className='icon-btn tooltip bookmark'+(isBookmark?' active':''); bm.setAttribute('data-tip', isBookmark?'Remove Later':'Mark for Later'); bm.textContent='★';
+        bm.addEventListener('click',()=>{ setBool(keyFor('bookmark',day,q.title), !isBookmark); render(); updateSummary(); });
+
+        let revBtn=document.createElement('button'); 
+        revBtn.className='icon-btn tooltip '+(rev==='needs'?'active revision-needs': rev==='done'?'active revision-done':'');
+        revBtn.setAttribute('data-tip', rev==='none'?'Needs Revision': rev==='needs'?'Mark Revised':'Revision Done ✓');
+        revBtn.textContent= rev==='done'?'✓': rev==='needs'?'↻':'◍';
+        revBtn.addEventListener('click',()=>{
+          let cur=getRevision(keyFor('revision',day,q.title));
+          let next = cur==='none' ? 'needs' : cur==='needs' ? 'done' : 'none';
+          setRevision(keyFor('revision',day,q.title), next);
+          render(); updateSummary();
+        });
+
+        actions.appendChild(bm);
+        actions.appendChild(revBtn);
+
         li.appendChild(left);
+        li.appendChild(actions);
         ul.appendChild(li);
-        totalShown++;
       });
 
       daySection.appendChild(ul);
       container.appendChild(daySection);
-      let countEl=dayHeader.querySelector(`#count-${slugify(day)}`);
-      if(countEl) countEl.textContent=`${daySolved}/${filtered.length} solved`;
     });
 
-    let totalSolved=allQs.reduce((c,q)=>c+(getStoredChecked(storageKey(q.day,q.title))?1:0),0);
-    summary.innerHTML=`
-      <div><span class="summary-number">${allQs.length}</span><span class="summary-label">Total</span></div>
-      <div><span class="summary-number">${totalSolved}</span><span class="summary-label">Completed</span></div>
-      <div><span class="summary-number">${allQs.length-totalSolved}</span><span class="summary-label">Remaining</span></div>
-      <div><span class="summary-number">${Math.round(totalSolved/allQs.length*100)||0}%</span><span class="summary-label">Progress</span></div>
-    `;
+    if(container.innerHTML===''){
+      container.innerHTML=`<div class="empty"><div style="font-size:28px; margin-bottom:12px">◍</div><div style="font-weight:600; margin-bottom:6px">No questions match filters</div><div style="font-size:13px">Try changing day, difficulty or search, or clear revision filters</div></div>`;
+    }
   }
 
-  dayFilter.addEventListener('change',render);
-  diffFilter.addEventListener('change',render);
-  searchFilter.addEventListener('input',render);
+  // Events
+  dayFilter.addEventListener('change', render);
+  diffFilter.addEventListener('change', render);
+  searchFilter.addEventListener('input', render);
+  document.querySelectorAll('.chip').forEach(chip=>{
+    chip.addEventListener('click', ()=>{
+      document.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
+      chip.classList.add('active');
+      activeChip = chip.dataset.filter;
+      render();
+    });
+  });
+  document.querySelector('.chip[data-filter="all"]').classList.add('active');
+
+  updateSummary();
   render();
- } catch(e){
-  console.error(e);
-  document.getElementById('questionContainer').innerHTML=`<div style="background:#301010;padding:20px;border-radius:8px;color:#ffb3b3"><strong>Could not load JSON</strong><p>${e.message}</p><p>Make sure 60-day-dsa-bank.json and this HTML are in same folder, or use questions.json</p></div>`;
- }
 }
-loadQuestions();
+
+(async()=>{
+  try{
+    const bundle = await loadData();
+    console.log('Loaded', bundle.fileUsed);
+    renderApp(bundle);
+  }catch(e){
+    console.error(e);
+    document.getElementById('questionContainer').innerHTML=`<div class="empty" style="border-color:#ef4444; color:#fca5a5"><strong>Could not load JSON</strong><p style="font-size:13px; margin-top:8px">${e.message}</p><p class="mono" style="font-size:11px; margin-top:12px">Place one of these JSON files next to this HTML:<br>60-day-absolute-breakdown.json, 60-day-neetcode-merged.json, questions-absolute.json</p></div>`;
+  }
+})();
 </script>
 </body>
 </html>
